@@ -1,0 +1,9 @@
+\begin{thebibliography}{Lam94}
+
+\bibitem[Lam94]{lamport94}
+Leslie Lamport.
+\newblock {\em \LaTeX\ -- A Document Preparation System}.
+\newblock Addison-Wesley, second edition, 1994.
+\newblock User's Guide and Reference Manual.
+
+\end{thebibliography}
