@@ -1,0 +1,525 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%%  Die vorliegenden LaTeX-Folien stehen Mitarbeiter*innen und Studierenden der Universität Wien
+%%  zur Verfügung und sind ausschließlich zur Verwendung in Forschung und Lehre der Universität  
+%%  Wien vorgesehen. Das Copyright der LaTeX-Vorlagen liegt bei der Universität Wien.
+%%
+%%  These LaTeX slides are available to employees and students of the University of Vienna 
+%%  and are intended exclusively for use in research and teaching at the University of Vienna. 
+%%  The copyright of the LaTeX templates is held by the University of Vienna.
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[hyperref={pdfpagelabels=false}, aspectratio=169, t]{beamer}  %% Choose aspectratio=43 or aspectratio=169
+
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ====== Define Style ======= %% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% ======== required inputs ========
+
+	%% ====== title page ======
+
+
+	
+	% To Change: Don't put your name as Footnote, our name is more important than your supervisor's, it is YOUR work.!!
+
+
+	
+	\title{Master Thesis: \\ Characterizing the fractal dimension of molecular clouds}											%% Presentation Title
+	\newcommand{\titleBackground}{0}    						%% Background graphic: 0 = no; 1 = yes; 2 = yes with more text space
+	\newcommand{\gPath}{Graphics/}									%% set graphics path
+	\newcommand{\graphicsTitleBackground}{Lombardi2014.png}   %% Filename of background graphic
+
+
+%% ======== optional inputs ========
+	
+	%% ====== title page ======
+	\subtitle{Supervisors: Assoz. Prof. Alvaro Hacar, Univ.-Prof. Oliver Hahn \\ Research Seminar, 11/06/2025}                   					%% (optional) Subtitle, comment out to avoid include
+	\newcommand{\authorText}{Simone Spedicato, BSc}				%% (optional) Author
+	\newcommand{\logoTitleFooterR}{logo_astro.jpg}  %% (optional) additional logo in title page footer, most right
+	%\newcommand{\logoTitleFooterM}{grey}  %% (optional) additional logo in title page footer, more right (if horizontal spacing not adequate, save multiple logos in one file, use \logoTitleFooterR)
+	%\newcommand{\logoTitleFooterL}{grey}  %% (optional) additional logo in title page footer, right (if horizontal spacing not adequate, save multiple logos in one file, use \logoTitleFooterR)
+
+	%% ====== footer ======
+	% \newcommand{\textFooter}{Footer text (author, presentation title, version, etc.)} %% (optional) Text for footline, e.g. title, comment out lines to avoid include, max. 1 line
+	\newcommand{\slideNumberLabelFooter}{Slide}    	%% Page/Slide/Folie/Seite
+	\date{11 June 2025}              									%% Date, comment out to get current date
+
+	%% ====== header ====== 
+	%\newcommand{\sectionHeader}{Section (optional)} %% (optional) Text before section number, e.g. Section or Kapitel; comment out to avoid headline
+
+	%% ====== TOC ====== 
+	%\newcommand{\includeTocAtBeginSection}{}   		 %% (optional) Table of contents at begin of every section, comment out to avoid include
+
+
+%% ======== load beamer style ========
+	\usepackage{beamerthemeuniwien2017}
+	
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ====== Further Preamble ======= %% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% ====== settings (optional) ======
+	\usenavigationsymbolstemplate{}     %% (optional) Comment out to include navigation 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ====== Begin Document ======= %% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%% ====== Title Page ======
+
+\maketitle
+											
+													
+%% ====== Outline at beginning of document ======
+
+%\begin{frame}{Outline (optional)}
+%	\tableofcontents							%% (optional) Table of contents, comment out lines to avoid include
+%\end{frame}
+
+
+%% ====== Actual Slides  ======
+
+\begin{graphicsFrame}{Introduction}{short}{0.81}{left}{Orion_A_pillars}{\textcopyright~ESA/Herschel/André et al.}
+	\textbf{Rationale:}
+	\begin{itemize}
+		\item Molecular clouds are filamentary and self-similar, forming hierarchies of substructures \href{https://ui.adsabs.harvard.edu/abs/1996ApJ...471..816E/abstract}{(Elmegreen \& Falgarone 1996)}.
+		\item Observations show filaments fragment into smaller sub-filaments.
+	\end{itemize}
+	
+	\vspace{1.2em}
+	
+	\textbf{Goals:}
+	\begin{itemize}
+		\item Quantify fractal geometry of the Orion Molecular Cloud.
+		\item Trace changes in fractal dimension with column density.
+		\item Link fractal features to mass–size scaling and star formation modes.
+	\end{itemize}
+\end{graphicsFrame}
+
+% Slide 3, 4, 5: Methods
+
+% To change in the methods slides: global vs local fractal dimension should be better explained
+% To Change: include a graphic of the calculations of perimeter and area!
+\begin{graphicsFrame}{Methods I: Perimeter–Area Relation}{short}{0.875}{left}{area_enclosed}{P-A Scaling}
+
+	Fractal dimension \( D \) quantifies the boundary complexity.
+
+	\vspace{0.8em}
+
+	\textbf{Perimeter–Area Relation:}
+	\begin{equation}
+		P \propto \sqrt{A}^{D}
+	\end{equation}
+		
+	% \footnotesize e.g. \href{https://ui.adsabs.harvard.edu/abs/1982mfmb.book.....M/abstract}{\textit{The Fractal Geometry of Nature, Mandelbrot 1982}}
+	
+	\vspace{1.2em}
+	
+	\begin{itemize}
+		\item For a \textit{fixed length}, a smooth perimeter encloses a larger area than a complicated one.
+		\item For a smooth shape, $P \approx \sqrt{A}$ and thus $D=1$. % such as circles and squares, D=1, the dimension of a line
+		\item As the perimeter becomes more contorted and doubles back on itself, $P \approx A$ and $D$ approaches 2. % filling the plane
+	\end{itemize}
+	
+\end{graphicsFrame}
+
+% To Change: Your plot in Methods II still has small axes titles. 
+\begin{graphicsFrame}{Methods II: Proving self-similarity}{short}{0.77}{left}{lovejoy}{P–A Diagram (Lovejoy, 1982)}
+
+\textbf{Global Fractal Dimension}
+	\begin{itemize}
+		\item Different large and small-scale structures follow different perimeter–area (PA) relations.
+		\item A consistent PA scaling suggests \textbf{no characteristic scale}.
+		\item $\rightarrow$ Structure is \textbf{self-similar}.
+		\item $\rightarrow$ Indicates \textbf{fractal geometry}.
+	\end{itemize}
+
+\end{graphicsFrame}
+
+
+\begin{textFrame}{Methods III: \( D \) vs. Column Density}{}{}
+
+	\textbf{Local Fractal Dimension}
+	\begin{equation}
+		D(N) = 2 \cdot \frac{\log(P)}{\log(A)}
+	\end{equation}
+		
+	\begin{itemize}
+		\item Explore how \( D \) varies with column density \( N \).
+		\item Link changes in \( D \) to \textbf{physical processes}:
+		\begin{itemize}
+			\item Gravitational collapse  
+			\item Mass–size scaling  
+			\item Star formation modes
+		\end{itemize}
+		\item Accompanied by \textbf{simulations}
+	\end{itemize}
+
+\end{textFrame}
+
+% Slide 5: Data
+% To Change: As additional information, maybe you can state the wavelength of your observations (not just FIR) and the "great" dynamic range. 
+\begin{graphicsFrame}{Data: Orion A \& B}{short}{0.5}{left}{Lombardi2014}{Herschel Dust Emission (Lombardi et al. 2014)}
+\begin{itemize}
+    \item \textit{ESA's Herschel}: 
+	\begin{itemize}
+		\item Far-infrared and submillimiter
+		\item Great dynamic range.
+	\end{itemize}
+    \item \textbf{Angular resolution}: 
+	\begin{itemize}
+		\item 36 arcsec
+		\item $ 2 \times$ $10^{20}$ $cm^{-2}$ < $N$ < $5 \times$ $10^{23}$ $cm^{-2}$
+	\end{itemize} 
+\end{itemize}
+\end{graphicsFrame}
+
+
+\begin{graphicsFrame}{From the Data to the Results}{short}{0.65}{left}{example_calculations}{Area and Perimeter for an example threshold.}
+\begin{itemize}
+    \item Apply a column density threshold.
+    \item Identify regions above the threshold.
+    \begin{itemize}
+		\item \( A = \sum A' \)
+		\item \( P = \sum P' \)
+    \end{itemize}
+    \item Each threshold yields
+	\begin{itemize}
+		\item One point in the \(\log(P)\) vs \(\log(A)\) plot (\textbf{Global D}).
+		\item One point for \( D \) by inverting the relation (\textbf{Local D}).
+	\end{itemize}
+\end{itemize}
+\end{graphicsFrame}
+
+
+
+% Slide 7: Results (1)
+% To say: no errors here cause very small and looks bad!
+\begin{graphicsFrame2}{Results I: Self-similarity}{0.25}{Orion_A_PA}{PA Relation for Orion A}{Orion_B_PA}{PA Relation for Orion B}
+
+	\begin{itemize}
+		\item Good fits of the perimeter–area relation.
+		\item Lack of characteristic length scales.
+		\item Self-similarity across scales.
+		\item Agreeance with literature.
+	\end{itemize}
+
+\end{graphicsFrame2}
+
+% Slide 8 and 9: Results (2) -> issues with the trend, WIP, Mass-Size relation, but also new approach so lots to be learned!
+
+\begin{graphicsFrame}{Results II: Simulations}{short}{0.82}{left}{GRFs}{Simulations of GRFs}
+
+	\textbf{Assessing D across Controlled Structures}
+	\begin{itemize}
+		\item Gaussian Random Fields (GRFs):
+		\begin{itemize}
+			\item GRFs with power-law spectra → scale-free
+			\item GRFs with peaked spectra → characteristic scale
+		\end{itemize}
+		\item \textbf{Resolution} effects: up to 20\% variation.
+		\item \textbf{Artifacts}: low pixel counts.
+	\end{itemize}
+
+\end{graphicsFrame}
+
+% To Change: I would put the x-axis larger (or both axes larger), as they are hard to read. 
+% You can also "build up the plot" adding the info which you are saying and coloring the region of small clouds vs. large clouds. 
+\begin{graphicsFrame}{Results III: \( D \) vs. Column Density}{short}{0.65}{left}{Fractal_Dimension_combined}{Fractal Dimension Across Column Density}
+
+\textbf{Fragmentation at Different Depths}
+\begin{itemize}
+    \item Varying visualizations:
+    \begin{itemize}
+        \item Intercept handling
+        \item Formula definition
+    \end{itemize}
+
+    \item Simulations reveal a trend in \( D \)
+    \item Reflects fragmented networks of hierarchical structures 
+    \begin{itemize}
+		\item Increase in complexity.
+	\end{itemize}
+    \item Local vs. Global \( D \): interpretation is key.
+\end{itemize}
+
+\end{graphicsFrame}
+
+
+% Slide 10: Other results -> Mass-Size!
+% To Change: In Results IV axes titles are good, but values are hard to read.
+\begin{graphicsFrame}{Results IV: Regional Analysis}{short}{0.50}{left}{Mass_Size}{Mass–Size–\( D \) Diagram}
+
+\textbf{Mass–Size Relation}
+\begin{itemize}
+    \item \( D \) measured for individual structures at each threshold
+    \item Mass and size extracted per structure
+    \item Compared to expected scaling for:
+    \begin{itemize}
+        \item Filamentary: \( A = 10 \)
+        \item Spheroidal: \( A = 3 \)
+    \end{itemize}
+\end{itemize}
+
+\end{graphicsFrame}
+
+
+% Slide 11: Discussion & Conclusion
+% To Change: more concrete results, numbers and figures
+\begin{textFrame}{Outlook}{}{}
+
+\textbf{So far:}
+\begin{itemize}
+    \item Evidence points toward self-similar processes shaping cloud structure.
+    \item Consistent trends observed in both simulations and real data.
+    \item Fractal Dimension
+    \begin{itemize}
+		\item \textbf{Global}: $\mathbf{1.36 \pm 0.02}$ and $\mathbf{1.40 \pm 0.01}$ for Orion A and B.
+		\item \textbf{Local}: Trends capturing complexity of networks.
+	\end{itemize} 
+\end{itemize}
+
+\vspace{0.8em}
+\textbf{Next steps:}
+\begin{itemize}
+    \item Extend simulations and assess robustness.
+    \item Investigate deeper links to physical processes.
+\end{itemize}
+
+\end{textFrame}
+
+% update this if new papers
+% don't show this at the end
+\begin{textFrame}{References}{}{}
+
+\vspace{-0.5em}
+\begin{itemize}
+    \item Elmegreen, B. G., \& Falgarone, E. (1996). \textit{A Fractal Origin for the Mass Spectrum of Interstellar Clouds}, ApJ, 471, 816. \href{https://ui.adsabs.harvard.edu/abs/1996ApJ...471..816E/abstract}{[ADS]}
+    
+    \item Mandelbrot, B. B. (1982). \textit{The Fractal Geometry of Nature}. W. H. Freeman. \href{https://ui.adsabs.harvard.edu/abs/1982mfmb.book.....M/abstract}{[ADS]}
+    
+    \item Lombardi, M., Bouy, H., Alves, J., \& Lada, C. J. (2014). \textit{Herschel-Planck dust optical depth and column density maps}, A\&A, 566, A45. \href{https://ui.adsabs.harvard.edu/abs/2014A&A...566A..45L/abstract}{[ADS]}
+    
+    \item Lovejoy, S. (1982). \textit{Area-perimeter relation for rain and cloud areas}, Science, 216(4542), 185–187. \href{https://www.physics.mcgill.ca/~gang/eprints/eprintLovejoy/neweprint/Lovejoy.Science.1982.pdf}{[PDF]}
+    
+    \item Sánchez, N., Alfaro, E. J., \& Pérez, E. (2005). \textit{The Fractal Dimension of Projected Clouds}, ApJ, 625(2), 849–855. \href{https://iopscience.iop.org/article/10.1086/429553/pdf}{[PDF]}
+    
+	\item Beattie J., Federrath C., Klessen R. S., \& Schneider N. (2019). \textit{The relation between the true and observed fractal dimensions of turbulent clouds} \href{https://ui.adsabs.harvard.edu/abs/2019MNRAS.488.2493B/abstract}{[ADS]}
+\end{itemize}
+
+\end{textFrame}
+
+%% ====== Extra Slides for EMERGE Presentation ======
+
+% Slide with alternative formula for D(N)
+
+% Slide with simulations results from that paper!
+% \begin{graphicsFrame}{Extra Slide - Simulations}{short}{0.4}{left}{simulations_D_mach_number}{Simulations of Fractal Dimension (same method) as a function of Mach number}
+% 	\begin{itemize}
+% 		\item From "\textit{The relation between the true and observed fractal dimensions of turbulent clouds}", Beattie et al. 2019
+% 		\item Same trends as in our observational data.
+% 	\end{itemize}
+	
+% \end{graphicsFrame}
+
+% % Genus
+% \begin{textFrame}{Extra Slide - Methods IV: Minkowski Functionals}{}{}
+%     \textbf{Minkowski Functionals} are topological descriptors of space.
+
+%     \begin{itemize}
+%         \item \textbf{Area}
+%         \item \textbf{Perimeter}
+%         \item \textbf{Euler Characteristic}
+%     \end{itemize}
+
+%     \vspace{0.5em}
+%     \textbf{Euler Characteristic / Genus}:
+% 	\begin{equation}
+% 		\chi = N_{\text{components}} - N_{\text{holes}}
+% 	\end{equation}
+      
+%     A higher \( \chi \) indicates more disconnected components; negative \( \chi \) implies a dominance of holes.
+% \end{textFrame}
+
+% % Resolution effects
+% \begin{graphicsFrame}{Extra Slide - Resolution Effects}{short}{0.4}{left}{resolution_effects}{Change in (local) fractal dimension for different resolution effects.}
+% 	\begin{itemize}
+% 		\item Apply varying Gaussian Kernels to original data.
+% 		\item Fractal Dimension (both global and local) is negatively affected.
+% 	\end{itemize}
+	
+% \end{graphicsFrame}
+
+%% ====== Slides Templates ======		
+
+% \href{https://ui.adsabs.harvard.edu/abs/1982mfmb.book.....M/abstract}{\textit{The Fractal Geometry of Nature, Mandelbrot 1982}}
+
+% \begin{graphicsFrame}{Layout ``Body with figure, small right''}{short}{0.7}{left}{graphic_rs}{\textcopyright~Universität Wien/derknopfdruecker.com}
+
+% 		Random formula
+% 		\[
+% 			(0,1)\ni t\mapsto\frac{\partial}{\partial t} g(t,\omega)=\int_{( 0,1-t]}\frac{G(dr,\omega)}{1-r}
+% 		\]
+% 		Another random formula
+% 		\begin{equation}\label{eq1}
+% 			\int_{( G(0+,\cdot),1)}\frac{ f_{\mathcal{G},G^{\leftarrow}(t,\cdot),X}}{1-G^{\leftarrow}(t,\cdot)}\,dt
+% 			= f_{\mathcal{G},G,X}\quad \textrm{a.s.}
+% 		\end{equation}
+% 		And another, even more random formula
+% 		\[
+% 			\mathbb{P}(X\leq Z-\varepsilon)\leq
+% 			\mathbb{P}(X\leq q_{\mathcal{G},\delta}(X)-\varepsilon )< \delta
+% 		\]
+
+% \end{graphicsFrame}									
+
+% \begin{textFrame}{Layout ``Titel und Inhalt'' = Standardlayout Überschriften}{}{Referenz, Quellen- oder Copyright-Angabe bei Bedarf einfügen}
+
+% 	\begin{itemize}
+% 		\item Fließtext 22 pt, Mustertext: Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte.
+% 		\item Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien.
+% 		\item Es ist ein paradiesmatisches Land, in dem einem gebratene Satzteile in den Mund fliegen. Nicht einmal von der allmächtigen Interpunktion werden die Blindtexte beherrscht – ein geradezu unorthographisches Leben.
+
+% 	\end{itemize}
+% \end{textFrame}
+
+% \begin{textFrame}{Layout ``Titel und Inhalt wenig Text''}{0.7}{Referenz, Quellen- oder Copyright-Angabe bei Bedarf einfügen}
+
+% 	\begin{itemize}
+% 		\item Mustertext: Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte.
+% 		\item Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien.
+% 		\item Nicht einmal von der allmächtigen Interpunktion werden die Blindtexte beherrscht – ein geradezu unorthographisches Leben.
+% 	\end{itemize}
+% \end{textFrame}
+
+
+% %% ====== Section  ======
+
+% \section{Layout ``Abschnittsüberschrift''}
+
+% \begin{sectionFrame}{section169.jpg}{mit Untertitel}
+% \end{sectionFrame}
+
+
+% \section{Layout ``Abschnittsüberschrift ohne Bild''~-- Titel kann auch mehrzeilig sein}
+
+% \begin{sectionFrame}{}{mit Untertitel}
+% \end{sectionFrame}
+
+
+% \begin{textFrame2}{Layout ``Zwei Inhalte''}{}{
+% 		\begin{itemize}
+% 			\item In die Inhaltsplatzhalter können unterschiedliche Elemente eingefügt werden.
+% 			\item Mustertext: Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. 
+% 					Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien.
+% 		\end{itemize}
+% }{Referenz, Quellen- oder Copyright-Angabe}{}{\includegraphics[width=.7\linewidth]{\gPath diagram.jpg}}%
+% {Referenz, Quellen- oder Copyright-Angabe}
+% \end{textFrame2}
+
+% \begin{textFrame2}{Layout ``Vergleich''}{Vorteile des XYZ-Modells in Zusammenhang \newline mit dem Projekt}%
+% {
+% 		\begin{itemize}
+% 			\item Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte.
+% 			\item Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. 
+% 		\end{itemize}
+% }{}{Nachteile des XYZ-Modells in Zusammenhang \newline mit dem Projekt}{
+% 		\begin{itemize}
+% 			\item Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans.
+% 			\item Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. 
+% 		\end{itemize}
+% }{}
+% \end{textFrame2}
+
+% \begin{graphicsFrame}{Layout ``Inhalt mit Bild \\ klein rechts''}{short}{0.7}{left}{graphic_rs}{\textcopyright~Universität Wien/derknopfdruecker.com}
+
+% 		\begin{itemize}
+% 			\item Abgeschieden wohnen sie in Buchstab-hausen an der Küste des Semantik, eines großen Sprachozeans.
+% 			\item Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien.
+% 			\item Es ist ein paradiesmatisches Land, in dem einem gebratene Satzteile in den Mund fliegen. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. 
+% 		\end{itemize}
+
+% \end{graphicsFrame}
+
+% \begin{graphicsFrame}{Layout ``Inhalt mit Bild klein \\ links''}{short}{0.7}{right}{graphic_ls}{\textcopyright~Universität Wien/derknopfdruecker.com}
+
+% 		\begin{itemize}
+% 			\item Abgeschieden wohnen sie in Buchstab-hausen an der Küste des Semantik, eines großen Sprachozeans.
+% 			\item Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien.
+% 			\item Es ist ein paradiesmatisches Land, in dem einem gebratene Satzteile in den Mund fliegen. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans.
+% 		\end{itemize}
+
+% \end{graphicsFrame}
+
+% \begin{graphicsFrame}{Layout ``Inhalt mit Bild größer rechts''}{}{0.47}{left}{graphic_rm}{\textcopyright~Universität Wien/Barbara Mair}
+
+% 		\begin{itemize}
+% 			\item Abgeschieden wohnen sie in Buchstab-hausen an der Küste des Semantik, eines großen Sprachozeans.
+% 			\item Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien.
+% 		\end{itemize}
+
+% \end{graphicsFrame}
+
+% \begin{graphicsFrame}{Layout ``Inhalt mit Bild größer links''}{}{0.54}{right}{graphic_lm}{\textcopyright~Universität Wien/Barbara Mair}
+
+% 		\begin{itemize}
+% 			\item Abgeschieden wohnen sie in Buchstab-hausen an der Küste des Semantik, eines großen Sprachozeans.
+% 			\item Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien.
+% 		\end{itemize}
+
+% \end{graphicsFrame}
+
+% \begin{graphicsFrame}{Layout ``Bild groß mit Titel''}{}{0.1}{}{graphic_xl}{\textcopyright~Universität Wien/Barbara Mair}
+
+% \end{graphicsFrame}
+
+% \begin{graphicsFrame}{}{}{0.43}{right}{graphic_ll}{\textcopyright~Universität Wien/derknopfdruecker.com}
+
+% 		\begin{itemize}
+% 			\item Layout „Bild groß mit Text“ 
+% 			\item Abgeschieden woh-nen sie in Buchstab-hausen an der Küste des Semantik, eines großen Sprachozeans.
+% 			\item Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien.
+% 			\item Es ist ein paradiesma-tisches Land, in dem einem gebratene Satzteile in den Mund fliegen.
+% 		\end{itemize}
+
+% \end{graphicsFrame}
+
+% \begin{graphicsFrame}{Layout ``Bild abfallend mit Titel''}{}{-1}{}{graphic_xxl}{\textcopyright~Universität Wien/derknopfdruecker.com}
+
+% \end{graphicsFrame}
+
+% \begin{graphicsFrame2}{}{0.39}{graphic_2c_lm}{\textcopyright~Universität Wien/derknopfdruecker.com}{graphic_2c_rm}{\textcopyright~Universität Wien/Barbara Mair}
+
+% 		\begin{itemize}
+% 			\item Layout „Twei Bilder mit Text rechts“ 
+% 			\item Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien.
+% 			\item Es ist ein para-diesmatisches Land, in dem einem gebratene Satzteile in den Mund fliegen.
+% 		\end{itemize}
+
+% \end{graphicsFrame2}
+
+% \begin{graphicsFrame2}{Layout ``Titel, zwei Bilder mit Text rechts''}{0.39}{graphic_2c_ls}{\textcopyright~Universität Wien/Barbara Mair}{graphic_2c_rs}{\textcopyright~Universität Wien/Barbara Mair}
+
+% 	\textbf{Ein kleines Bächlein namens Duden} fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien.
+% 	\smallskip
+
+% 	Es ist ein paradiesmatisches Land, in dem einem gebratene Satzteile in den Mund fliegen.
+
+% \end{graphicsFrame2}
+
+% \begin{graphicsFrame2}{Layout ``Titel, zwei Bilder''}{0}{graphic_2c_ll}{\textcopyright~Universität Wien/Barbara Mair}{graphic_2c_rl}{\textcopyright~Universität Wien/derknopfdruecker.com}
+
+% \end{graphicsFrame2}
+
+
+%% ====== End Document ====== %%
+\end{document}
