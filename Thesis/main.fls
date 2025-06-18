@@ -413,7 +413,6 @@ INPUT .\main.toc
 INPUT .\main.toc
 INPUT main.toc
 OUTPUT main.toc
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecsl1095.tfm
 INPUT .\main.lot
 INPUT .\main.lot
 INPUT main.lot
@@ -422,28 +421,21 @@ INPUT .\main.lof
 INPUT .\main.lof
 INPUT main.lof
 OUTPUT main.lof
-INPUT .\main.loa
-INPUT .\main.loa
-INPUT main.loa
-OUTPUT main.loa
-INPUT .\main.lol
-INPUT .\main.lol
-INPUT main.lol
-OUTPUT main.lol
-INPUT .\B) Chapters\00_using_the_template.tex
-INPUT .\B) Chapters\00_using_the_template.tex
-INPUT .\B) Chapters\00_using_the_template.tex
-INPUT .\B) Chapters\00_using_the_template.tex
-INPUT B) Chapters\00_using_the_template.tex
+INPUT .\B) Chapters\00_introduction.tex
+INPUT .\B) Chapters\00_introduction.tex
+INPUT .\B) Chapters\00_introduction.tex
+INPUT .\B) Chapters\00_introduction.tex
+INPUT B) Chapters\00_introduction.tex
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ectt1095.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecsx1440.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecsx1200.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1095.tfm
-INPUT .\B) Chapters\01_ordinary_text.tex
-INPUT .\B) Chapters\01_ordinary_text.tex
-INPUT .\B) Chapters\01_ordinary_text.tex
-INPUT .\B) Chapters\01_ordinary_text.tex
-INPUT B) Chapters\01_ordinary_text.tex
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecsl1095.tfm
+INPUT .\B) Chapters\01_background.tex
+INPUT .\B) Chapters\01_background.tex
+INPUT .\B) Chapters\01_background.tex
+INPUT .\B) Chapters\01_background.tex
+INPUT B) Chapters\01_background.tex
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecti1095.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0900.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
@@ -452,47 +444,40 @@ INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy9.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex9.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0600.tfm
-INPUT .\B) Chapters\02_displayed_text.tex
-INPUT .\B) Chapters\02_displayed_text.tex
-INPUT .\B) Chapters\02_displayed_text.tex
-INPUT .\B) Chapters\02_displayed_text.tex
-INPUT B) Chapters\02_displayed_text.tex
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1095.tfm
-INPUT .\B) Chapters\03_tables_and_images.tex
-INPUT .\B) Chapters\03_tables_and_images.tex
-INPUT .\B) Chapters\03_tables_and_images.tex
-INPUT .\B) Chapters\03_tables_and_images.tex
-INPUT B) Chapters\03_tables_and_images.tex
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\cm-super\cm-super-ts1.enc
+INPUT .\B) Chapters\02_data.tex
+INPUT .\B) Chapters\02_data.tex
+INPUT .\B) Chapters\02_data.tex
+INPUT .\B) Chapters\02_data.tex
+INPUT B) Chapters\02_data.tex
+INPUT .\B) Chapters\03_methods.tex
+INPUT .\B) Chapters\03_methods.tex
+INPUT .\B) Chapters\03_methods.tex
+INPUT .\B) Chapters\03_methods.tex
+INPUT B) Chapters\03_methods.tex
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecit1095.tfm
 INPUT .\figures\logo_nontransparent.jpg
 INPUT .\figures\logo_nontransparent.jpg
 INPUT .\figures\logo_nontransparent.jpg
 INPUT .\figures\logo_nontransparent.jpg
-INPUT .\B) Chapters\04_code.tex
-INPUT .\B) Chapters\04_code.tex
-INPUT .\B) Chapters\04_code.tex
-INPUT .\B) Chapters\04_code.tex
-INPUT B) Chapters\04_code.tex
+INPUT .\B) Chapters\04_results.tex
+INPUT .\B) Chapters\04_results.tex
+INPUT .\B) Chapters\04_results.tex
+INPUT .\B) Chapters\04_results.tex
+INPUT B) Chapters\04_results.tex
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ectt0900.tfm
-INPUT .\B) Chapters\05_algorithms.tex
-INPUT .\B) Chapters\05_algorithms.tex
-INPUT .\B) Chapters\05_algorithms.tex
-INPUT .\B) Chapters\05_algorithms.tex
-INPUT B) Chapters\05_algorithms.tex
-INPUT .\B) Chapters\06_acronyms_and_glossary.tex
-INPUT .\B) Chapters\06_acronyms_and_glossary.tex
-INPUT .\B) Chapters\06_acronyms_and_glossary.tex
-INPUT .\B) Chapters\06_acronyms_and_glossary.tex
-INPUT B) Chapters\06_acronyms_and_glossary.tex
-INPUT .\B) Chapters\07_macros.tex
-INPUT .\B) Chapters\07_macros.tex
-INPUT .\B) Chapters\07_macros.tex
-INPUT .\B) Chapters\07_macros.tex
-INPUT B) Chapters\07_macros.tex
+INPUT .\B) Chapters\05_discussion.tex
+INPUT .\B) Chapters\05_discussion.tex
+INPUT .\B) Chapters\05_discussion.tex
+INPUT .\B) Chapters\05_discussion.tex
+INPUT B) Chapters\05_discussion.tex
+INPUT .\B) Chapters\06_conclusions.tex
+INPUT .\B) Chapters\06_conclusions.tex
+INPUT .\B) Chapters\06_conclusions.tex
+INPUT .\B) Chapters\06_conclusions.tex
+INPUT B) Chapters\06_conclusions.tex
 INPUT .\main.bbl
 INPUT .\main.bbl
 INPUT main.bbl
