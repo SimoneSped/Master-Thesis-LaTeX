@@ -1,9 +1,32 @@
-\begin{thebibliography}{Lam94}
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{PWG{\etalchar{+}}10}
 
-\bibitem[Lam94]{lamport94}
-Leslie Lamport.
-\newblock {\em \LaTeX\ -- A Document Preparation System}.
-\newblock Addison-Wesley, second edition, 1994.
-\newblock User's Guide and Reference Manual.
+\bibitem[AMB{\etalchar{+}}10]{andre2010herschel}
+Ph~Andr{\'e}, Alexander Men'shchikov, Sylvain Bontemps, V~K{\"o}nyves, F~Motte,
+  N~Schneider, P~Didelon, V~Minier, P~Saraceno, Derek Ward-Thompson, et~al.
+\newblock From filamentary clouds to prestellar cores to the stellar imf:
+  Initial highlights from the herschel gould belt survey.
+\newblock {\em Astronomy \& Astrophysics}, 518:L102, 2010.
+
+\bibitem[GAA{\etalchar{+}}10]{griffin2010herschel}
+Matthew~Joseph Griffin, A~Abergel, As~Abreu, Peter~AR Ade, P~Andr{\'e}, J-L
+  Augueres, T~Babbedge, Y~Bae, T~Baillie, J-P Baluteau, et~al.
+\newblock The herschel-spire instrument and its in-flight performance.
+\newblock {\em Astronomy \& Astrophysics}, 518:L3, 2010.
+
+\bibitem[PRP{\etalchar{+}}10]{pilbratt2010herschel}
+GL~Pilbratt, JR~Riedinger, T~Passvogel, G~Crone, D~Doyle, U~Gageur, AM~Heras,
+  C~Jewell, L~Metcalfe, S~Ott, et~al.
+\newblock Herschel space observatory-an esa facility for far-infrared and
+  submillimetre astronomy.
+\newblock {\em Astronomy \& Astrophysics}, 518:L1, 2010.
+
+\bibitem[PWG{\etalchar{+}}10]{poglitsch2010photodetector}
+Albrecht Poglitsch, Christoffel Waelkens, Norbert Geis, Helmut Feuchtgruber,
+  Bart Vandenbussche, Louis Rodriguez, Oliver Krause, Etienne Renotte,
+  Christiaan Van~Hoof, P~Saraceno, et~al.
+\newblock The photodetector array camera and spectrometer (pacs) on the
+  herschel space observatory.
+\newblock {\em Astronomy \& astrophysics}, 518:L2, 2010.
 
 \end{thebibliography}
