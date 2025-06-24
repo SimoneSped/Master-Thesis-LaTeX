@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.22)  19 JUN 2025 20:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.22)  24 JUN 2025 10:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1420,7 +1420,10 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 37.
 
 [7]
 
-[8]
+[8
+
+
+]
 Package tocbasic Info: character protrusion at lot deactivated on input line 39.
  (main.lot)
 \tf@lot=\write9
@@ -1428,10 +1431,7 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 39.
 
 
 
-[9
-
-
-]
+[9]
 
 [10
 
@@ -1451,90 +1451,70 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 40.
 
 ] (B) Chapters/00_introduction.tex
 chapter 1.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
+) (B) Chapters/01_background.tex
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.33 T
-      he template and also the title-page is based on the scrbook class. So ... [1
+l.1 	\chapter
+             {Ordinary Text} 	% Produces section heading.  Lower-level [1
 
 
 
 
 ]
-Overfull \hbox (51.39107pt too wide) in paragraph at lines 57--57
-[]\T1/cmtt/m/n/10.95 name                                 type              encoding         emb sub uni[] 
- []
-
-
-Overfull \hbox (51.39107pt too wide) in paragraph at lines 58--58
-[]\T1/cmtt/m/n/10.95 ------------------------------------ ----------------- ---------------- --- --- ---[] 
- []
-
-
-Overfull \hbox (45.7327pt too wide) in paragraph at lines 59--59
-[]\T1/cmtt/m/n/10.95 BXJBCJ+NimbusSanL-Bold               Type 1            Custom           yes yes no[] 
- []
-
-
-Overfull \hbox (45.7327pt too wide) in paragraph at lines 60--60
-[]\T1/cmtt/m/n/10.95 HEMYJL+NimbusSanL-Regu               Type 1            Custom           yes yes no[] 
- []
-
-
-Overfull \hbox (45.7327pt too wide) in paragraph at lines 61--61
-[]\T1/cmtt/m/n/10.95 OOJWDR+SFRM1000                      Type 1            Custom           yes yes no[] 
- []
-
-
-Overfull \hbox (45.7327pt too wide) in paragraph at lines 62--62
-[]\T1/cmtt/m/n/10.95 OHLNOC+SFRM0900                      Type 1            Custom           yes yes no[] 
- []
-
-
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.63 ...
-         [2]
-
-[3]
-
-[4]) (B) Chapters/01_background.tex
-
-[5]
-
-[6
+l.1 	\chapter
+             {Ordinary Text} 	% Produces section heading.  Lower-level [2
 
 
 ]
 chapter 2.
 
-LaTeX Warning: Citation `lamport94' on page 7 undefined on input line 22.
+LaTeX Warning: Citation `lamport94' on page 3 undefined on input line 22.
 
 ) (B) Chapters/02_data.tex
 
-[7]
+[3]
 
-[8]
+[4]
 chapter 3.
+<figures/dust_emission_blackbody.png, id=163, 271.76532pt x 179.92218pt>
+File: figures/dust_emission_blackbody.png Graphic file (type png)
+<use figures/dust_emission_blackbody.png>
+Package pdftex.def Info: figures/dust_emission_blackbody.png  used on input line 21.
+(pdftex.def)             Requested size: 313.69029pt x 207.68858pt.
 
 
-[9
+[5
 
 
-]) (B) Chapters/03_methods.tex
+]
 
-[10]
+[6 <./figures/dust_emission_blackbody.png (PNG copy)>]
+<figures/relative_throughputs_PACS_SPIRE.png, id=189, 343.78438pt x 233.87375pt>
+File: figures/relative_throughputs_PACS_SPIRE.png Graphic file (type png)
+<use figures/relative_throughputs_PACS_SPIRE.png>
+Package pdftex.def Info: figures/relative_throughputs_PACS_SPIRE.png  used on input line 47.
+(pdftex.def)             Requested size: 313.69029pt x 213.39996pt.
+) (B) Chapters/03_methods.tex
+
+[7 <./figures/relative_throughputs_PACS_SPIRE.png>]
+
+[8
+
+
+]
 chapter 4.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 
 Overfull \hbox (8.93735pt too wide) in paragraph at lines 29--29
 []\T1/cmtt/m/n/10.95 \subsubsection{\T1/cmtt/m/it/10.95 subsubsection\T1/cmtt/m/n/10.95 }| 
@@ -1546,12 +1526,9 @@ Package pdftex.def Info: figures/logo_nontransparent.jpg  used on input line 45.
 (pdftex.def)             Requested size: 125.47739pt x 34.4993pt.
 )
 
-[11
+[9] (B) Chapters/04_results.tex
 
-
-] (B) Chapters/04_results.tex
-
-[12
+[10
 
 
 ]
@@ -1560,30 +1537,30 @@ chapter 5.
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 )) (B) Chapters/05_discussion.tex
 
-[13]
+[11]
 
-[14
+[12
 
 
 ]
 chapter 6.
 
 
-[15]
+[13]
 
-[16
+[14
 
 
 ]) (B) Chapters/06_conclusions.tex
 chapter 7.
 ) (main.bbl
 
-[17
+[15
 
 
 ]
 
-[18
+[16
 
 
 ]
@@ -1593,9 +1570,9 @@ No file main.acr.
 No file main.gls.
 
 
-[19]
+[17]
 
-[20
+[18
 
 
 ] (C) Back Matter/appendix.tex
@@ -1610,7 +1587,7 @@ FiXme Summary: Number of notes: 0,
 
 
 
-[21
+[19
 
 
 ] (main.aux)
@@ -1626,11 +1603,11 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 31420 strings out of 469958
- 580539 string characters out of 5470297
- 1586578 words of memory out of 5000000
- 57469 multiletter control sequences out of 15000+600000
- 670127 words of font info for 148 fonts, out of 8000000 for 9000
+ 31396 strings out of 469958
+ 580926 string characters out of 5470297
+ 1568619 words of memory out of 5000000
+ 57482 multiletter control sequences out of 15000+600000
+ 670350 words of font info for 149 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  122i,12n,121p,10958b,2343s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -1646,9 +1623,9 @@ pdfTeX warning (dest): name{glo:maths} has been referenced but does not exist, r
 pdfTeX warning (dest): name{glo:latex} has been referenced but does not exist, replaced by a fixed one
 
 <C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfit1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0600.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0800.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0900.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsl1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfso1440.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1200.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1440.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx2074.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfti1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sftt0900.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sftt1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on main.pdf (35 pages, 653618 bytes).
+Output written on main.pdf (33 pages, 685866 bytes).
 PDF statistics:
- 606 PDF objects out of 1000 (max. 8388607)
- 146 named destinations out of 1000 (max. 500000)
- 41706 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 496 PDF objects out of 1000 (max. 8388607)
+ 107 named destinations out of 1000 (max. 500000)
+ 41676 words of extra memory for PDF output out of 42996 (max. 10000000)
 

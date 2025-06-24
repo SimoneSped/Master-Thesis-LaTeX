@@ -8,11 +8,29 @@ Ph~Andr{\'e}, Alexander Men'shchikov, Sylvain Bontemps, V~K{\"o}nyves, F~Motte,
   Initial highlights from the herschel gould belt survey.
 \newblock {\em Astronomy \& Astrophysics}, 518:L102, 2010.
 
+\bibitem[Dra03]{draine2003interstellar}
+Bruce~T Draine.
+\newblock Interstellar dust grains.
+\newblock {\em Annual Review of Astronomy and Astrophysics}, 41(1):241--289,
+  2003.
+
 \bibitem[GAA{\etalchar{+}}10]{griffin2010herschel}
 Matthew~Joseph Griffin, A~Abergel, As~Abreu, Peter~AR Ade, P~Andr{\'e}, J-L
   Augueres, T~Babbedge, Y~Bae, T~Baillie, J-P Baluteau, et~al.
 \newblock The herschel-spire instrument and its in-flight performance.
 \newblock {\em Astronomy \& Astrophysics}, 518:L3, 2010.
+
+\bibitem[Hil83]{hildebrand1983determination}
+Roger~H Hildebrand.
+\newblock The determination of cloud masses and dust characteristics from
+  submillimetre thermal emission.
+\newblock Technical report, 1983.
+
+\bibitem[LBAL14]{lombardi2014herschel}
+Marco Lombardi, Herv{\'e} Bouy, Jo{\~a}o Alves, and Charles~J Lada.
+\newblock Herschel-planck dust optical-depth and column-density maps-i. method
+  description and results for orion.
+\newblock {\em Astronomy \& Astrophysics}, 566:A45, 2014.
 
 \bibitem[PRP{\etalchar{+}}10]{pilbratt2010herschel}
 GL~Pilbratt, JR~Riedinger, T~Passvogel, G~Crone, D~Doyle, U~Gageur, AM~Heras,
@@ -20,6 +38,13 @@ GL~Pilbratt, JR~Riedinger, T~Passvogel, G~Crone, D~Doyle, U~Gageur, AM~Heras,
 \newblock Herschel space observatory-an esa facility for far-infrared and
   submillimetre astronomy.
 \newblock {\em Astronomy \& Astrophysics}, 518:L1, 2010.
+
+\bibitem[PTD{\etalchar{+}}11]{popescu2011modelling}
+Cristina~C Popescu, Richard~J Tuffs, Michael~A Dopita, J{\"o}rg Fischera,
+  Nikolaos~D Kylafis, and Barry~F Madore.
+\newblock Modelling the spectral energy distribution of galaxies-v. the dust
+  and pah emission seds of disk galaxies.
+\newblock {\em Astronomy \& Astrophysics}, 527:A109, 2011.
 
 \bibitem[PWG{\etalchar{+}}10]{poglitsch2010photodetector}
 Albrecht Poglitsch, Christoffel Waelkens, Norbert Geis, Helmut Feuchtgruber,
