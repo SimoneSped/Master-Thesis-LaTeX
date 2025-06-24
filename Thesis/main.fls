@@ -432,20 +432,11 @@ INPUT .\B) Chapters\01_background.tex
 INPUT .\B) Chapters\01_background.tex
 INPUT .\B) Chapters\01_background.tex
 INPUT B) Chapters\01_background.tex
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1095.tfm
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0900.tfm
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi9.tfm
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy9.tfm
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex9.tfm
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0600.tfm
 INPUT .\B) Chapters\02_data.tex
 INPUT .\B) Chapters\02_data.tex
 INPUT .\B) Chapters\02_data.tex
 INPUT .\B) Chapters\02_data.tex
 INPUT B) Chapters\02_data.tex
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecsl1095.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecsx1440.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecso1440.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecsx1200.tfm
@@ -456,6 +447,7 @@ INPUT .\figures\dust_emission_blackbody.png
 INPUT .\figures\dust_emission_blackbody.png
 INPUT .\figures\dust_emission_blackbody.png
 INPUT .\figures\dust_emission_blackbody.png
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecsl1095.tfm
 INPUT .\figures\relative_throughputs_PACS_SPIRE.png
 INPUT .\figures\relative_throughputs_PACS_SPIRE.png
 INPUT .\figures\relative_throughputs_PACS_SPIRE.png
@@ -463,6 +455,13 @@ INPUT .\figures\relative_throughputs_PACS_SPIRE.png
 INPUT .\figures\relative_throughputs_PACS_SPIRE.png
 INPUT .\figures\relative_throughputs_PACS_SPIRE.png
 INPUT .\figures\relative_throughputs_PACS_SPIRE.png
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0900.tfm
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi9.tfm
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy9.tfm
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex9.tfm
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0600.tfm
 INPUT .\B) Chapters\03_methods.tex
 INPUT .\B) Chapters\03_methods.tex
 INPUT .\B) Chapters\03_methods.tex
@@ -488,6 +487,7 @@ INPUT .\B) Chapters\05_discussion.tex
 INPUT .\B) Chapters\05_discussion.tex
 INPUT .\B) Chapters\05_discussion.tex
 INPUT B) Chapters\05_discussion.tex
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1095.tfm
 INPUT .\B) Chapters\06_conclusions.tex
 INPUT .\B) Chapters\06_conclusions.tex
 INPUT .\B) Chapters\06_conclusions.tex
@@ -504,8 +504,6 @@ INPUT C) Back Matter\appendix.tex
 INPUT main.aux
 INPUT .\main.out
 INPUT .\main.out
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb

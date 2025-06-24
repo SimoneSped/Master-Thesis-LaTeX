@@ -1,6 +1,7 @@
 \chapter{Data}
 \label{chap:data}
-% introduction to Herschel
+
+% review once background is done (reference equations, usw)
 \section{\textit{Herschel} column-density maps}
 \subsection{Introduction}
 The main source of data in this work stems from ESA's \textit{Herschel} Space Observatory \cite{pilbratt2010herschel}, which was launched in 2009 with the goal of observing in the far-infrared and submillimetre wavelengths. 
@@ -11,7 +12,6 @@ The main source of data in this work stems from ESA's \textit{Herschel} Space Ob
 \textit{Herschel}'s observations of Orion, the target of this work, were part of the \textit{Herschel} Gould Belt Survey (HGBS). This survey aimed to map the nearby star-forming regions in the Gould Belt, a flat structure of a few hundred parsecs inclined by approximately 20$^{\circ}$ with respect to the galactic plane \cite{andre2010herschel}.
 The clouds covered by the HGBS span a wide range of physical and environmental conditions, from very active, cluster-forming complexes such as the Orion A and B giant molecular clouds (GMCs) to quiescent regions with no star formation activity at all.
 
-% grain properties
 \subsection{Dust emission maps}
 In the interstellar medium, dust typically has temperatures T$_{\mathrm{dust}}$ around $20$ K and emits thermal radiation that can be approximated by a modified blackbody, peaking at far-infrared (FIR) and submillimetre (mm) wavelengths. 
 This thermal dust emission represents the dominant source of FIR and mm-continuum radiation in galaxies, as it can be recognized in Figure \ref{fig:dust_emission_blackbody}. 
@@ -19,7 +19,7 @@ This thermal dust emission represents the dominant source of FIR and mm-continuu
 \begin{figure}
     \centering
     \includegraphics[width=0.75\textwidth]{figures/dust_emission_blackbody.png}
-    \caption{LALALA \cite{popescu2011modelling}}
+    \caption{Best fit SED of NGC 891 and observed data in infrared and submillimeter. Also plotted are the main components responsible for each part of the emission spectrum \cite{popescu2011modelling}. Dust emission represents the dominant source of FIR and mm-continuum radiation in galaxies.}
     \label{fig:dust_emission_blackbody}
 \end{figure}
 
@@ -27,14 +27,12 @@ Dust grains absorb ultraviolet (UV) and near-infrared (NIR) photons from stars, 
 Because dust is highly efficient at radiating energy, it reaches and maintains relatively low equilibrium temperatures \cite{hildebrand1983determination}. 
 Observations of dust emission hence provide a powerful tool to estimate the column density of dust and gas along the line of sight.
 
-% a picture, bit of history
 Using mm continuum dust emission to measure column density offers several advantages over traditional extinction-based methods: it can probe much higher column densities where extinction becomes saturated or unreliable, it often provides better angular resolution, and it remains effective even in regions heavily obscured by dust where extinction mapping fails \cite{draine2003interstellar}. Moreover, continuum observations allow simultaneous determination of both dust temperature (T$_{\mathrm{dust}}$) and gas column density (N(H$_2$)), which is essential for characterizing dense molecular clouds. In extragalactic studies, where individual stars cannot be resolved, dust emission often represents the only viable method for estimating gas masses.
 
 However, these methods also involve significant assumptions and uncertainties. Different approaches to estimate column density are conceptually equivalent but may yield different results due to methodological degeneracies. One key source of uncertainty arises from the poorly constrained dust opacity, $\kappa$, which depends on the composition, size distribution, and physical properties of dust grains. Variations in $\kappa$ directly affect the derived column densities, introducing systematic uncertainties into the analysis.
 
 The data used in this work are \textit{Herschel} column-density maps of the Orion A and B giant molecular clouds. These maps were created by combining data from PACS and SPIRE instruments, which observed at different wavelengths to capture the dust emission across the clouds.
 
-% Technicalities of the instruments (what do they measure and how, advantages and disadvantages, etc.)
 Specifically, PACS provided imaging photometry in the 60-210 $\mu m$ wavelength range, using two filled silicon bolometer arrays with 16 $\times$ 32 and 32 $\times$ 64 pixels. In photometric mode, PACS simultaneously imaged two bands: either 60-85 $\mu m$ or 85-125 $\mu m$, along with 125-210 $\mu m$, covering a field of view of approximately 1.75 $\times$ 3.5 arcminutes with near-Nyquist sampling \cite{poglitsch2010photodetector}. These bands are particularly sensitive to warmer dust components.
 
 SPIRE extended the coverage to longer wavelengths, better tracing colder dust. Its photometer operated in three broad bands centered at 250 $\mu m$, 350 $\mu m$, and 500 $\mu m$, well-suited for mapping large-scale dust emission from the cold interstellar medium \cite{griffin2010herschel}. 
@@ -45,15 +43,58 @@ The combination of PACS and SPIRE photometric data allows for the characterizati
 \begin{figure}
     \centering
     \includegraphics[width=0.75\textwidth]{figures/relative_throughputs_PACS_SPIRE.png}
-    \caption{LALALA \cite{lombardi2014herschel}}
+    \caption{Throughputs in relative units of the PACS and SPIRE bands and three modified blackbodies for typical dust temperatures (12 K, 18 K, 24 K) and with $\beta$ = 1.8 \cite{lombardi2014herschel}.}
     \label{fig:pacs_spire_throughputs}
 \end{figure}
 
 \subsection{Derivation of column density maps}
 
-The data (what kind of data) was downloaded from archive (lombardi et al 2014). Properties and such
+The extinction maps retrieved from Lombardi et al. (2014) \footnote{\href{https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/566/A45\#/browse}{Orion optical-depth and column-density maps: J/A+A/566/A45 (CDS)}} were used to derive the column density maps of the Orion A and B clouds. The dowloaded extinction maps were created by fitting the observed dust emission data from PACS and SPIRE to a modified blackbody model.
 
-How do you go from what PACS and SPIRE measure to dust emission maps?
+Technicalities of the data (good and bad stuff) -> Lombardi et al.
+
+Specific to these maps (coverage and such) -> (3444, 2492, 7)
+
+PLANE1=Opacity map at 353 GHz
+PLANE2=Error on opacity map at 353 GHz
+
+Properties of data
+The header containes important information, such as 
+Data structure
+Gamma and delta 
+
+% we therefore preferred to derive the dust columndensity from τ850 by fitting a linear relationship between τ850 and
+% the K-band extinction AK, obtained using the Nicest/2MASS
+% technique (Lombardi & Alves 2001; Lombardi 2009; Lombardi
+% et al. 2011)
+
+% gamma_orion_A = 2640  # mag
+% delta_orion_A = 0.012  # mag, Offset for Orion A
+
+% gamma_orion_B = 3460  # mag
+% delta_orion_B = -0.001  # mag, Offset for Orion B
+
+% l_min_A, l_max_A = 206, 217
+% b_min_A, b_max_A = -21, -17
+
+% A_k = gamma_orion_A * tau + delta_orion_A
+
+% l_min_B, l_max_B = 203, 210
+% b_min_B, b_max_B = -17, -12
+
+% A_k = gamma_orion_B * tau + delta_orion_B
+
+% Relation between A_k and A_V: Bohlin & Lebofsky 1985
+% A_V = A_k/0.112
+
+% Assuming all H-atoms combined into H2
+% Assuming standard Rv = 3.1 (source: )
+% N_H2 = 0.93e21 * np.array(A_V , dtype=np.float64)
+
+% Add picture of N_H2 final map
+
+\subsubsection{Mass maps}
+% Pixel conversion!
 
 % Going from dust opacity maps to column density maps... 
 
@@ -65,11 +106,9 @@ How do you go from what PACS and SPIRE measure to dust emission maps?
 
 % tau maps of Orion A and B
 
-Technicalities of the data (good and bad stuff) -> Lombardi et al.
-
-Specific to these maps (coverage and such)
-
 \subsection{Data pre-processing}
+Masking of the low resolution data
+
 Maybe before?
 The data were pre-processed using the Herschel interactive processing environment (HIPE, Ott 2010) version 10.0.2843, and the latest version of the calibration files.
 

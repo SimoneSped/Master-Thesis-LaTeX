@@ -5,11 +5,10 @@ Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: alpha.bst
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 Database file #1: bibliography.bib
-Warning--I didn't find a database entry for "lamport94"
 Warning--empty institution in hildebrand1983determination
 You've used 8 entries,
             2543 wiz_defined-function locations,
-            604 strings with 6520 characters,
+            603 strings with 6511 characters,
 and the built_in function-call counts, 4139 in all, are:
 = -- 365
 > -- 347
@@ -48,4 +47,4 @@ warning$ -- 1
 while$ -- 30
 width$ -- 9
 write$ -- 106
-(There were 2 warnings)
+(There was 1 warning)
