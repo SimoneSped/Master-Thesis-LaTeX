@@ -49,54 +49,108 @@ The combination of PACS and SPIRE photometric data allows for the characterizati
 
 \subsection{Derivation of column density maps}
 
-The extinction maps retrieved from Lombardi et al. (2014) \footnote{\href{https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/566/A45\#/browse}{Orion optical-depth and column-density maps: J/A+A/566/A45 (CDS)}} were used to derive the column density maps of the Orion A and B clouds. The dowloaded extinction maps were created by fitting the observed dust emission data from PACS and SPIRE to a modified blackbody model.
+To derive the column density maps of the Orion A and B molecular clouds, we used the extinction maps produced by \cite{lombardi2014herschel}, which are publicly available through the CDS Archive\footnote{\href{https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/566/A45\#/browse}{Orion optical-depth and column-density maps: J/A+A/566/A45 (CDS)}}. 
+These maps were constructed by fitting the dust emission data from Herschel PACS and SPIRE instruments to a modified blackbody model, providing estimates of the optical depth at 353 GHz ($\tau_{353}$), along with the associated uncertainty maps.
 
-Technicalities of the data (good and bad stuff) -> Lombardi et al.
+The data products consist of multi-plane FITS files where PLANE1 corresponds to the optical depth map at 353 GHz, and PLANE2 contains the pixel-wise uncertainties. Each map header includes metadata describing projection parameters, coordinate coverage, and the empirical calibration parameters used in the conversion from dust optical depth to extinction, and subsequently to column density. The effective resolution of these maps is 36 arcsec, with pixel dimensions of $3444 \times 2492$, covering both Orion A and B clouds. The given resolution excludes the Planck data, which is at a lower resolution of 5 arcmin.
 
-Specific to these maps (coverage and such) -> (3444, 2492, 7)
+Following the approach in \cite{lombardi2014herschel}, we converted the optical depth maps into $K$-band extinction maps ($A_K$) using a linear relation of the form:
 
-PLANE1=Opacity map at 353 GHz
-PLANE2=Error on opacity map at 353 GHz
+\begin{equation}
+    A_K = \gamma \cdot \tau_{353} + \delta
+    \label{eq:ak_tau_relation}
+\end{equation}
 
-Properties of data
-The header containes important information, such as 
-Data structure
-Gamma and delta 
+The constants $\gamma$ and $\delta$ were calibrated separately for Orion A and B using near-infrared extinction data from the 2MASS/NICEST method \cite{lombardi2009nicest}. Specifically:
+\begin{itemize}
+    \item For Orion A, $\gamma = 2640$ mag and $\delta = 0.012$ mag.
+    \item For Orion B, $\gamma = 3460$ mag and $\delta = -0.001$ mag.
+\end{itemize}
 
-% we therefore preferred to derive the dust columndensity from τ850 by fitting a linear relationship between τ850 and
-% the K-band extinction AK, obtained using the Nicest/2MASS
-% technique (Lombardi & Alves 2001; Lombardi 2009; Lombardi
-% et al. 2011)
+The $A_K$ extinction map can be seen in Figure \ref{fig:extinction_map}. 
+To convert from $A_K$ to visual extinction $A_V$, we assumed a standard extinction curve with $R_V = 3.1$, following \cite{bohlin1978survey} and \cite{rieke1985interstellar}, giving:
 
-% gamma_orion_A = 2640  # mag
-% delta_orion_A = 0.012  # mag, Offset for Orion A
+\begin{equation}
+    A_V = \frac{A_K}{0.112}
+    \label{eq:av_ak_relation}
+\end{equation}
 
-% gamma_orion_B = 3460  # mag
-% delta_orion_B = -0.001  # mag, Offset for Orion B
+\begin{figure}
+    \centering
+    \includegraphics[width=0.75\textwidth]{figures/extinction_map.png}
+    \caption{Extinction map of Orion A and B derived from Herschel data, showing the visual extinction ($A_V$) across the clouds. The map is based on the optical depth at 353 GHz, converted to extinction using the relation in Equation \ref{eq:av_ak_relation}. (WIP)}
+    \label{fig:extinction_map}
+\end{figure}
 
-% l_min_A, l_max_A = 206, 217
-% b_min_A, b_max_A = -21, -17
+Finally, assuming all hydrogen is in molecular form (i.e., fully in H$_2$) and a standard gas-to-dust ratio, the column density of molecular hydrogen was derived using:
 
-% A_k = gamma_orion_A * tau + delta_orion_A
+\begin{equation}
+    N(\mathrm{H_2}) = 0.93 \times 10^{21} \cdot A_V [cm^{-2}]
+    \label{eq:n_h2_av_relation}
+\end{equation}
 
-% l_min_B, l_max_B = 203, 210
-% b_min_B, b_max_B = -17, -12
+The derived column density maps of Orion A and B can be seen in Figure \ref{fig:n_h2_final_map}.
 
-% A_k = gamma_orion_B * tau + delta_orion_B
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=0.75\textwidth]{figures/column_density_map.png}
+    \caption{Column density maps of Orion A and B derived from Herschel data, showing the total column density of molecular hydrogen ($N(\mathrm{H}_2)$) across the clouds. The maps are based on the optical depth at 353 GHz, converted to extinction and then to column density. (WIP)}
+    \label{fig:n_h2_final_map}
+\end{figure}
 
-% Relation between A_k and A_V: Bohlin & Lebofsky 1985
-% A_V = A_k/0.112
+This method provides a robust, emission-based estimate of the total column density across Orion A and B, with the advantage of tracing both high and low column density regions uniformly. 
+However, it is important to note that the derivation relies on assumptions about dust properties, uniform opacity, and gas-to-dust ratio, which introduce systematic uncertainties into the absolute calibration of $N(\mathrm{H}_2)$.
 
-% Assuming all H-atoms combined into H2
-% Assuming standard Rv = 3.1 (source: )
-% N_H2 = 0.93e21 * np.array(A_V , dtype=np.float64)
+% Add picture of tau 353 Ghz (maybe?)
+% give range of N and compare it to the given one in Lombardi 2014
+% and maybe also the range in mag
 
-% Add picture of N_H2 final map
+\subsubsection{Derivation of Mass Maps}
 
-\subsubsection{Mass maps}
-% Pixel conversion!
+Mass maps are a crucial component in this work, allowing us to estimate the total mass of the Orion A and B molecular clouds and their substructures. These maps are computed directly from the H$_2$ column density maps derived in the previous section, by converting the number of molecules per unit area into a mass per pixel.
 
-% Going from dust opacity maps to column density maps... 
+The conversion process follows these steps:
+
+\begin{enumerate}
+    \item \textbf{Pixel area conversion:} \\
+    Each pixel in the column density map subtends a solid angle on the sky, which is converted into a physical area based on the known distance to the Orion complex, assumed to be $D = 412$ pc. The pixel scale is 0.00417$^\circ$/px, which is first converted to radians and then used to compute the physical pixel size:
+
+    \[
+    \theta_{\mathrm{px}} = \frac{\mathrm{pixel\_scale}}{180/\pi}, \quad 
+    \mathrm{px\_size\ (pc)} = \sin(\theta_{\mathrm{px}}) \cdot D
+    \]
+
+    The area per pixel in cm$^2$ is then obtained by converting parsecs to centimeters:
+
+    \[
+    \mathrm{Area_{px}} = \mathrm{px\_size}^2 \times (3.086 \times 10^{18}\,\mathrm{cm/pc})^2
+    \]
+
+    \item \textbf{Column density to mass:} \\
+    The H$_2$ column density $N(\mathrm{H}_2)$ in cm$^{-2}$ is multiplied by the pixel area to yield the number of molecules per pixel. This is then converted to mass using the proton mass, $m_p = 1.673 \times 10^{-27}$ kg, and the mean molecular weight correction factor ($\mu = 2.8$) to include helium and heavier elements.:
+
+    \[
+    M_{\mathrm{H}_2} = N(\mathrm{H}_2) \cdot \mathrm{Area_{px}} \cdot 2.8 \cdot m_p
+    \]
+
+    \item \textbf{Conversion to solar masses:} \\
+    The result is then converted from kilograms to solar masses using:
+
+    \[
+    M_{\mathrm{px}} = \frac{M_{\mathrm{H}_2}}{M_\odot}, \quad \text{with } M_\odot = 1.9885 \times 10^{30}\, \mathrm{kg}
+    \]
+\end{enumerate}
+
+The resulting mass map provides the total H$_2$ mass contained in each pixel of the map, with units of solar masses and can be seen in Figure \ref{fig:mass_map}. These maps form the basis for estimating integrated masses over selected regions, identifying dense clumps, and comparing the gravitational content of different substructures within the Orion A and B clouds.
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=0.75\textwidth]{figures/mass_distribution.png}
+    \caption{Mass map of the Orion A and B molecular clouds derived from the H$_2$ column density maps. The map shows the total mass in solar masses contained in each pixel, providing a detailed view of the mass distribution across the clouds. (WIP)}
+    \label{fig:mass_map}
+\end{figure}
+
+% + some properties of the mass map (range, sum, mean, std, etc.)
 
 % Multi-freq. fit allows to solve
 %  \& simul
@@ -104,14 +158,55 @@ Gamma and delta
 %  Fully characterised by Herschel
 % in one go
 
-% tau maps of Orion A and B
+\subsection{Data Pre-processing}
 
-\subsection{Data pre-processing}
-Masking of the low resolution data
+To ensure consistency and reliability in the derived column density and mass maps, several pre-processing steps were applied to both the original \textit{Herschel} data and the derived extinction products from \cite{lombardi2014orion}. These steps aimed to isolate high-resolution structure, remove contaminating background emission, and maintain uniform calibration across the dataset.
 
-Maybe before?
-The data were pre-processed using the Herschel interactive processing environment (HIPE, Ott 2010) version 10.0.2843, and the latest version of the calibration files.
+The original \textit{Herschel} photometric maps used in the derivation of extinction and column density maps were processed using the Herschel Interactive Processing Environment (HIPE; \cite{mizumoto2010astronomical}), version 10.0.2843, along with the most up-to-date calibration files available at the time. Standard pipeline procedures were followed, including detector deglitching, baseline removal, and map-making.
 
-\section{YSOs}
-Extra: YSOs data? TBD
+Since the raw maps often contain large-scale background emission and lower-resolution contributions from the \textit{Planck} mission, a spatial filtering step was performed to isolate the high-resolution structure traced by \textit{Herschel}'s PACS and SPIRE instruments. Specifically, we masked the lower-resolution \textit{Planck}-dominated regions and retained only those spatial frequencies that correspond to \textit{Herschel}'s native angular resolution. This effectively removed diffuse Galactic foregrounds and background gradients, improving the contrast of compact and filamentary structures within the Orion A and B clouds.
 
+The column density maps from \cite{lombardi2014herschel} were obtained by fitting a modified blackbody model to \textit{Herschel} data and calibrated using NIR extinction measurements via the NICEST/2MASS technique. These maps already incorporated several pre-processing steps, including spatial regridding, background subtraction, and convolution to a common beam size.
+
+For our purposes, we applied additional masking to exclude low-signal or edge pixels where the uncertainty in the optical depth was high. These masks ensure that only high-confidence regions are used in the column density and mass derivations.
+
+In summary, the pre-processing workflow ensures that:
+\begin{itemize}
+    \item Only high-resolution \textit{Herschel} data contribute to the final maps.
+    \item Large-scale background emission is removed.
+    \item Low signal-to-noise regions and unreliable pixels are masked out.
+    \item Calibration and resolution across maps are homogenized.
+\end{itemize}
+
+These steps are essential for producing reliable maps of dust-derived column density and mass structure in the Orion molecular clouds.
+
+\section{Young Stellar Objects (YSOs)}
+
+\subsection{Introduction}
+
+Understanding the relationship between the internal structure of molecular clouds and their ability to form stars is a central goal of star formation studies. In this work, we investigate how the morphology and column density distribution of the Orion A and B clouds relate to their young stellar content. To this end, we utilize the Young Stellar Object (YSO) catalogue compiled by \cite{megeath2012catalogue}, which provides a detailed census of the star-forming population in Orion.
+
+The catalogue is based on observations from the \textit{Spitzer Space Telescope}, specifically using data from the Infrared Array Camera (IRAC; \cite{fazio2004IRAC}) and the Multiband Imaging Photometer for Spitzer (MIPS; \cite{rieke2004MIPS}), covering approximately 9 deg$^2$ in five mid-infrared bands. These wavelengths are sensitive to warm dust and circumstellar material, allowing for the identification of young stars through their infrared excesses. The classification of YSOs is primarily based on the slope of their spectral energy distributions (SEDs) in the mid-infrared, following standard criteria.
+
+Additionally, the catalogue incorporates near-infrared data from the 2MASS survey \cite{skrutskie2006two}, which helps to identify less embedded sources and complements the mid-infrared sensitivity.
+
+\subsection{The catalogue}
+The catalogue \footnote{\href{http://cdsarc.cds.unistra.fr}{YSO catalogue in the CDS Archive}} includes a total of 3479 dusty YSOs, classified primarily based on their spectral energy distributions (SEDs). These classifications distinguish between:
+\begin{itemize}
+    \item Protostars (P): deeply embedded sources with rising or flat SEDs, indicative of ongoing mass accretion (N=488).
+    \item Disk sources (D): more evolved pre-main sequence stars that still retain circumstellar disks, but with declining mid-infrared emission (N=2991).
+\end{itemize}
+
+The YSO dataset provides key information for each object, including spatial coordinates, infrared luminosity, and evolutionary class. This makes it a powerful tracer of the recent and ongoing star formation within the Orion clouds.
+
+A spatial overview of the YSO population is shown in Figure \ref{fig:YSO_map}, where the distribution of protostars and disk sources is overlaid on the column density map. This visualization allows for a direct comparison between the gas structure and the stellar content, enabling a statistical study of the relationship between dense gas and star-forming activity.
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=0.75\textwidth]{figures/YSOs_orion.png}
+    \caption{Map of YSOs in the Orion A and B clouds, overlaid on the column density map. YSOs are color-coded by evolutionary class, with protostars (P) and disk sources (D) identified based on their mid-infrared spectral energy distributions. This distribution reveals the spatial correlation between dense gas and young stars. (WIP)}
+    \label{fig:YSO_map}
+\end{figure}
+
+% some other properties of the YSO catalogue
+% remake picture 

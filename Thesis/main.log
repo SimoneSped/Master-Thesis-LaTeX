@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.22)  24 JUN 2025 15:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.22)  25 JUN 2025 10:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1484,7 +1484,7 @@ chapter 2.
 
 ]
 chapter 3.
-<figures/dust_emission_blackbody.png, id=155, 271.76532pt x 179.92218pt>
+<figures/dust_emission_blackbody.png, id=175, 271.76532pt x 179.92218pt>
 File: figures/dust_emission_blackbody.png Graphic file (type png)
 <use figures/dust_emission_blackbody.png>
 Package pdftex.def Info: figures/dust_emission_blackbody.png  used on input line 21.
@@ -1494,85 +1494,113 @@ Package pdftex.def Info: figures/dust_emission_blackbody.png  used on input line
 [5]
 
 [6 <./figures/dust_emission_blackbody.png (PNG copy)>]
-<figures/relative_throughputs_PACS_SPIRE.png, id=184, 343.78438pt x 233.87375pt>
+<figures/relative_throughputs_PACS_SPIRE.png, id=203, 343.78438pt x 233.87375pt>
 File: figures/relative_throughputs_PACS_SPIRE.png Graphic file (type png)
 <use figures/relative_throughputs_PACS_SPIRE.png>
 Package pdftex.def Info: figures/relative_throughputs_PACS_SPIRE.png  used on input line 45.
 (pdftex.def)             Requested size: 313.69029pt x 213.39996pt.
 
 
-[7 <./figures/relative_throughputs_PACS_SPIRE.png>]) (B) Chapters/03_methods.tex
-
-[8]
-chapter 4.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-Overfull \hbox (8.93735pt too wide) in paragraph at lines 29--29
-[]\T1/cmtt/m/n/10.95 \subsubsection{\T1/cmtt/m/it/10.95 subsubsection\T1/cmtt/m/n/10.95 }| 
- []
-
-File: figures/logo_nontransparent.jpg Graphic file (type jpg)
-<use figures/logo_nontransparent.jpg>
-Package pdftex.def Info: figures/logo_nontransparent.jpg  used on input line 45.
-(pdftex.def)             Requested size: 125.47739pt x 34.4993pt.
-)
-
-[9
+[7 <./figures/relative_throughputs_PACS_SPIRE.png>]
+<figures/extinction_map.png, id=224, 598.3956pt x 460.3599pt>
+File: figures/extinction_map.png Graphic file (type png)
+<use figures/extinction_map.png>
+Package pdftex.def Info: figures/extinction_map.png  used on input line 80.
+(pdftex.def)             Requested size: 313.69029pt x 241.3343pt.
 
 
-] (B) Chapters/04_results.tex
-
-[10
-
-
-]
-chapter 5.
-(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2024/09/23 1.10c listings language file
-)) (B) Chapters/05_discussion.tex
-
-[11]
-
-[12
+[8{C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./figures/extinction_map.png>]
+<figures/column_density_map.png, id=238, 588.2778pt x 470.4777pt>
+File: figures/column_density_map.png Graphic file (type png)
+<use figures/column_density_map.png>
+Package pdftex.def Info: figures/column_density_map.png  used on input line 96.
+(pdftex.def)             Requested size: 313.69029pt x 250.88109pt.
 
 
-]
-chapter 6.
+[9 <./figures/column_density_map.png>]
+<figures/mass_distribution.png, id=250, 1010.77625pt x 792.9625pt>
+File: figures/mass_distribution.png Graphic file (type png)
+<use figures/mass_distribution.png>
+Package pdftex.def Info: figures/mass_distribution.png  used on input line 148.
+(pdftex.def)             Requested size: 313.69029pt x 246.09412pt.
 
 
-[13]
+LaTeX Warning: Citation `lombardi2014orion' on page 10 undefined on input line 163.
+
+
+
+[10]
+
+[11 <./figures/mass_distribution.png>]
+<figures/YSOs_orion.png, id=273, 743.6583pt x 570.933pt>
+File: figures/YSOs_orion.png Graphic file (type png)
+<use figures/YSOs_orion.png>
+Package pdftex.def Info: figures/YSOs_orion.png  used on input line 206.
+(pdftex.def)             Requested size: 313.69029pt x 240.82692pt.
+
+
+[12]) (B) Chapters/03_methods.tex
+
+[13 <./figures/YSOs_orion.png>]
 
 [14
 
 
-]) (B) Chapters/06_conclusions.tex
-chapter 7.
-) (main.bbl
-
-[15
-
-
 ]
+chapter 4.
+) (B) Chapters/04_results.tex
+
+[15]
 
 [16
 
 
 ]
-chapter without number
-)
-No file main.acr.
-No file main.gls.
-
+chapter 5.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)) (B) Chapters/05_discussion.tex
 
 [17]
 
 [18
 
 
-] (C) Back Matter/appendix.tex
+]
+chapter 6.
+
+
+[19]
+
+[20
+
+
+]) (B) Chapters/06_conclusions.tex
+chapter 7.
+) (main.bbl
+
+[21
+
+
+]
+
+[22
+
+
+]
+chapter without number
+
+
+[23])
+No file main.acr.
+No file main.gls.
+
+
+[24] (C) Back Matter/appendix.tex
 chapter A.
 )
 
@@ -1584,7 +1612,9 @@ FiXme Summary: Number of notes: 0,
 
 
 
-[19
+[25
+
+
 
 
 ] (main.aux)
@@ -1592,15 +1622,19 @@ FiXme Summary: Number of notes: 0,
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-03-26>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 31385 strings out of 469958
- 580761 string characters out of 5470297
- 1569288 words of memory out of 5000000
- 57476 multiletter control sequences out of 15000+600000
- 670103 words of font info for 146 fonts, out of 8000000 for 9000
+ 31494 strings out of 469958
+ 582820 string characters out of 5470297
+ 1572983 words of memory out of 5000000
+ 57523 multiletter control sequences out of 15000+600000
+ 671540 words of font info for 166 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  122i,12n,121p,10958b,2343s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -1615,10 +1649,10 @@ pdfTeX warning (dest): name{glo:maths} has been referenced but does not exist, r
 
 pdfTeX warning (dest): name{glo:latex} has been referenced but does not exist, replaced by a fixed one
 
-<C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfit1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0600.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0800.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0900.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsl1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfso1440.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1200.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1440.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx2074.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfti1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sftt0900.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sftt1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on main.pdf (33 pages, 665410 bytes).
+<C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0600.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0800.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0900.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsl1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfso1440.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1200.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1440.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx2074.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfti1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sftt0900.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sftt1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on main.pdf (39 pages, 1684404 bytes).
 PDF statistics:
- 496 PDF objects out of 1000 (max. 8388607)
- 108 named destinations out of 1000 (max. 500000)
- 41676 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 585 PDF objects out of 1000 (max. 8388607)
+ 129 named destinations out of 1000 (max. 500000)
+ 43232 words of extra memory for PDF output out of 51595 (max. 10000000)
 

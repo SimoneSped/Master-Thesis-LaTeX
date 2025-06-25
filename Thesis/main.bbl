@@ -1,5 +1,5 @@
 \newcommand{\etalchar}[1]{$^{#1}$}
-\begin{thebibliography}{PWG{\etalchar{+}}10}
+\begin{thebibliography}{MGM{\etalchar{+}}12}
 
 \bibitem[AMB{\etalchar{+}}10]{andre2010herschel}
 Ph~Andr{\'e}, Alexander Men'shchikov, Sylvain Bontemps, V~K{\"o}nyves, F~Motte,
@@ -8,11 +8,24 @@ Ph~Andr{\'e}, Alexander Men'shchikov, Sylvain Bontemps, V~K{\"o}nyves, F~Motte,
   Initial highlights from the herschel gould belt survey.
 \newblock {\em Astronomy \& Astrophysics}, 518:L102, 2010.
 
+\bibitem[BSD78]{bohlin1978survey}
+Ralph~C Bohlin, Blair~D Savage, and JF~Drake.
+\newblock A survey of interstellar hi from l-alpha absorption measurements. ii.
+\newblock {\em Astrophysical Journal, Part 1, vol. 224, Aug. 15, 1978, p.
+  132-142. Research supported by the Lockheed Independent Research Program;},
+  224:132--142, 1978.
+
 \bibitem[Dra03]{draine2003interstellar}
 Bruce~T Draine.
 \newblock Interstellar dust grains.
 \newblock {\em Annual Review of Astronomy and Astrophysics}, 41(1):241--289,
   2003.
+
+\bibitem[FHA{\etalchar{+}}04]{fazio2004IRAC}
+GG~Fazio, JL~Hora, LE~Allen, MLN Ashby, P~Barmby, LK~Deutsch, J-S Huang,
+  S~Kleiner, M~Marengo, ST~Megeath, et~al.
+\newblock The infrared array camera (irac) for the spitzer space telescope.
+\newblock {\em The Astrophysical Journal Supplement Series}, 154(1):10, 2004.
 
 \bibitem[GAA{\etalchar{+}}10]{griffin2010herschel}
 Matthew~Joseph Griffin, A~Abergel, As~Abreu, Peter~AR Ade, P~Andr{\'e}, J-L
@@ -31,6 +44,25 @@ Marco Lombardi, Herv{\'e} Bouy, Jo{\~a}o Alves, and Charles~J Lada.
 \newblock Herschel-planck dust optical-depth and column-density maps-i. method
   description and results for orion.
 \newblock {\em Astronomy \& Astrophysics}, 566:A45, 2014.
+
+\bibitem[Lom09]{lombardi2009nicest}
+Marco Lombardi.
+\newblock Nicest, a near-infrared color excess method tailored to small-scale
+  structures.
+\newblock {\em Astronomy \& Astrophysics}, 493(2):735--745, 2009.
+
+\bibitem[MGM{\etalchar{+}}12]{megeath2012catalogue}
+ST~Megeath, R~Gutermuth, J~Muzerolle, E~Kryukova, K~Flaherty, JL~Hora,
+  LE~Allen, L~Hartmann, PC~Myers, JL~Pipher, et~al.
+\newblock The spitzer space telescope survey of the orion a and b molecular
+  clouds. i. a census of dusty young stellar objects and a study of their
+  mid-infrared variability.
+\newblock {\em The Astronomical Journal}, 144(6):192, 2012.
+
+\bibitem[MMO10]{mizumoto2010astronomical}
+Yoshihiko Mizumoto, Koh—Ichiro Morita, and Masatoshi Ohishi.
+\newblock Astronomical data analysis software and systems xix.
+\newblock {\em Astronomical Data Analysis Software and Systems XIX}, 434, 2010.
 
 \bibitem[PRP{\etalchar{+}}10]{pilbratt2010herschel}
 GL~Pilbratt, JR~Riedinger, T~Passvogel, G~Crone, D~Doyle, U~Gageur, AM~Heras,
@@ -53,5 +85,23 @@ Albrecht Poglitsch, Christoffel Waelkens, Norbert Geis, Helmut Feuchtgruber,
 \newblock The photodetector array camera and spectrometer (pacs) on the
   herschel space observatory.
 \newblock {\em Astronomy \& astrophysics}, 518:L2, 2010.
+
+\bibitem[RL85]{rieke1985interstellar}
+GH~Rieke and MJ~Lebofsky.
+\newblock The interstellar extinction law from 1 to 13 microns.
+\newblock {\em Astrophysical Journal, Part 1 (ISSN 0004-637X), vol. 288, Jan.
+  15, 1985, p. 618-621. NSF-supported research.}, 288:618--621, 1985.
+
+\bibitem[RYE{\etalchar{+}}04]{rieke2004MIPS}
+GH~Rieke, ET~Young, CW~Engelbracht, DM~Kelly, FJ~Low, EE~Haller, JW~Beeman,
+  KD~Gordon, JA~Stansberry, KA~Misselt, et~al.
+\newblock The multiband imaging photometer for spitzer (mips).
+\newblock {\em The Astrophysical Journal Supplement Series}, 154(1):25, 2004.
+
+\bibitem[SCS{\etalchar{+}}06]{skrutskie2006two}
+Michael~F Skrutskie, RM~Cutri, R~Stiening, MD~Weinberg, S~Schneider,
+  JM~Carpenter, Capps Beichman, R~Capps, T~Chester, J~Elias, et~al.
+\newblock The two micron all sky survey (2mass).
+\newblock {\em The Astronomical Journal}, 131(2):1163, 2006.
 
 \end{thebibliography}

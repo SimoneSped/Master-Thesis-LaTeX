@@ -7,8 +7,11 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Best fit SED of NGC 891 and observed data in infrared and submillimeter. Also plotted are the main components responsible for each part of the emission spectrum \cite {popescu2011modelling}. Dust emission represents the dominant source of FIR and mm-continuum radiation in galaxies.}}{6}{figure.3.1}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Throughputs in relative units of the PACS and SPIRE bands and three modified blackbodies for typical dust temperatures (12 K, 18 K, 24 K) and with $\beta $ = 1.8 \cite {lombardi2014herschel}.}}{7}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Extinction map of Orion A and B derived from Herschel data, showing the visual extinction ($A_V$) across the clouds. The map is based on the optical depth at 353 GHz, converted to extinction using the relation in Equation \ref {eq:av_ak_relation}. (WIP)}}{8}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Column density maps of Orion A and B derived from Herschel data, showing the total column density of molecular hydrogen ($N(\mathrm {H}_2)$) across the clouds. The maps are based on the optical depth at 353 GHz, converted to extinction and then to column density. (WIP)}}{9}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Mass map of the Orion A and B molecular clouds derived from the H$_2$ column density maps. The map shows the total mass in solar masses contained in each pixel, providing a detailed view of the mass distribution across the clouds. (WIP)}}{11}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Map of YSOs in the Orion A and B clouds, overlaid on the column density map. YSOs are color-coded by evolutionary class, with protostars (P) and disk sources (D) identified based on their mid-infrared spectral energy distributions. This distribution reveals the spatial correlation between dense gas and young stars. (WIP)}}{13}{figure.3.6}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Image Example}}{9}{figure.4.1}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
