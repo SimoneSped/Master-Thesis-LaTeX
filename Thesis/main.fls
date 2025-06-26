@@ -414,6 +414,7 @@ INPUT .\main.toc
 INPUT main.toc
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecti1095.tfm
 OUTPUT main.toc
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecsl1095.tfm
 INPUT .\main.lot
 INPUT .\main.lot
 INPUT main.lot
@@ -447,7 +448,6 @@ INPUT .\figures\dust_emission_blackbody.png
 INPUT .\figures\dust_emission_blackbody.png
 INPUT .\figures\dust_emission_blackbody.png
 INPUT .\figures\dust_emission_blackbody.png
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecsl1095.tfm
 INPUT .\figures\relative_throughputs_PACS_SPIRE.png
 INPUT .\figures\relative_throughputs_PACS_SPIRE.png
 INPUT .\figures\relative_throughputs_PACS_SPIRE.png
@@ -503,11 +503,6 @@ INPUT .\B) Chapters\04_results.tex
 INPUT .\B) Chapters\04_results.tex
 INPUT .\B) Chapters\04_results.tex
 INPUT B) Chapters\04_results.tex
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ectt1095.tfm
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ectt0900.tfm
 INPUT .\B) Chapters\05_discussion.tex
 INPUT .\B) Chapters\05_discussion.tex
 INPUT .\B) Chapters\05_discussion.tex
@@ -567,10 +562,6 @@ INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sf
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfsx2074.pfb
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfti1095.pfb
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfti1095.pfb
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sftt0900.pfb
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sftt0900.pfb
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sftt1095.pfb
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sftt1095.pfb
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvb8a.pfb
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvb8a.pfb
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvr8a.pfb

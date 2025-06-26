@@ -17,9 +17,18 @@
 \contentsline {subsection}{\numberline {3.2.1}Introduction}{12}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}The catalogue}{12}{subsection.3.2.2}%
 \contentsline {chapter}{\numberline {4}Methods}{15}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Code}{17}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Algorithms}{19}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Acronyms and Glossary.}{21}{chapter.7}%
+\contentsline {section}{\numberline {4.1}Introduction}{15}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Global Properties}{15}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Global Fractal Dimension}{15}{subsection.4.2.1}%
+\contentsline {section}{\numberline {4.3}Local Properties}{15}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Local Fractal Dimension}{15}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Mass-Size-Fractal Dimension (MSD) plane}{15}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Genus}{15}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Connection to star formation}{16}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Simulations}{16}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Results}{17}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Discussion}{19}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Conclusion}{21}{chapter.7}%
 \contentsline {chapter}{\nonumberline Bibliography}{23}{chapter*.9}%
 \contentsline {chapter}{\numberline {A}Appendix}{25}{appendix.A}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

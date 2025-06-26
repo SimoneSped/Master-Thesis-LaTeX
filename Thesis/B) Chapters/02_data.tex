@@ -47,6 +47,11 @@ The combination of PACS and SPIRE photometric data allows for the characterizati
     \label{fig:pacs_spire_throughputs}
 \end{figure}
 
+% To-Do:
+% Give range of N and compare it to the given one in Lombardi 2014
+% Maybe also the range in mag
+% Mention low res planck data
+
 \subsection{Derivation of column density maps}
 
 To derive the column density maps of the Orion A and B molecular clouds, we used the extinction maps produced by \cite{lombardi2014herschel}, which are publicly available through the CDS Archive\footnote{\href{https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/566/A45\#/browse}{Orion optical-depth and column-density maps: J/A+A/566/A45 (CDS)}}. 
@@ -101,9 +106,14 @@ The derived column density maps of Orion A and B can be seen in Figure \ref{fig:
 This method provides a robust, emission-based estimate of the total column density across Orion A and B, with the advantage of tracing both high and low column density regions uniformly. 
 However, it is important to note that the derivation relies on assumptions about dust properties, uniform opacity, and gas-to-dust ratio, which introduce systematic uncertainties into the absolute calibration of $N(\mathrm{H}_2)$.
 
-% Add picture of tau 353 Ghz (maybe?)
-% give range of N and compare it to the given one in Lombardi 2014
-% and maybe also the range in mag
+
+% To-Do:
+% Add 8.56e33
+% Add definition of Orion A and B clouds (DONE)
+% Change colour blue of Orion B
+% Add "Orion A" and "Orion B" labels
+% Colour bar as big as the map (or rather vice versa)
+% Add some properties of the mass map (range, sum, mean, std, etc.)
 
 \subsubsection{Derivation of Mass Maps}
 
@@ -141,7 +151,7 @@ The conversion process follows these steps:
     \]
 \end{enumerate}
 
-The resulting mass map provides the total H$_2$ mass contained in each pixel of the map, with units of solar masses and can be seen in Figure \ref{fig:mass_map}. These maps form the basis for estimating integrated masses over selected regions, identifying dense clumps, and comparing the gravitational content of different substructures within the Orion A and B clouds.
+The resulting mass map provides the total H$_2$ mass contained in each pixel of the map, with units of solar masses and can be seen in Figure \ref{fig:mass_map}.
 
 \begin{figure}[t]
     \centering
@@ -150,13 +160,15 @@ The resulting mass map provides the total H$_2$ mass contained in each pixel of 
     \label{fig:mass_map}
 \end{figure}
 
-% + some properties of the mass map (range, sum, mean, std, etc.)
+The masses are computed by integrating the mass surface density over the spatial extent of each cloud, defined by fixed Galactic longitude ($\ell$) and latitude ($b$) boundaries:
 
-% Multi-freq. fit allows to solve
-%  \& simul
+\begin{itemize}
+    \item Orion A: $206^\circ < \ell < 217^\circ$, $-21^\circ < b < -17^\circ$
+    \item Orion B: $203^\circ < \ell < 210^\circ$, $-17^\circ < b < -12^\circ$
+\end{itemize}
 
-%  Fully characterised by Herschel
-% in one go
+Using these definitions and the mass maps, we estimate the mass of Orion A to be approximately $8.62 \times 10^4 \, M_\odot$, the mass of Orion B to be approximately $7.02 \times 10^4 \, M_\odot$
+The total mass of Orion A and B combined is therefore approximately $1.56 \times 10^5 \, M_\odot$.
 
 \subsection{Data Pre-processing}
 
@@ -180,6 +192,9 @@ In summary, the pre-processing workflow ensures that:
 
 These steps are essential for producing reliable maps of dust-derived column density and mass structure in the Orion molecular clouds.
 
+% To-Do:
+% some other properties of the YSO catalogue
+% remake picture 
 \section{Young Stellar Objects (YSOs)}
 
 \subsection{Introduction}
@@ -207,6 +222,3 @@ A spatial overview of the YSO population is shown in Figure \ref{fig:YSO_map}, w
     \caption{Map of YSOs in the Orion A and B clouds, overlaid on the column density map. YSOs are color-coded by evolutionary class, with protostars (P) and disk sources (D) identified based on their mid-infrared spectral energy distributions. This distribution reveals the spatial correlation between dense gas and young stars. (WIP)}
     \label{fig:YSO_map}
 \end{figure}
-
-% some other properties of the YSO catalogue
-% remake picture 
