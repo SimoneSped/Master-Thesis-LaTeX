@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.22)  26 JUN 2025 09:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.22)  28 JUN 2025 10:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1484,7 +1484,7 @@ chapter 2.
 
 ]
 chapter 3.
-<figures/dust_emission_blackbody.png, id=194, 271.76532pt x 179.92218pt>
+<figures/dust_emission_blackbody.png, id=231, 271.76532pt x 179.92218pt>
 File: figures/dust_emission_blackbody.png Graphic file (type png)
 <use figures/dust_emission_blackbody.png>
 Package pdftex.def Info: figures/dust_emission_blackbody.png  used on input line 21.
@@ -1494,7 +1494,7 @@ Package pdftex.def Info: figures/dust_emission_blackbody.png  used on input line
 [5]
 
 [6 <./figures/dust_emission_blackbody.png (PNG copy)>]
-<figures/relative_throughputs_PACS_SPIRE.png, id=221, 343.78438pt x 233.87375pt>
+<figures/relative_throughputs_PACS_SPIRE.png, id=258, 343.78438pt x 233.87375pt>
 File: figures/relative_throughputs_PACS_SPIRE.png Graphic file (type png)
 <use figures/relative_throughputs_PACS_SPIRE.png>
 Package pdftex.def Info: figures/relative_throughputs_PACS_SPIRE.png  used on input line 45.
@@ -1502,7 +1502,7 @@ Package pdftex.def Info: figures/relative_throughputs_PACS_SPIRE.png  used on in
 
 
 [7 <./figures/relative_throughputs_PACS_SPIRE.png>]
-<figures/extinction_map.png, id=242, 598.3956pt x 460.3599pt>
+<figures/extinction_map.png, id=279, 598.3956pt x 460.3599pt>
 File: figures/extinction_map.png Graphic file (type png)
 <use figures/extinction_map.png>
 Package pdftex.def Info: figures/extinction_map.png  used on input line 85.
@@ -1510,7 +1510,7 @@ Package pdftex.def Info: figures/extinction_map.png  used on input line 85.
 
 
 [8{C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./figures/extinction_map.png>]
-<figures/column_density_map.png, id=256, 588.2778pt x 470.4777pt>
+<figures/column_density_map.png, id=293, 588.2778pt x 470.4777pt>
 File: figures/column_density_map.png Graphic file (type png)
 <use figures/column_density_map.png>
 Package pdftex.def Info: figures/column_density_map.png  used on input line 101.
@@ -1518,7 +1518,7 @@ Package pdftex.def Info: figures/column_density_map.png  used on input line 101.
 
 
 [9 <./figures/column_density_map.png>]
-<figures/mass_distribution.png, id=268, 825.68475pt x 711.1368pt>
+<figures/mass_distribution.png, id=305, 825.68475pt x 711.1368pt>
 File: figures/mass_distribution.png Graphic file (type png)
 <use figures/mass_distribution.png>
 Package pdftex.def Info: figures/mass_distribution.png  used on input line 158.
@@ -1534,7 +1534,7 @@ LaTeX Warning: Citation `lombardi2014orion' on page 10 undefined on input line 1
 [11 <./figures/mass_distribution.png>]
 
 [12]
-<figures/YSOs_orion.png, id=301, 743.6583pt x 570.933pt>
+<figures/YSOs_orion.png, id=338, 743.6583pt x 570.933pt>
 File: figures/YSOs_orion.png Graphic file (type png)
 <use figures/YSOs_orion.png>
 Package pdftex.def Info: figures/YSOs_orion.png  used on input line 221.
@@ -1548,50 +1548,78 @@ Package pdftex.def Info: figures/YSOs_orion.png  used on input line 221.
 
 ]
 chapter 4.
+<figures/boundaries.png, id=349, 300.12125pt x 301.62688pt>
+File: figures/boundaries.png Graphic file (type png)
+<use figures/boundaries.png>
+Package pdftex.def Info: figures/boundaries.png  used on input line 34.
+(pdftex.def)             Requested size: 250.95477pt x 252.21883pt.
 
 
-[15]) (B) Chapters/04_results.tex
+[15]
+Underfull \vbox (badness 1454) has occurred while \output is active []
 
-[16]
+
+
+[16 <./figures/boundaries.png>]
+<figures/lovejoy.png, id=364, 204.26312pt x 301.62688pt>
+File: figures/lovejoy.png Graphic file (type png)
+<use figures/lovejoy.png>
+Package pdftex.def Info: figures/lovejoy.png  used on input line 73.
+(pdftex.def)             Requested size: 167.29893pt x 247.05487pt.
+
+
+[17 <./figures/lovejoy.png>]
+<figures/example_calculations.png, id=379, 422.0568pt x 422.0568pt>
+File: figures/example_calculations.png Graphic file (type png)
+<use figures/example_calculations.png>
+Package pdftex.def Info: figures/example_calculations.png  used on input line 100.
+(pdftex.def)             Requested size: 209.12686pt x 209.12805pt.
+
+
+[18]
+
+[19 <./figures/example_calculations.png>]) (B) Chapters/04_results.tex
+
+[20]
 chapter 5.
 ) (B) Chapters/05_discussion.tex
 
-[17
+[21
 
 
 ]
 
-[18
+[22
 
 
 ]
 chapter 6.
 ) (B) Chapters/06_conclusions.tex
 
-[19]
+[23]
 
-[20
+[24
 
 
 ]
 chapter 7.
 ) (main.bbl
 
-[21]
+[25]
 
-[22
+[26
 
 
 ]
 chapter without number
 
 
-[23])
+[27])
 No file main.acr.
 No file main.gls.
 
 
-[24] (C) Back Matter/appendix.tex
+[28] (C) Back Matter/appendix.tex
 chapter A.
 )
 
@@ -1603,7 +1631,7 @@ FiXme Summary: Number of notes: 0,
 
 
 
-[25
+[29
 
 
 
@@ -1621,17 +1649,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 31029 strings out of 469958
- 578038 string characters out of 5470297
- 1191826 words of memory out of 5000000
- 57086 multiletter control sequences out of 15000+600000
- 671027 words of font info for 166 fonts, out of 8000000 for 9000
+ 31130 strings out of 469958
+ 579641 string characters out of 5470297
+ 1192656 words of memory out of 5000000
+ 57133 multiletter control sequences out of 15000+600000
+ 672784 words of font info for 181 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  122i,9n,121p,10958b,2343s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0600.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0800.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0900.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsl1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfso1440.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1200.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1440.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx2074.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfti1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on main.pdf (39 pages, 2564581 bytes).
+<C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0600.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0800.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0900.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsl1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfso1440.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1200.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1440.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx2074.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfti1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on main.pdf (43 pages, 2831867 bytes).
 PDF statistics:
- 566 PDF objects out of 1000 (max. 8388607)
- 102 named destinations out of 1000 (max. 500000)
- 42280 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 693 PDF objects out of 1000 (max. 8388607)
+ 129 named destinations out of 1000 (max. 500000)
+ 48535 words of extra memory for PDF output out of 51595 (max. 10000000)
 

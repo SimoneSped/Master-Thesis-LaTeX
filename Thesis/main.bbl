@@ -15,6 +15,11 @@ Ralph~C Bohlin, Blair~D Savage, and JF~Drake.
   132-142. Research supported by the Lockheed Independent Research Program;},
   224:132--142, 1978.
 
+\bibitem[Can84]{cannon1984fractal}
+JW~Cannon.
+\newblock The fractal geometry of nature. by benoit b. mandelbrot.
+\newblock {\em The American Mathematical Monthly}, 91(9):594--598, 1984.
+
 \bibitem[Dra03]{draine2003interstellar}
 Bruce~T Draine.
 \newblock Interstellar dust grains.
@@ -39,6 +44,12 @@ Roger~H Hildebrand.
   submillimetre thermal emission.
 \newblock Technical report, 1983.
 
+\bibitem[Imr06]{imre2006artificial}
+Attila~R Imre.
+\newblock Artificial fractal dimension obtained by using perimeter--area
+  relationship on digitalized images.
+\newblock {\em Applied Mathematics and Computation}, 173(1):443--449, 2006.
+
 \bibitem[LBAL14]{lombardi2014herschel}
 Marco Lombardi, Herv{\'e} Bouy, Jo{\~a}o Alves, and Charles~J Lada.
 \newblock Herschel-planck dust optical-depth and column-density maps-i. method
@@ -50,6 +61,11 @@ Marco Lombardi.
 \newblock Nicest, a near-infrared color excess method tailored to small-scale
   structures.
 \newblock {\em Astronomy \& Astrophysics}, 493(2):735--745, 2009.
+
+\bibitem[Lov82]{lovejoy1982area}
+S~Lovejoy.
+\newblock Area-perimeter relation for rain and cloud areas.
+\newblock {\em Science}, 216(4542):185--187, 1982.
 
 \bibitem[MGM{\etalchar{+}}12]{megeath2012catalogue}
 ST~Megeath, R~Gutermuth, J~Muzerolle, E~Kryukova, K~Flaherty, JL~Hora,

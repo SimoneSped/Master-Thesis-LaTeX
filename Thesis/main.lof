@@ -12,6 +12,9 @@
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Mass map of the Orion A and B molecular clouds derived from the H$_2$ column density maps. The map shows the total mass in solar masses contained in each pixel, providing a detailed view of the mass distribution across the clouds. (WIP)}}{11}{figure.3.5}%
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Map of YSOs in the Orion A and B clouds, overlaid on the column density map. YSOs are color-coded by evolutionary class, with protostars (P) and disk sources (D) identified based on their mid-infrared spectral energy distributions. This distribution reveals the spatial correlation between dense gas and young stars. (WIP)}}{13}{figure.3.6}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Example of an excursion set and its boundary for a field for a smoothed three-dimensional Gaussian field.}}{16}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Example of the perimeter-area relation for meteorological clouds \cite {lovejoy1982area}. The slope of the linear fit gives the fractal dimension of the structure.}}{17}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Simplified example of the calculation of perimeters and areas of structures at a given column density threshold. The local fractal dimension can be calculated by summing over all of the structures at that threshold, or for each of the single structures.}}{19}{figure.4.3}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
