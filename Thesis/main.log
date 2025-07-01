@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.22)  30 JUN 2025 08:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.22)  1 JUL 2025 12:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1438,18 +1438,15 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 39.
 
 ]
 Package tocbasic Info: character protrusion at lof deactivated on input line 40.
- (main.lof)
+ (main.lof
+
+[11])
 \tf@lof=\write10
 \openout10 = `main.lof'.
 
 
 
-[11]
-
-[12
-
-
-] (B) Chapters/00_introduction.tex
+[12] (B) Chapters/00_introduction.tex
 chapter 1.
 ) (B) Chapters/01_background.tex
 
@@ -1459,6 +1456,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.1 \chapter
             {Background} [1
+
+
 
 
 
@@ -1484,7 +1483,7 @@ chapter 2.
 
 ]
 chapter 3.
-<figures/dust_emission_blackbody.png, id=239, 271.76532pt x 179.92218pt>
+<figures/dust_emission_blackbody.png, id=259, 271.76532pt x 179.92218pt>
 File: figures/dust_emission_blackbody.png Graphic file (type png)
 <use figures/dust_emission_blackbody.png>
 Package pdftex.def Info: figures/dust_emission_blackbody.png  used on input line 21.
@@ -1494,7 +1493,7 @@ Package pdftex.def Info: figures/dust_emission_blackbody.png  used on input line
 [5]
 
 [6 <./figures/dust_emission_blackbody.png (PNG copy)>]
-<figures/relative_throughputs_PACS_SPIRE.png, id=266, 343.78438pt x 233.87375pt>
+<figures/relative_throughputs_PACS_SPIRE.png, id=286, 343.78438pt x 233.87375pt>
 File: figures/relative_throughputs_PACS_SPIRE.png Graphic file (type png)
 <use figures/relative_throughputs_PACS_SPIRE.png>
 Package pdftex.def Info: figures/relative_throughputs_PACS_SPIRE.png  used on input line 45.
@@ -1502,7 +1501,7 @@ Package pdftex.def Info: figures/relative_throughputs_PACS_SPIRE.png  used on in
 
 
 [7 <./figures/relative_throughputs_PACS_SPIRE.png>]
-<figures/extinction_map.png, id=287, 598.3956pt x 460.3599pt>
+<figures/extinction_map.png, id=307, 598.3956pt x 460.3599pt>
 File: figures/extinction_map.png Graphic file (type png)
 <use figures/extinction_map.png>
 Package pdftex.def Info: figures/extinction_map.png  used on input line 85.
@@ -1510,7 +1509,7 @@ Package pdftex.def Info: figures/extinction_map.png  used on input line 85.
 
 
 [8{C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./figures/extinction_map.png>]
-<figures/column_density_map.png, id=302, 588.2778pt x 470.4777pt>
+<figures/column_density_map.png, id=322, 588.2778pt x 470.4777pt>
 File: figures/column_density_map.png Graphic file (type png)
 <use figures/column_density_map.png>
 Package pdftex.def Info: figures/column_density_map.png  used on input line 101.
@@ -1518,7 +1517,7 @@ Package pdftex.def Info: figures/column_density_map.png  used on input line 101.
 
 
 [9 <./figures/column_density_map.png>]
-<figures/mass_distribution.png, id=312, 825.68475pt x 711.1368pt>
+<figures/mass_distribution.png, id=332, 825.68475pt x 711.1368pt>
 File: figures/mass_distribution.png Graphic file (type png)
 <use figures/mass_distribution.png>
 Package pdftex.def Info: figures/mass_distribution.png  used on input line 157.
@@ -1534,7 +1533,7 @@ LaTeX Warning: Citation `lombardi2014orion' on page 10 undefined on input line 1
 [11 <./figures/mass_distribution.png>]
 
 [12]
-<figures/YSOs_orion.png, id=346, 743.6583pt x 570.933pt>
+<figures/YSOs_orion.png, id=366, 743.6583pt x 570.933pt>
 File: figures/YSOs_orion.png Graphic file (type png)
 <use figures/YSOs_orion.png>
 Package pdftex.def Info: figures/YSOs_orion.png  used on input line 220.
@@ -1548,7 +1547,7 @@ Package pdftex.def Info: figures/YSOs_orion.png  used on input line 220.
 
 ]
 chapter 4.
-<figures/boundaries.png, id=358, 300.12125pt x 301.62688pt>
+<figures/boundaries.png, id=378, 300.12125pt x 301.62688pt>
 File: figures/boundaries.png Graphic file (type png)
 <use figures/boundaries.png>
 Package pdftex.def Info: figures/boundaries.png  used on input line 34.
@@ -1561,7 +1560,7 @@ Underfull \vbox (badness 1454) has occurred while \output is active []
 
 
 [16 <./figures/boundaries.png>]
-<figures/lovejoy.png, id=373, 204.26312pt x 301.62688pt>
+<figures/lovejoy.png, id=393, 204.26312pt x 301.62688pt>
 File: figures/lovejoy.png Graphic file (type png)
 <use figures/lovejoy.png>
 Package pdftex.def Info: figures/lovejoy.png  used on input line 75.
@@ -1571,7 +1570,7 @@ Package pdftex.def Info: figures/lovejoy.png  used on input line 75.
 [17]
 
 [18 <./figures/lovejoy.png>]
-<figures/example_calculations.png, id=395, 422.0568pt x 422.0568pt>
+<figures/example_calculations.png, id=415, 422.0568pt x 422.0568pt>
 File: figures/example_calculations.png Graphic file (type png)
 <use figures/example_calculations.png>
 Package pdftex.def Info: figures/example_calculations.png  used on input line 102.
@@ -1580,34 +1579,58 @@ Package pdftex.def Info: figures/example_calculations.png  used on input line 10
 
 [19 <./figures/example_calculations.png>]
 
-[20]) (B) Chapters/04_results.tex
+[20]
+Underfull \vbox (badness 1708) has occurred while \output is active []
+
+
 
 [21]
+<figures/error_map.png, id=435, 678.03313pt x 425.08812pt>
+File: figures/error_map.png Graphic file (type png)
+<use figures/error_map.png>
+Package pdftex.def Info: figures/error_map.png  used on input line 181.
+(pdftex.def)             Requested size: 313.69029pt x 196.66504pt.
+) (B) Chapters/04_results.tex
 
-[22
-
-
-]
+[22 <./figures/error_map.png>]
 chapter 5.
+<figures/perimeter_area_uncertainties.png, id=442, 859.2903pt x 570.933pt>
+File: figures/perimeter_area_uncertainties.png Graphic file (type png)
+<use figures/perimeter_area_uncertainties.png>
+Package pdftex.def Info: figures/perimeter_area_uncertainties.png  used on input line 20.
+(pdftex.def)             Requested size: 313.69029pt x 208.4193pt.
+<figures/orion_A_global.png, id=443, 545.6385pt x 421.69545pt>
+File: figures/orion_A_global.png Graphic file (type png)
+<use figures/orion_A_global.png>
+Package pdftex.def Info: figures/orion_A_global.png  used on input line 34.
+(pdftex.def)             Requested size: 209.12686pt x 161.62292pt.
+<figures/orion_A_global_double_fit.png, id=444, 546.3612pt x 421.69545pt>
+File: figures/orion_A_global_double_fit.png Graphic file (type png)
+<use figures/orion_A_global_double_fit.png>
+Package pdftex.def Info: figures/orion_A_global_double_fit.png  used on input line 43.
+(pdftex.def)             Requested size: 209.12686pt x 161.40414pt.
+<figures/orion_B_global.png, id=445, 545.6385pt x 421.69545pt>
+File: figures/orion_B_global.png Graphic file (type png)
+<use figures/orion_B_global.png>
+Package pdftex.def Info: figures/orion_B_global.png  used on input line 52.
+(pdftex.def)             Requested size: 209.12686pt x 161.62292pt.
 ) (B) Chapters/05_discussion.tex
 
-[23]
-
-[24
+[23
 
 
 ]
-chapter 6.
-) (B) Chapters/06_conclusions.tex
 
-[25]
+[24 <./figures/perimeter_area_uncertainties.png> <./figures/orion_A_global.png>]
+
+[25 <./figures/orion_A_global_double_fit.png> <./figures/orion_B_global.png>]
 
 [26
 
 
 ]
-chapter 7.
-) (main.bbl
+chapter 6.
+) (B) Chapters/06_conclusions.tex
 
 [27]
 
@@ -1615,15 +1638,31 @@ chapter 7.
 
 
 ]
+chapter 7.
+) (main.bbl
+
+[29]
+
+[30
+
+
+]
 chapter without number
 
 
-[29])
+[31])
 No file main.acr.
 No file main.gls.
 
 
-[30] (C) Back Matter/appendix.tex
+[32]
+
+[33]
+
+[34
+
+
+] (C) Back Matter/appendix.tex
 chapter A.
 )
 
@@ -1635,9 +1674,7 @@ FiXme Summary: Number of notes: 0,
 
 
 
-[31
-
-
+[35
 
 
 ] (main.aux)
@@ -1653,17 +1690,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 31146 strings out of 469958
- 579828 string characters out of 5470297
- 1192702 words of memory out of 5000000
- 57138 multiletter control sequences out of 15000+600000
- 672910 words of font info for 183 fonts, out of 8000000 for 9000
+ 31209 strings out of 469958
+ 581469 string characters out of 5470297
+ 1192901 words of memory out of 5000000
+ 57184 multiletter control sequences out of 15000+600000
+ 673031 words of font info for 184 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  122i,9n,121p,10958b,2343s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0600.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0800.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0900.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsl1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfso1440.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1200.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1440.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx2074.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfti1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on main.pdf (45 pages, 2851996 bytes).
+Output written on main.pdf (49 pages, 3926438 bytes).
 PDF statistics:
- 730 PDF objects out of 1000 (max. 8388607)
- 136 named destinations out of 1000 (max. 500000)
- 48567 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 800 PDF objects out of 1000 (max. 8388607)
+ 151 named destinations out of 1000 (max. 500000)
+ 48632 words of extra memory for PDF output out of 51595 (max. 10000000)
 

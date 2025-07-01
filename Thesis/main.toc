@@ -30,12 +30,17 @@
 \contentsline {section}{\numberline {4.6}Simulations}{21}{section.4.6}%
 \contentsline {subsection}{\numberline {4.6.1}Simulations for the Global Properties}{21}{subsection.4.6.1}%
 \contentsline {subsection}{\numberline {4.6.2}Simulations for the Local Properties}{21}{subsection.4.6.2}%
-\contentsline {section}{\numberline {4.7}Uncertainties}{21}{section.4.7}%
-\contentsline {subsection}{\numberline {4.7.1}Perimeter and Area}{21}{subsection.4.7.1}%
-\contentsline {subsection}{\numberline {4.7.2}Map's Uncertainties}{21}{subsection.4.7.2}%
+\contentsline {subsection}{\numberline {4.6.3}Comparison with Other Methods}{21}{subsection.4.6.3}%
+\contentsline {section}{\numberline {4.7}Uncertainties}{22}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Perimeter and Area}{22}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}Beam Size}{22}{subsection.4.7.2}%
+\contentsline {subsection}{\numberline {4.7.3}Uncertainties in the Extinction Map}{22}{subsection.4.7.3}%
 \contentsline {chapter}{\numberline {5}Results}{23}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Introduction}{23}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Simulations}{23}{section.5.2}%
+\contentsline {section}{\numberline {5.2}Simulations and Uncertainties}{23}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Simulations on Global Properties}{23}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Simulations on Local Properties}{23}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Error estimates}{23}{subsection.5.2.3}%
 \contentsline {section}{\numberline {5.3}Global Properties}{23}{section.5.3}%
 \contentsline {subsection}{\numberline {5.3.1}Global Fractal Dimension}{23}{subsection.5.3.1}%
 \contentsline {section}{\numberline {5.4}Local Properties}{23}{section.5.4}%
@@ -43,8 +48,8 @@
 \contentsline {subsection}{\numberline {5.4.2}MSD Plane}{23}{subsection.5.4.2}%
 \contentsline {subsection}{\numberline {5.4.3}Euler Characteristic}{23}{subsection.5.4.3}%
 \contentsline {section}{\numberline {5.5}Star Formation}{23}{section.5.5}%
-\contentsline {chapter}{\numberline {6}Discussion}{25}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Conclusion}{27}{chapter.7}%
-\contentsline {chapter}{\nonumberline Bibliography}{29}{chapter*.9}%
-\contentsline {chapter}{\numberline {A}Appendix}{31}{appendix.A}%
+\contentsline {chapter}{\numberline {6}Discussion}{27}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Conclusion}{29}{chapter.7}%
+\contentsline {chapter}{\nonumberline Bibliography}{31}{chapter*.9}%
+\contentsline {chapter}{\numberline {A}Appendix}{35}{appendix.A}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
