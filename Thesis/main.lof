@@ -17,10 +17,15 @@
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Simplified example of the calculation of perimeters and areas of structures at a given column density threshold. The local fractal dimension can be calculated by summing over all of the structures at that threshold, or for each of the single structures.}}{19}{figure.4.3}%
 \contentsline {figure}{\numberline {4.4}{\ignorespaces }}{22}{figure.4.4}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces in arbitrary units }}{24}{figure.5.1}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces }}{24}{figure.5.2}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces }}{25}{figure.5.3}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces }}{25}{figure.5.4}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Example of the uncertainty distributions in the measurements of perimeter and area from simulated structures (arbitrary units).}}{24}{figure.5.1}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Perimeter-area relation for Orion A. The dashed line shows the linear fit in log--log space used to estimate the global fractal dimension $D$. Residuals of the fit are shown below the main panel.}}{25}{figure.5.2}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Perimeter-area relation for Orion A with a segmented (double) linear fit. The dashed lines indicate the two fitted regimes, separated at $N=1.23 \times 10^{22}\,\mathrm {cm}^{-2}$.}}{26}{figure.5.3}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Perimeter-area relation for Orion B with the best-fit linear regression overlaid.}}{26}{figure.5.4}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces }}{27}{figure.5.5}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces }}{27}{figure.5.6}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces }}{27}{figure.5.7}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces }}{28}{figure.5.8}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces }}{28}{figure.5.9}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
