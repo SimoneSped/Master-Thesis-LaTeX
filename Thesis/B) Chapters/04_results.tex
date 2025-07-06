@@ -1,27 +1,6 @@
 \chapter{Results}
 \label{ch:results}
 
-\section{Simulations and Uncertainties}
-
-\subsection{Simulations on Global Properties}
-Interpretation of Global Fractal Dimension
-Scale-free GRF vs GRF with Scale
-
-\subsection{Simulations on Local Properties}
-
-\subsection{Error Estimates}
-
-The uncertainties on the perimeter and area measurements, estimated using the simulation procedures described above, are on average approximately 1.60\% for each quantity. These uncertainties arise primarily from pixelation effects and resolution limitations in the column density maps.  
-
-An example of the resulting error distributions from a representative simulation run is shown in Figure~\ref{fig:uncertainties}. The narrow spread around the mean confirms that the estimates are robust and systematic errors remain small compared to the dynamic range of the measurements.
-
-\begin{figure}[t]
-    \centering
-    \includegraphics[width=0.75\textwidth]{figures/perimeter_area_uncertainties.png}
-    \caption{Example of the uncertainty distributions in the measurements of perimeter and area from simulated structures (arbitrary units).}
-    \label{fig:uncertainties}
-\end{figure}
-
 \section{Global Properties}
 
 % Uncertainties
@@ -29,17 +8,19 @@ An example of the resulting error distributions from a representative simulation
 
 The perimeter and area measurements are computed over a restricted range of column densities, specifically between $N_\mathrm{min}$ and $N_\mathrm{max}$. This selection is made to avoid biases introduced by the limited resolution and artificially straight contours that occur at low column densities, as well as the small number of pixels and irregular shapes that dominate at very high column densities.
 
-Figure \ref{fig:orion_A_global} shows the perimeter-area relation for Orion A, along with the best-fit linear regression used to derive the global fractal dimension. The resulting estimate, including the uncertainty from the fit, is:
+Figure \ref{fig:orion_A_global} shows the perimeter-area relation for Orion A, along with the best-fit linear regression used to derive the global fractal dimension and the corresponding residuals. The resulting estimate, including the uncertainty from the fit, is:
 
 \begin{equation}
     \notag
     D_{\mathrm{OA,\,Global}} = 1.35 \pm 0.02
 \end{equation}
 
+The mean absolute residual for the fit amounts to $0.1174$ and the correlation coefficient to $0.9893$.
+
 \begin{figure}[t]
     \centering
-    \includegraphics[width=0.75\textwidth]{figures/orion_A_global.png}
-    \caption{Perimeter-area relation for Orion A. The dashed line shows the linear fit in log--log space used to estimate the global fractal dimension $D$. Residuals of the fit are shown below the main panel.}
+    \includegraphics[width=0.6\textwidth]{figures/orion_A_global.png}
+    \caption{Perimeter-area relation for Orion A. The line shows the linear fit in log-log space used to estimate the global fractal dimension $D$. Residuals of the fit are shown below the main panel.}
     \label{fig:orion_A_global}
 \end{figure}
 
@@ -47,19 +28,21 @@ The Orion A cloud exhibits significant deviations from a single linear fit over 
 
 \begin{equation}
     \notag
-    D_1 = 1.65 \pm 0.01 \quad \text{(low column density)}
+    D_1 = 1.65 \pm 0.01 \quad \text{(high column density)}
 \end{equation}
 \begin{equation}
     \notag
-    D_2 = 0.97 \pm 0.02 \quad \text{(high column density)}
+    D_2 = 0.97 \pm 0.02 \quad \text{(low column density)}
 \end{equation}
 
-Figure \ref{fig:orion_A_global_double_fit} shows the perimeter--area relation with the two linear fits overlaid. The change in slope suggests a structural transition or the presence of different regimes of spatial complexity in the cloud.
+The mean absolute residuals are 0.0222 for the high column density range (correlation coefficient = 0.9986) and 0.0679 for the low column density range (correlation coefficient = 0.9748), indicating an improved agreement with the data compared to the previous single-fit model.
+
+Figure \ref{fig:orion_A_global_double_fit} shows the perimeter-area relation with the two linear fits overlaid and the residuals. The change in slope suggests a structural transition or the presence of different regimes of spatial complexity in the cloud.
 % switch low and high
 \begin{figure}[t]
     \centering
-    \includegraphics[width=0.75\textwidth]{figures/orion_A_global_double_fit.png}
-    \caption{Perimeter-area relation for Orion A with a segmented (double) linear fit. The dashed lines indicate the two fitted regimes, separated at $N=1.23 \times 10^{22}\,\mathrm{cm}^{-2}$.}
+    \includegraphics[width=0.6\textwidth]{figures/orion_A_global_double_fit.png}
+    \caption{Perimeter-area relation for Orion A with a segmented linear fit. The dashed lines indicate the two fitted regimes, separated at $N=1.23 \times 10^{22}\,\mathrm{cm}^{-2}$. Residuals of the fits are shown below the main panel.}
     \label{fig:orion_A_global_double_fit}
 \end{figure}
 
@@ -70,23 +53,29 @@ The Orion B cloud exhibits a well-behaved perimeter-area relation that can be ac
     D_{\mathrm{OB,\,Global}} = 1.40 \pm 0.01
 \end{equation}
 
-Figure \ref{fig:orion_B_global} shows the perimeter-area relation together with the fitted line. The consistency of the slope across scales suggests a more uniform structural complexity compared to Orion A.
+Figure \ref{fig:orion_B_global} shows the perimeter-area relation together with the fitted line and residuals. The consistency of the slope across scales suggests a more uniform structural complexity compared to Orion A. The mean absolute residual is $0.0493$ and the correlation coefficient $0.9976$.
 
 \begin{figure}[t]
     \centering
-    \includegraphics[width=0.75\textwidth]{figures/orion_B_global.png}
-    \caption{Perimeter-area relation for Orion B with the best-fit linear regression overlaid.}
+    \includegraphics[width=0.6\textwidth]{figures/orion_B_global.png}
+    \caption{Perimeter-area relation for Orion B with the best-fit linear regression overlaid. Residuals of the fit are shown below the main panel.}
     \label{fig:orion_B_global}
 \end{figure}
 
-ADD: The uncertainty from P and A are taken to be 1.6\% via the 
-The uncertainties are calculated from the fit routine, since the 
+The uncertainties in perimeter and area were estimated as 1.6\% from simulation results, which demonstrated that this level of error is representative across different reference geometries.
 
 \section{Local Properties}
 
 \subsection{Local Fractal Dimension}
 
 Data Orion A and Orion B
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=0.75\textwidth]{figures/local_orion_A_B.png}
+    \caption{}
+    \label{fig:local_Orion_A_B}
+\end{figure}
 
 Single structures
 
@@ -108,26 +97,76 @@ Single structures
 
 \begin{figure}[t]
     \centering
-    \includegraphics[width=0.5\textwidth]{figures/MSD_Orion_A.png}
+    \includegraphics[width=0.75\textwidth]{figures/MSD_Orion_A.png}
     \caption{}
     \label{fig:MSD_orion_A}
 \end{figure}
 
 \begin{figure}[t]
     \centering
-    \includegraphics[width=0.5\textwidth]{figures/MSD_Orion_B.png}
+    \includegraphics[width=0.75\textwidth]{figures/MSD_Orion_B.png}
     \caption{}
     \label{fig:MSD_orion_B}
 \end{figure}
 
 \begin{figure}[t]
     \centering
-    \includegraphics[width=0.5\textwidth]{figures/MSD_Orion_A_B.png}
+    \includegraphics[width=0.75\textwidth]{figures/MSD_Orion_A_B.png}
+    \caption{}
+    \label{fig:MSD_orion_A_B}
+\end{figure}
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=1.0\textwidth]{figures/MSD_plane.png}
     \caption{}
     \label{fig:MSD_orion_A_B}
 \end{figure}
 
 \subsection{Euler Characteristic}
 
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=0.75\textwidth]{figures/euler_Orion_A.png}
+    \caption{}
+    \label{fig:Euler_Orion_A}
+\end{figure}
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=0.75\textwidth]{figures/euler_Orion_B.png}
+    \caption{}
+    \label{fig:Euler_Orion_B}
+\end{figure}
+
 \section{Star Formation}
 
+\section{Simulations and Uncertainties}
+
+\subsection{Simulations on Global Properties}
+Interpretation of Global Fractal Dimension
+Scale-free GRF vs GRF with Scale
+Resolution Effects
+
+\subsection{Simulations on Local Properties}
+
+Validity Stuff
+Resolution Effects
+Interpretation
+
+\subsection{Error estimates}
+
+The uncertainties on the perimeter and area measurements, estimated using the simulation procedures described above, are on average approximately 1.60\% for each quantity. These uncertainties arise primarily from pixelation effects and resolution limitations in the column density maps.  
+
+An example of the resulting error distributions from a representative simulation run is shown in Figure~\ref{fig:uncertainties}. The narrow spread around the mean confirms that the estimates are robust and systematic errors remain small compared to the dynamic range of the measurements.
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=0.75\textwidth]{figures/perimeter_area_uncertainties.png}
+    \caption{Example of the uncertainty distributions in the measurements of perimeter and area from simulated structures (arbitrary units).}
+    \label{fig:uncertainties}
+\end{figure}
+
+\subsection{Comparison with alternative methods}
+
+A clear anti-correlation is observed when comparing results with the box-counting method, both for the global and local estimates of the fractal dimension. This highlights an interesting scaling property that should be taken into account when comparing studies that employ different techniques for quantifying fractal characteristics.

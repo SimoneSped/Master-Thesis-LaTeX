@@ -534,13 +534,6 @@ INPUT .\B) Chapters\04_results.tex
 INPUT .\B) Chapters\04_results.tex
 INPUT .\B) Chapters\04_results.tex
 INPUT B) Chapters\04_results.tex
-INPUT .\figures\perimeter_area_uncertainties.png
-INPUT .\figures\perimeter_area_uncertainties.png
-INPUT .\figures\perimeter_area_uncertainties.png
-INPUT .\figures\perimeter_area_uncertainties.png
-INPUT .\figures\perimeter_area_uncertainties.png
-INPUT .\figures\perimeter_area_uncertainties.png
-INPUT .\figures\perimeter_area_uncertainties.png
 INPUT .\figures\orion_A_global.png
 INPUT .\figures\orion_A_global.png
 INPUT .\figures\orion_A_global.png
@@ -562,6 +555,13 @@ INPUT .\figures\orion_B_global.png
 INPUT .\figures\orion_B_global.png
 INPUT .\figures\orion_B_global.png
 INPUT .\figures\orion_B_global.png
+INPUT .\figures\local_orion_A_B.png
+INPUT .\figures\local_orion_A_B.png
+INPUT .\figures\local_orion_A_B.png
+INPUT .\figures\local_orion_A_B.png
+INPUT .\figures\local_orion_A_B.png
+INPUT .\figures\local_orion_A_B.png
+INPUT .\figures\local_orion_A_B.png
 INPUT .\figures\dendogram_A.png
 INPUT .\figures\dendogram_A.png
 INPUT .\figures\dendogram_A.png
@@ -597,6 +597,34 @@ INPUT .\figures\MSD_Orion_A_B.png
 INPUT .\figures\MSD_Orion_A_B.png
 INPUT .\figures\MSD_Orion_A_B.png
 INPUT .\figures\MSD_Orion_A_B.png
+INPUT .\figures\MSD_plane.png
+INPUT .\figures\MSD_plane.png
+INPUT .\figures\MSD_plane.png
+INPUT .\figures\MSD_plane.png
+INPUT .\figures\MSD_plane.png
+INPUT .\figures\MSD_plane.png
+INPUT .\figures\MSD_plane.png
+INPUT .\figures\euler_Orion_A.png
+INPUT .\figures\euler_Orion_A.png
+INPUT .\figures\euler_Orion_A.png
+INPUT .\figures\euler_Orion_A.png
+INPUT .\figures\euler_Orion_A.png
+INPUT .\figures\euler_Orion_A.png
+INPUT .\figures\euler_Orion_A.png
+INPUT .\figures\euler_Orion_B.png
+INPUT .\figures\euler_Orion_B.png
+INPUT .\figures\euler_Orion_B.png
+INPUT .\figures\euler_Orion_B.png
+INPUT .\figures\euler_Orion_B.png
+INPUT .\figures\euler_Orion_B.png
+INPUT .\figures\euler_Orion_B.png
+INPUT .\figures\perimeter_area_uncertainties.png
+INPUT .\figures\perimeter_area_uncertainties.png
+INPUT .\figures\perimeter_area_uncertainties.png
+INPUT .\figures\perimeter_area_uncertainties.png
+INPUT .\figures\perimeter_area_uncertainties.png
+INPUT .\figures\perimeter_area_uncertainties.png
+INPUT .\figures\perimeter_area_uncertainties.png
 INPUT .\B) Chapters\05_discussion.tex
 INPUT .\B) Chapters\05_discussion.tex
 INPUT .\B) Chapters\05_discussion.tex

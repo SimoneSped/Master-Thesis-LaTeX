@@ -15,17 +15,21 @@
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Example of an excursion set and its boundary for a field for a smoothed three-dimensional Gaussian field.}}{16}{figure.4.1}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Example of the perimeter-area relation for meteorological clouds \cite {lovejoy1982area}. The slope of the linear fit gives the fractal dimension of the structure.}}{18}{figure.4.2}%
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Simplified example of the calculation of perimeters and areas of structures at a given column density threshold. The local fractal dimension can be calculated by summing over all of the structures at that threshold, or for each of the single structures.}}{19}{figure.4.3}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces }}{22}{figure.4.4}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Pixel-wise error map of the $\tau _{850}$ data \cite {lombardi2014herschel}}}{23}{figure.4.4}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Example of the uncertainty distributions in the measurements of perimeter and area from simulated structures (arbitrary units).}}{24}{figure.5.1}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Perimeter-area relation for Orion A. The dashed line shows the linear fit in log--log space used to estimate the global fractal dimension $D$. Residuals of the fit are shown below the main panel.}}{25}{figure.5.2}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Perimeter-area relation for Orion A with a segmented (double) linear fit. The dashed lines indicate the two fitted regimes, separated at $N=1.23 \times 10^{22}\,\mathrm {cm}^{-2}$.}}{26}{figure.5.3}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Perimeter-area relation for Orion B with the best-fit linear regression overlaid.}}{26}{figure.5.4}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces }}{27}{figure.5.5}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces }}{27}{figure.5.6}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces }}{27}{figure.5.7}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces }}{28}{figure.5.8}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces }}{28}{figure.5.9}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Perimeter-area relation for Orion A. The line shows the linear fit in log-log space used to estimate the global fractal dimension $D$. Residuals of the fit are shown below the main panel.}}{26}{figure.5.1}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Perimeter-area relation for Orion A with a segmented linear fit. The dashed lines indicate the two fitted regimes, separated at $N=1.23 \times 10^{22}\,\mathrm {cm}^{-2}$. Residuals of the fits are shown below the main panel.}}{27}{figure.5.2}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Perimeter-area relation for Orion B with the best-fit linear regression overlaid. Residuals of the fit are shown below the main panel.}}{28}{figure.5.3}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces }}{29}{figure.5.4}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces }}{29}{figure.5.5}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces }}{30}{figure.5.6}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces }}{30}{figure.5.7}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces }}{31}{figure.5.8}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces }}{31}{figure.5.9}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces }}{32}{figure.5.10}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces }}{32}{figure.5.11}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces }}{32}{figure.5.12}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Example of the uncertainty distributions in the measurements of perimeter and area from simulated structures (arbitrary units).}}{33}{figure.5.13}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

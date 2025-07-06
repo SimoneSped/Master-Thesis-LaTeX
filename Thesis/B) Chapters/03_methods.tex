@@ -171,15 +171,20 @@ The measurement of perimeter and area is subject to inherent uncertainties. To e
 
 \subsection{Beam Size}
 
+The finite resolution imposed by the telescope beam introduces systematic uncertainties in the measurement of structural properties. The beam convolution smooths small-scale fluctuations and reduces the complexity of the contour at each column density threshold. This effect generally leads to an underestimation of the perimeter and an overestimation of the area, biasing the derived fractal dimension toward lower values.
+
+To quantify this uncertainty, one can simulate synthetic column density maps with known fractal characteristics and convolve them with a Gaussian kernel matching the observational beam. By comparing the perimeter–area relations before and after convolution, the bias introduced by the finite resolution can be estimated. Alternatively, the characteristic beam size provides a natural lower limit to the spatial scales where fractal analysis is reliable. In this work, scales smaller than 2–3 times the beam full-width at half-maximum (FWHM) are treated with caution, and the derived fractal dimensions are interpreted as lower limits to the intrinsic complexity of the cloud morphology.
+
 \subsection{Uncertainties in the Extinction Map}
 
 The dataset also includes a pixel-wise $\tau_{850}$ error map, as shown in Figure \ref{fig:error_map}. 
-Although these uncertainties are of a non-negligble magnitude to other sources of error and, in principle, all effects should be taken into account, the dominant contributions to the total uncertainty arise from the measurements of perimeter and area. 
-For this reason, the pixel-wise extinction errors are neglected in the following analysis.
 
 \begin{figure}[t]
     \centering
     \includegraphics[width=0.75\textwidth]{figures/error_map.png}
-    \caption{}
+    \caption{Pixel-wise error map of the $\tau_{850}$ data \cite{lombardi2014herschel}}
     \label{fig:error_map}
 \end{figure}
+
+Although these uncertainties are of a non-negligble magnitude to other sources of error and, in principle, all effects should be taken into account, the dominant contributions to the total uncertainty arise from the measurements of perimeter and area. 
+For this reason, the pixel-wise extinction errors are neglected in the following analysis.
