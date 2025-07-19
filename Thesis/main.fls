@@ -428,11 +428,13 @@ INPUT .\B) Chapters\00_introduction.tex
 INPUT .\B) Chapters\00_introduction.tex
 INPUT .\B) Chapters\00_introduction.tex
 INPUT B) Chapters\00_introduction.tex
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1095.tfm
 INPUT .\B) Chapters\01_background.tex
 INPUT .\B) Chapters\01_background.tex
 INPUT .\B) Chapters\01_background.tex
 INPUT .\B) Chapters\01_background.tex
 INPUT B) Chapters\01_background.tex
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\cm-super\cm-super-ts1.enc
 INPUT .\B) Chapters\02_data.tex
 INPUT .\B) Chapters\02_data.tex
 INPUT .\B) Chapters\02_data.tex
@@ -462,7 +464,6 @@ INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy9.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex9.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0600.tfm
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1095.tfm
 INPUT .\figures\extinction_map.png
 INPUT .\figures\extinction_map.png
 INPUT .\figures\extinction_map.png
@@ -470,7 +471,6 @@ INPUT .\figures\extinction_map.png
 INPUT .\figures\extinction_map.png
 INPUT .\figures\extinction_map.png
 INPUT .\figures\extinction_map.png
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\cm-super\cm-super-ts1.enc
 INPUT .\figures\column_density_map.png
 INPUT .\figures\column_density_map.png
 INPUT .\figures\column_density_map.png
@@ -555,6 +555,20 @@ INPUT .\figures\orion_B_global.png
 INPUT .\figures\orion_B_global.png
 INPUT .\figures\orion_B_global.png
 INPUT .\figures\orion_B_global.png
+INPUT .\figures\euler_Orion_A_no_figs.png
+INPUT .\figures\euler_Orion_A_no_figs.png
+INPUT .\figures\euler_Orion_A_no_figs.png
+INPUT .\figures\euler_Orion_A_no_figs.png
+INPUT .\figures\euler_Orion_A_no_figs.png
+INPUT .\figures\euler_Orion_A_no_figs.png
+INPUT .\figures\euler_Orion_A_no_figs.png
+INPUT .\figures\euler_Orion_B_no_figs.png
+INPUT .\figures\euler_Orion_B_no_figs.png
+INPUT .\figures\euler_Orion_B_no_figs.png
+INPUT .\figures\euler_Orion_B_no_figs.png
+INPUT .\figures\euler_Orion_B_no_figs.png
+INPUT .\figures\euler_Orion_B_no_figs.png
+INPUT .\figures\euler_Orion_B_no_figs.png
 INPUT .\figures\local_orion_A_B.png
 INPUT .\figures\local_orion_A_B.png
 INPUT .\figures\local_orion_A_B.png
@@ -576,6 +590,20 @@ INPUT .\figures\dendogram_B.png
 INPUT .\figures\dendogram_B.png
 INPUT .\figures\dendogram_B.png
 INPUT .\figures\dendogram_B.png
+INPUT .\figures\local_Orion_A_single_structures.png
+INPUT .\figures\local_Orion_A_single_structures.png
+INPUT .\figures\local_Orion_A_single_structures.png
+INPUT .\figures\local_Orion_A_single_structures.png
+INPUT .\figures\local_Orion_A_single_structures.png
+INPUT .\figures\local_Orion_A_single_structures.png
+INPUT .\figures\local_Orion_A_single_structures.png
+INPUT .\figures\local_Orion_B_single_structures.png
+INPUT .\figures\local_Orion_B_single_structures.png
+INPUT .\figures\local_Orion_B_single_structures.png
+INPUT .\figures\local_Orion_B_single_structures.png
+INPUT .\figures\local_Orion_B_single_structures.png
+INPUT .\figures\local_Orion_B_single_structures.png
+INPUT .\figures\local_Orion_B_single_structures.png
 INPUT .\figures\MSD_Orion_A.png
 INPUT .\figures\MSD_Orion_A.png
 INPUT .\figures\MSD_Orion_A.png
@@ -597,27 +625,41 @@ INPUT .\figures\MSD_Orion_A_B.png
 INPUT .\figures\MSD_Orion_A_B.png
 INPUT .\figures\MSD_Orion_A_B.png
 INPUT .\figures\MSD_Orion_A_B.png
-INPUT .\figures\MSD_plane.png
-INPUT .\figures\MSD_plane.png
-INPUT .\figures\MSD_plane.png
-INPUT .\figures\MSD_plane.png
-INPUT .\figures\MSD_plane.png
-INPUT .\figures\MSD_plane.png
-INPUT .\figures\MSD_plane.png
-INPUT .\figures\euler_Orion_A.png
-INPUT .\figures\euler_Orion_A.png
-INPUT .\figures\euler_Orion_A.png
-INPUT .\figures\euler_Orion_A.png
-INPUT .\figures\euler_Orion_A.png
-INPUT .\figures\euler_Orion_A.png
-INPUT .\figures\euler_Orion_A.png
-INPUT .\figures\euler_Orion_B.png
-INPUT .\figures\euler_Orion_B.png
-INPUT .\figures\euler_Orion_B.png
-INPUT .\figures\euler_Orion_B.png
-INPUT .\figures\euler_Orion_B.png
-INPUT .\figures\euler_Orion_B.png
-INPUT .\figures\euler_Orion_B.png
+INPUT .\figures\local_fractal_dimension_map_Orion_A.png
+INPUT .\figures\local_fractal_dimension_map_Orion_A.png
+INPUT .\figures\local_fractal_dimension_map_Orion_A.png
+INPUT .\figures\local_fractal_dimension_map_Orion_A.png
+INPUT .\figures\local_fractal_dimension_map_Orion_A.png
+INPUT .\figures\local_fractal_dimension_map_Orion_A.png
+INPUT .\figures\local_fractal_dimension_map_Orion_A.png
+INPUT .\figures\local_fractal_dimension_map_Orion_B.png
+INPUT .\figures\local_fractal_dimension_map_Orion_B.png
+INPUT .\figures\local_fractal_dimension_map_Orion_B.png
+INPUT .\figures\local_fractal_dimension_map_Orion_B.png
+INPUT .\figures\local_fractal_dimension_map_Orion_B.png
+INPUT .\figures\local_fractal_dimension_map_Orion_B.png
+INPUT .\figures\local_fractal_dimension_map_Orion_B.png
+INPUT .\figures\MSD_Orion_A_with_lines.png
+INPUT .\figures\MSD_Orion_A_with_lines.png
+INPUT .\figures\MSD_Orion_A_with_lines.png
+INPUT .\figures\MSD_Orion_A_with_lines.png
+INPUT .\figures\MSD_Orion_A_with_lines.png
+INPUT .\figures\MSD_Orion_A_with_lines.png
+INPUT .\figures\MSD_Orion_A_with_lines.png
+INPUT .\figures\MSD_Orion_B_with_lines.png
+INPUT .\figures\MSD_Orion_B_with_lines.png
+INPUT .\figures\MSD_Orion_B_with_lines.png
+INPUT .\figures\MSD_Orion_B_with_lines.png
+INPUT .\figures\MSD_Orion_B_with_lines.png
+INPUT .\figures\MSD_Orion_B_with_lines.png
+INPUT .\figures\MSD_Orion_B_with_lines.png
+INPUT .\figures\YSOs_density_Orion_A.png
+INPUT .\figures\YSOs_density_Orion_A.png
+INPUT .\figures\YSOs_density_Orion_A.png
+INPUT .\figures\YSOs_density_Orion_A.png
+INPUT .\figures\YSOs_density_Orion_A.png
+INPUT .\figures\YSOs_density_Orion_A.png
+INPUT .\figures\YSOs_density_Orion_A.png
 INPUT .\figures\perimeter_area_uncertainties.png
 INPUT .\figures\perimeter_area_uncertainties.png
 INPUT .\figures\perimeter_area_uncertainties.png
@@ -630,6 +672,20 @@ INPUT .\B) Chapters\05_discussion.tex
 INPUT .\B) Chapters\05_discussion.tex
 INPUT .\B) Chapters\05_discussion.tex
 INPUT B) Chapters\05_discussion.tex
+INPUT .\figures\euler_Orion_A.png
+INPUT .\figures\euler_Orion_A.png
+INPUT .\figures\euler_Orion_A.png
+INPUT .\figures\euler_Orion_A.png
+INPUT .\figures\euler_Orion_A.png
+INPUT .\figures\euler_Orion_A.png
+INPUT .\figures\euler_Orion_A.png
+INPUT .\figures\euler_Orion_B.png
+INPUT .\figures\euler_Orion_B.png
+INPUT .\figures\euler_Orion_B.png
+INPUT .\figures\euler_Orion_B.png
+INPUT .\figures\euler_Orion_B.png
+INPUT .\figures\euler_Orion_B.png
+INPUT .\figures\euler_Orion_B.png
 INPUT .\B) Chapters\06_conclusions.tex
 INPUT .\B) Chapters\06_conclusions.tex
 INPUT .\B) Chapters\06_conclusions.tex
