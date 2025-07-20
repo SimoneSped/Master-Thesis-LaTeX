@@ -639,6 +639,7 @@ INPUT .\figures\local_fractal_dimension_map_Orion_B.png
 INPUT .\figures\local_fractal_dimension_map_Orion_B.png
 INPUT .\figures\local_fractal_dimension_map_Orion_B.png
 INPUT .\figures\local_fractal_dimension_map_Orion_B.png
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ectt1095.tfm
 INPUT .\figures\MSD_Orion_A_with_lines.png
 INPUT .\figures\MSD_Orion_A_with_lines.png
 INPUT .\figures\MSD_Orion_A_with_lines.png
@@ -653,13 +654,6 @@ INPUT .\figures\MSD_Orion_B_with_lines.png
 INPUT .\figures\MSD_Orion_B_with_lines.png
 INPUT .\figures\MSD_Orion_B_with_lines.png
 INPUT .\figures\MSD_Orion_B_with_lines.png
-INPUT .\figures\YSOs_density_Orion_A.png
-INPUT .\figures\YSOs_density_Orion_A.png
-INPUT .\figures\YSOs_density_Orion_A.png
-INPUT .\figures\YSOs_density_Orion_A.png
-INPUT .\figures\YSOs_density_Orion_A.png
-INPUT .\figures\YSOs_density_Orion_A.png
-INPUT .\figures\YSOs_density_Orion_A.png
 INPUT .\figures\perimeter_area_uncertainties.png
 INPUT .\figures\perimeter_area_uncertainties.png
 INPUT .\figures\perimeter_area_uncertainties.png
@@ -699,6 +693,13 @@ INPUT .\C) Back Matter\appendix.tex
 INPUT .\C) Back Matter\appendix.tex
 INPUT .\C) Back Matter\appendix.tex
 INPUT C) Back Matter\appendix.tex
+INPUT .\figures\YSOs_density_Orion_A.png
+INPUT .\figures\YSOs_density_Orion_A.png
+INPUT .\figures\YSOs_density_Orion_A.png
+INPUT .\figures\YSOs_density_Orion_A.png
+INPUT .\figures\YSOs_density_Orion_A.png
+INPUT .\figures\YSOs_density_Orion_A.png
+INPUT .\figures\YSOs_density_Orion_A.png
 INPUT main.aux
 INPUT .\main.out
 INPUT .\main.out
@@ -746,6 +747,8 @@ INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sf
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfsx2074.pfb
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfti1095.pfb
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfti1095.pfb
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sftt1095.pfb
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sftt1095.pfb
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvb8a.pfb
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvb8a.pfb
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\type1\urw\helvetic\uhvr8a.pfb
