@@ -1,6 +1,8 @@
 \chapter{Methods}
 \label{ch:methods}
 
+% to-do:
+% define global properties and local properties 
 \section{Introduction}
 
 It is thought that the structure of the interstellar medium (ISM) plays a crucial role in the formation of stars and galaxies. The ISM is a complex and dynamic environment, characterized by a wide range of physical conditions, including temperature, density, and magnetic fields. Understanding the structure of the ISM is essential for understanding how stars and galaxies form and evolve.
@@ -72,7 +74,7 @@ Hence, if the linear fit in log–log space is robust, one can argue that the st
 
 \begin{figure}[t]
     \centering
-    \includegraphics[width=0.4\textwidth]{figures/lovejoy.png}
+    \includegraphics[width=0.45\textwidth]{figures/lovejoy.png}
     \caption{Example of the perimeter-area relation for meteorological clouds \cite{lovejoy1982area}. The slope of the linear fit gives the fractal dimension of the structure.}
     \label{fig:perimeter_area_example}
 \end{figure}
@@ -132,9 +134,15 @@ For a given excursion set $S_{\nu}$, the Euler characteristic provides a measure
 
 The Euler characteristic is closely related to the genus $G$ of the structure, where in two dimensions $G = 1 - \chi$. The genus is commonly used in cosmology and astrophysics to describe the connectivity of structures, such as the filamentary network in the ISM or the cosmic web. By analyzing the Euler characteristic or genus as a function of the threshold, one can gain insights into the morphological transitions and connectivity of the observed structures.
 
-\section{Connection to star formation}
+\section{Connection to Star Formation}
 
-TBD
+To investigate the link between cloud structure and star formation activity, we employed the catalogue of young stellar objects (YSOs) compiled by \cite{megeath2012catalogue}.  
+This catalogue provides both positional information and evolutionary classifications of YSOs within Orion~A and Orion~B, allowing a direct spatial comparison with the structures identified in our analysis.
+
+The degree of association between the local structural properties and the YSO distribution was quantified using the Pearson correlation coefficient \cite{pearson1895vii} and the Spearman rank correlation coefficient \cite{sedgwick2014spearman}.  
+These metrics capture linear and monotonic relationships, respectively, and together provide a robust measure of how variations in the structural parameters relate to the spatial density of YSOs.
+
+We restricted the YSO sample to objects classified as Class I or flat-spectrum sources, based on their infrared slope (\texttt{alpha}) and the catalogue classification flag (\texttt{Cl}). These stages are closely associated with active star-forming regions, while more evolved Class II/III sources may have migrated from their birth sites and were therefore excluded \cite{lada1987star}. For comparison, we also computed correlations using the full YSO sample.
 
 \section{Simulations}
 
@@ -182,7 +190,7 @@ The dataset also includes a pixel-wise $\tau_{850}$ error map, as shown in Figur
 
 \begin{figure}[t]
     \centering
-    \includegraphics[width=0.75\textwidth]{figures/error_map.png}
+    \includegraphics[width=0.6\textwidth]{figures/error_map.png}
     \caption{Pixel-wise error map of the $\tau_{850}$ data \cite{lombardi2014herschel}}
     \label{fig:error_map}
 \end{figure}

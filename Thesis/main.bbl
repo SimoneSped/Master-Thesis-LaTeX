@@ -60,6 +60,12 @@ Attila~R Imre.
   relationship on digitalized images.
 \newblock {\em Applied Mathematics and Computation}, 173(1):443--449, 2006.
 
+\bibitem[Lad87]{lada1987star}
+Charles~J Lada.
+\newblock Star formation: from ob associations to protostars.
+\newblock In {\em Symposium-International astronomical union}, volume 115,
+  pages 1--18. Cambridge University Press, 1987.
+
 \bibitem[LBAL14]{lombardi2014herschel}
 Marco Lombardi, Herv{\'e} Bouy, Jo{\~a}o Alves, and Charles~J Lada.
 \newblock Herschel-planck dust optical-depth and column-density maps-i. method
@@ -89,6 +95,12 @@ ST~Megeath, R~Gutermuth, J~Muzerolle, E~Kryukova, K~Flaherty, JL~Hora,
 Yoshihiko Mizumoto, Koh—Ichiro Morita, and Masatoshi Ohishi.
 \newblock Astronomical data analysis software and systems xix.
 \newblock {\em Astronomical Data Analysis Software and Systems XIX}, 434, 2010.
+
+\bibitem[Pea95]{pearson1895vii}
+Karl Pearson.
+\newblock Vii. note on regression and inheritance in the case of two parents.
+\newblock {\em proceedings of the royal society of London},
+  58(347-352):240--242, 1895.
 
 \bibitem[PRP{\etalchar{+}}10]{pilbratt2010herschel}
 GL~Pilbratt, JR~Riedinger, T~Passvogel, G~Crone, D~Doyle, U~Gageur, AM~Heras,
@@ -129,5 +141,10 @@ Michael~F Skrutskie, RM~Cutri, R~Stiening, MD~Weinberg, S~Schneider,
   JM~Carpenter, Capps Beichman, R~Capps, T~Chester, J~Elias, et~al.
 \newblock The two micron all sky survey (2mass).
 \newblock {\em The Astronomical Journal}, 131(2):1163, 2006.
+
+\bibitem[Sed14]{sedgwick2014spearman}
+Philip Sedgwick.
+\newblock Spearman’s rank correlation coefficient.
+\newblock {\em Bmj}, 349, 2014.
 
 \end{thebibliography}

@@ -522,6 +522,7 @@ INPUT .\figures\example_calculations.png
 INPUT .\figures\example_calculations.png
 INPUT .\figures\example_calculations.png
 INPUT .\figures\example_calculations.png
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ectt1095.tfm
 INPUT .\figures\error_map.png
 INPUT .\figures\error_map.png
 INPUT .\figures\error_map.png
@@ -639,28 +640,6 @@ INPUT .\figures\local_fractal_dimension_map_Orion_B.png
 INPUT .\figures\local_fractal_dimension_map_Orion_B.png
 INPUT .\figures\local_fractal_dimension_map_Orion_B.png
 INPUT .\figures\local_fractal_dimension_map_Orion_B.png
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ectt1095.tfm
-INPUT .\figures\MSD_Orion_A_with_lines.png
-INPUT .\figures\MSD_Orion_A_with_lines.png
-INPUT .\figures\MSD_Orion_A_with_lines.png
-INPUT .\figures\MSD_Orion_A_with_lines.png
-INPUT .\figures\MSD_Orion_A_with_lines.png
-INPUT .\figures\MSD_Orion_A_with_lines.png
-INPUT .\figures\MSD_Orion_A_with_lines.png
-INPUT .\figures\MSD_Orion_B_with_lines.png
-INPUT .\figures\MSD_Orion_B_with_lines.png
-INPUT .\figures\MSD_Orion_B_with_lines.png
-INPUT .\figures\MSD_Orion_B_with_lines.png
-INPUT .\figures\MSD_Orion_B_with_lines.png
-INPUT .\figures\MSD_Orion_B_with_lines.png
-INPUT .\figures\MSD_Orion_B_with_lines.png
-INPUT .\figures\perimeter_area_uncertainties.png
-INPUT .\figures\perimeter_area_uncertainties.png
-INPUT .\figures\perimeter_area_uncertainties.png
-INPUT .\figures\perimeter_area_uncertainties.png
-INPUT .\figures\perimeter_area_uncertainties.png
-INPUT .\figures\perimeter_area_uncertainties.png
-INPUT .\figures\perimeter_area_uncertainties.png
 INPUT .\B) Chapters\05_discussion.tex
 INPUT .\B) Chapters\05_discussion.tex
 INPUT .\B) Chapters\05_discussion.tex
@@ -693,6 +672,34 @@ INPUT .\C) Back Matter\appendix.tex
 INPUT .\C) Back Matter\appendix.tex
 INPUT .\C) Back Matter\appendix.tex
 INPUT C) Back Matter\appendix.tex
+INPUT .\figures\MSD_Orion_A_with_lines.png
+INPUT .\figures\MSD_Orion_A_with_lines.png
+INPUT .\figures\MSD_Orion_A_with_lines.png
+INPUT .\figures\MSD_Orion_A_with_lines.png
+INPUT .\figures\MSD_Orion_A_with_lines.png
+INPUT .\figures\MSD_Orion_A_with_lines.png
+INPUT .\figures\MSD_Orion_A_with_lines.png
+INPUT .\figures\MSD_Orion_B_with_lines.png
+INPUT .\figures\MSD_Orion_B_with_lines.png
+INPUT .\figures\MSD_Orion_B_with_lines.png
+INPUT .\figures\MSD_Orion_B_with_lines.png
+INPUT .\figures\MSD_Orion_B_with_lines.png
+INPUT .\figures\MSD_Orion_B_with_lines.png
+INPUT .\figures\MSD_Orion_B_with_lines.png
+INPUT .\figures\YSOs_early_stage_density_Orion_A.png
+INPUT .\figures\YSOs_early_stage_density_Orion_A.png
+INPUT .\figures\YSOs_early_stage_density_Orion_A.png
+INPUT .\figures\YSOs_early_stage_density_Orion_A.png
+INPUT .\figures\YSOs_early_stage_density_Orion_A.png
+INPUT .\figures\YSOs_early_stage_density_Orion_A.png
+INPUT .\figures\YSOs_early_stage_density_Orion_A.png
+INPUT .\figures\YSOs_early_stage_density_Orion_B.png
+INPUT .\figures\YSOs_early_stage_density_Orion_B.png
+INPUT .\figures\YSOs_early_stage_density_Orion_B.png
+INPUT .\figures\YSOs_early_stage_density_Orion_B.png
+INPUT .\figures\YSOs_early_stage_density_Orion_B.png
+INPUT .\figures\YSOs_early_stage_density_Orion_B.png
+INPUT .\figures\YSOs_early_stage_density_Orion_B.png
 INPUT .\figures\YSOs_density_Orion_A.png
 INPUT .\figures\YSOs_density_Orion_A.png
 INPUT .\figures\YSOs_density_Orion_A.png
@@ -700,6 +707,20 @@ INPUT .\figures\YSOs_density_Orion_A.png
 INPUT .\figures\YSOs_density_Orion_A.png
 INPUT .\figures\YSOs_density_Orion_A.png
 INPUT .\figures\YSOs_density_Orion_A.png
+INPUT .\figures\YSOs_density_Orion_B.png
+INPUT .\figures\YSOs_density_Orion_B.png
+INPUT .\figures\YSOs_density_Orion_B.png
+INPUT .\figures\YSOs_density_Orion_B.png
+INPUT .\figures\YSOs_density_Orion_B.png
+INPUT .\figures\YSOs_density_Orion_B.png
+INPUT .\figures\YSOs_density_Orion_B.png
+INPUT .\figures\perimeter_area_uncertainties.png
+INPUT .\figures\perimeter_area_uncertainties.png
+INPUT .\figures\perimeter_area_uncertainties.png
+INPUT .\figures\perimeter_area_uncertainties.png
+INPUT .\figures\perimeter_area_uncertainties.png
+INPUT .\figures\perimeter_area_uncertainties.png
+INPUT .\figures\perimeter_area_uncertainties.png
 INPUT main.aux
 INPUT .\main.out
 INPUT .\main.out

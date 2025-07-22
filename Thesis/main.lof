@@ -1,0 +1,48 @@
+\babel@toc {british}{}\relax 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Best fit SED of NGC 891 and observed data in infrared and submillimeter. Also plotted are the main components responsible for each part of the emission spectrum \cite {popescu2011modelling}. Dust emission represents the dominant source of FIR and mm-continuum radiation in galaxies.}}{6}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Throughputs in relative units of the PACS and SPIRE bands and three modified blackbodies for typical dust temperatures (12 K, 18 K, 24 K) and with $\beta $ = 1.8 \cite {lombardi2014herschel}.}}{7}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Extinction map of Orion A and B derived from Herschel data, showing the visual extinction ($A_V$) across the clouds. The map is based on the optical depth at 353 GHz, converted to extinction using the relation in Equation \ref {eq:av_ak_relation}. (WIP)}}{8}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Column density maps of Orion A and B derived from Herschel data, showing the total column density of molecular hydrogen ($N(\mathrm {H}_2)$) across the clouds. The maps are based on the optical depth at 353 GHz, converted to extinction and then to column density. (WIP)}}{9}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Mass map of the Orion A and B molecular clouds derived from the H$_2$ column density maps. The map shows the total mass in solar masses contained in each pixel, providing a detailed view of the mass distribution across the clouds. (WIP)}}{11}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Map of YSOs in the Orion A and B clouds, overlaid on the column density map. YSOs are color-coded by evolutionary class, with protostars (P) and disk sources (D) identified based on their mid-infrared spectral energy distributions. This distribution reveals the spatial correlation between dense gas and young stars. (WIP)}}{13}{figure.3.6}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Example of an excursion set and its boundary for a field for a smoothed three-dimensional Gaussian field.}}{16}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Example of the perimeter-area relation for meteorological clouds \cite {lovejoy1982area}. The slope of the linear fit gives the fractal dimension of the structure.}}{18}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Simplified example of the calculation of perimeters and areas of structures at a given column density threshold. The local fractal dimension can be calculated by summing over all of the structures at that threshold, or for each of the single structures.}}{19}{figure.4.3}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Pixel-wise error map of the $\tau _{850}$ data \cite {lombardi2014herschel}}}{23}{figure.4.4}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Perimeter-area relation for Orion A. The solid line indicates the best-fit linear regression in log-log space used to estimate the global fractal dimension \(D_{\mathrm {Global}}\). Residuals are shown in the lower panel.}}{26}{figure.5.1}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Perimeter-area relation for Orion A with a segmented linear fit. Dashed lines indicate the two fitted regimes, separated at \(N = 1.23 \times 10^{22}\,\mathrm {cm}^{-2}\). Residuals are shown in the lower panel.}}{27}{figure.5.2}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Perimeter-area relation for Orion~B with the best-fit linear regression overlaid. Residuals are shown in the lower panel.}}{28}{figure.5.3}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Euler characteristic of Orion A as a function of column–density threshold. Positive values correspond to a predominance of isolated structures, while negative values indicate higher connectivity.}}{29}{figure.5.4}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Euler characteristic of Orion~B as a function of column–density threshold.}}{30}{figure.5.5}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Local fractal dimension as a function of column-density threshold for Orion A and Orion B. Error bars reflect the uncertainties of the fit at each threshold.}}{31}{figure.5.6}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Dendrogram of the Orion~A mass distribution, showing the hierarchical merging of structures as the column-density threshold is lowered. The various main branches are coloured differently for highlighting purposes. The y-axis "Distance" represents a degree of similarity between structures. }}{32}{figure.5.7}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Dendrogram of the Orion~B mass distribution, showing the hierarchical merging of structures as the column-density threshold is lowered.}}{33}{figure.5.8}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Local fractal dimension for individual structures in Orion~A as a function of column--density threshold. Shown are the mean values obtained from the largest structures at each threshold (with uncertainties), overlaid with the corresponding values from the undifferentiated calculation.}}{33}{figure.5.9}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Local fractal dimension for individual structures in Orion~B as a function of column--density threshold. As in Orion~A, the mean values from the selected structures (with uncertainties) are overlaid with the results from the undifferentiated calculation.}}{34}{figure.5.10}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces MSD plane for Orion~A. The color scale indicates the local fractal dimension, and reference scalings for filamentary and spherical geometries are shown as solid lines.}}{34}{figure.5.11}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces MSD plane for Orion~B, with color coding and reference scalings.}}{35}{figure.5.12}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces MSD plane for Orion~A and Orion~B combined. The color bar covers the full range of local fractal dimensions across both clouds.}}{35}{figure.5.13}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Spatial map of the local fractal dimension for Orion~A. Pixels without assigned structures (NaN) are set to the minimum observed value of the local fractal dimension.}}{36}{figure.5.14}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Spatial map of the local fractal dimension for Orion~B. Pixels without assigned structures (NaN) are set to the minimum observed value of the local fractal dimension.}}{37}{figure.5.15}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces }}{40}{figure.6.1}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces }}{40}{figure.6.2}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces MSD plane for Orion~A with dendrogram connections overplotted. Lines trace parent-child relationships between structures.}}{48}{figure.A.1}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces MSD plane for Orion~B with dendrogram connections overplotted.}}{48}{figure.A.2}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces YSO density map for Orion~A, overlaid on the column-density map. The coverage is limited by the extent of the YSO catalog, so some regions are not sampled.}}{48}{figure.A.3}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces YSO density map for Orion~A, overlaid on the column-density map. The coverage is limited by the extent of the YSO catalog, so some regions are not sampled.}}{49}{figure.A.4}%
+\contentsline {figure}{\numberline {A.5}{\ignorespaces YSO density map for Orion~A, overlaid on the column-density map. The coverage is limited by the extent of the YSO catalog, so some regions are not sampled.}}{49}{figure.A.5}%
+\contentsline {figure}{\numberline {A.6}{\ignorespaces YSO density map for Orion~A, overlaid on the column-density map. The coverage is limited by the extent of the YSO catalog, so some regions are not sampled.}}{50}{figure.A.6}%
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Example of the uncertainty distributions in the measurements of perimeter and area from simulated structures (arbitrary units).}}{50}{figure.A.7}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
