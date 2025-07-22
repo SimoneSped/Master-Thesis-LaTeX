@@ -7,45 +7,45 @@ Reallocating 'name_of_file' (item size: 1) to 13 items.
 Database file #1: bibliography.bib
 Warning--I didn't find a database entry for "lombardi2014orion"
 Warning--empty institution in hildebrand1983determination
-You've used 24 entries,
+You've used 25 entries,
             2543 wiz_defined-function locations,
-            713 strings with 9655 characters,
-and the built_in function-call counts, 11053 in all, are:
-= -- 1024
-> -- 759
+            719 strings with 9802 characters,
+and the built_in function-call counts, 11458 in all, are:
+= -- 1063
+> -- 784
 < -- 13
-+ -- 288
-- -- 277
-* -- 939
-:= -- 1951
-add.period$ -- 73
-call.type$ -- 24
-change.case$ -- 205
-chr.to.int$ -- 24
-cite$ -- 25
-duplicate$ -- 351
-empty$ -- 638
-format.name$ -- 302
-if$ -- 2110
++ -- 297
+- -- 286
+* -- 973
+:= -- 2022
+add.period$ -- 76
+call.type$ -- 25
+change.case$ -- 212
+chr.to.int$ -- 25
+cite$ -- 26
+duplicate$ -- 365
+empty$ -- 664
+format.name$ -- 312
+if$ -- 2189
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 25
-newline$ -- 124
-num.names$ -- 72
-pop$ -- 161
+missing$ -- 26
+newline$ -- 129
+num.names$ -- 75
+pop$ -- 165
 preamble$ -- 1
-purify$ -- 230
+purify$ -- 238
 quote$ -- 0
-skip$ -- 280
+skip$ -- 292
 stack$ -- 0
-substring$ -- 482
-swap$ -- 31
+substring$ -- 498
+swap$ -- 32
 text.length$ -- 13
 text.prefix$ -- 10
 top$ -- 0
-type$ -- 184
+type$ -- 192
 warning$ -- 1
-while$ -- 91
-width$ -- 29
-write$ -- 315
+while$ -- 95
+width$ -- 30
+write$ -- 328
 (There were 2 warnings)
