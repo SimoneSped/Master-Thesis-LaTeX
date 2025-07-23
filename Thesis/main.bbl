@@ -26,6 +26,11 @@ Bruce~T Draine.
 \newblock {\em Annual Review of Astronomy and Astrophysics}, 41(1):241--289,
   2003.
 
+\bibitem[EF96]{elmegreen1996fractal}
+Bruce~G Elmegreen and Edith Falgarone.
+\newblock A fractal origin for the mass spectrum of interstellar clouds.
+\newblock {\em The Astrophysical Journal}, 471(2):816, 1996.
+
 \bibitem[ES10]{everitt2010cambridge}
 Brian~S Everitt and Anders Skrondal.
 \newblock {\em The Cambridge dictionary of statistics}, volume~4.
@@ -41,6 +46,12 @@ GG~Fazio, JL~Hora, LE~Allen, MLN Ashby, P~Barmby, LK~Deutsch, J-S Huang,
   S~Kleiner, M~Marengo, ST~Megeath, et~al.
 \newblock The infrared array camera (irac) for the spitzer space telescope.
 \newblock {\em The Astrophysical Journal Supplement Series}, 154(1):10, 2004.
+
+\bibitem[FPW91]{falgarone1991hierarchical}
+E.~{Falgarone}, T.~G. {Phillips}, and C.~K. {Walker}.
+\newblock {The Edges of Molecular Clouds: Fractal Boundaries and Density
+  Structure}.
+\newblock {\em The Astrophysical Journal}, 378:186, September 1991.
 
 \bibitem[GAA{\etalchar{+}}10]{griffin2010herschel}
 Matthew~Joseph Griffin, A~Abergel, As~Abreu, Peter~AR Ade, P~Andr{\'e}, J-L
@@ -141,6 +152,11 @@ GH~Rieke, ET~Young, CW~Engelbracht, DM~Kelly, FJ~Low, EE~Haller, JW~Beeman,
 \newblock The multiband imaging photometer for spitzer (mips).
 \newblock {\em The Astrophysical Journal Supplement Series}, 154(1):25, 2004.
 
+\bibitem[SAP05]{sanchez2005fractal}
+N{\'e}stor {S{\'a}nchez}, Emilio~J. {Alfaro}, and Enrique {P{\'e}rez}.
+\newblock {The Fractal Dimension of Projected Clouds}.
+\newblock {\em The Astrophysical Journal}, 625(2):849--856, June 2005.
+
 \bibitem[SCS{\etalchar{+}}06]{skrutskie2006two}
 Michael~F Skrutskie, RM~Cutri, R~Stiening, MD~Weinberg, S~Schneider,
   JM~Carpenter, Capps Beichman, R~Capps, T~Chester, J~Elias, et~al.
@@ -151,5 +167,13 @@ Michael~F Skrutskie, RM~Cutri, R~Stiening, MD~Weinberg, S~Schneider,
 Philip Sedgwick.
 \newblock Spearman’s rank correlation coefficient.
 \newblock {\em Bmj}, 349, 2014.
+
+\bibitem[YZWS94]{1994fns..book..515Y}
+Z.~Y. {Yue}, B.~{Zhang}, G.~{Winnewisser}, and J.~{Stutzki}.
+\newblock {On the Dynamical Evolution of the Fractal Structure of Interstellar
+  Medium}.
+\newblock In T.~{Vicsek} and {et al.}, editors, {\em Fractals in Natural
+  Science. Edited by VICSEK T ET AL. Published by World Scientific Publishing
+  Co. Pte. Ltd}, pages 515--523. 1994.
 
 \end{thebibliography}

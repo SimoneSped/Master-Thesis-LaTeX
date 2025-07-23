@@ -7,45 +7,46 @@ Reallocating 'name_of_file' (item size: 1) to 13 items.
 Database file #1: bibliography.bib
 Warning--I didn't find a database entry for "lombardi2014orion"
 Warning--empty institution in hildebrand1983determination
-You've used 25 entries,
+Warning--empty publisher in 1994fns..book..515Y
+You've used 29 entries,
             2543 wiz_defined-function locations,
-            719 strings with 9802 characters,
-and the built_in function-call counts, 11458 in all, are:
-= -- 1063
-> -- 784
-< -- 13
-+ -- 297
-- -- 286
-* -- 973
-:= -- 2022
-add.period$ -- 76
-call.type$ -- 25
-change.case$ -- 212
-chr.to.int$ -- 25
-cite$ -- 26
-duplicate$ -- 365
-empty$ -- 664
-format.name$ -- 312
-if$ -- 2189
+            745 strings with 10572 characters,
+and the built_in function-call counts, 13329 in all, are:
+= -- 1246
+> -- 892
+< -- 14
++ -- 336
+- -- 324
+* -- 1123
+:= -- 2329
+add.period$ -- 89
+call.type$ -- 29
+change.case$ -- 240
+chr.to.int$ -- 29
+cite$ -- 31
+duplicate$ -- 434
+empty$ -- 790
+format.name$ -- 354
+if$ -- 2573
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 26
-newline$ -- 129
-num.names$ -- 75
-pop$ -- 165
+missing$ -- 30
+newline$ -- 149
+num.names$ -- 89
+pop$ -- 187
 preamble$ -- 1
-purify$ -- 238
+purify$ -- 270
 quote$ -- 0
-skip$ -- 292
+skip$ -- 355
 stack$ -- 0
-substring$ -- 498
-swap$ -- 32
-text.length$ -- 13
+substring$ -- 594
+swap$ -- 45
+text.length$ -- 14
 text.prefix$ -- 10
 top$ -- 0
-type$ -- 192
-warning$ -- 1
-while$ -- 95
-width$ -- 30
-write$ -- 328
-(There were 2 warnings)
+type$ -- 224
+warning$ -- 2
+while$ -- 113
+width$ -- 32
+write$ -- 380
+(There were 3 warnings)
