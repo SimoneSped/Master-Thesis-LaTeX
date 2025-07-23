@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1753258381.75451 "main.aux" "main.bbl" "main" 1753259053.2159 0
-  "./bibliography.bib" 1753257882 10709 4c8c914dfdc6d830dcb7dd72c5f9ad18 ""
+["bibtex main"] 1753262228.03807 "main.aux" "main.bbl" "main" 1753262251.96927 0
+  "./bibliography.bib" 1753260424 11116 a5ea4bbf1edf6a284dc49c8c34bda70c ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/alpha.bst" 1291864736 23907 a5f93555796fb564b924339521f10a7c ""
-  "main.aux" 1753259051 51453 bf2ae8d0bf8c19afa684b13575a1fbbd "pdflatex"
+  "main.aux" 1753262249 52169 3afef45b5e27bf12e864bf3e6b28818e "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1753259016.41317 "c:/Users/User/Documents/GitHub/Master-Thesis-LaTeX/Thesis/main.tex" "main.pdf" "main" 1753259053.21728 0
+["pdflatex"] 1753262228.55811 "c:/Users/User/Documents/GitHub/Master-Thesis-LaTeX/Thesis/main.tex" "main.pdf" "main" 1753262251.97073 0
   "A) Front Matter/abstracts.tex" 1745418765 541 edcb57c261b3f8002a114309f9b47485 ""
   "A) Front Matter/acknowledgements.tex" 1745418765 92 d76837115754b6d85b4d1801cbf97320 ""
   "A) Front Matter/kurzfassung.tex" 1745418765 110 a678c529e38678d21803b70a2e6e15e0 ""
@@ -17,7 +17,7 @@
   "B) Chapters/02_data.tex" 1751264826 19423 91d86f156689ee5a1287f32b96dabc74 ""
   "B) Chapters/03_methods.tex" 1753177422 20022 d5d3695a110ba91b41a2a4e0164836cf ""
   "B) Chapters/04_results.tex" 1753174175 22510 b404685d84c7fa4f709122e657a420d3 ""
-  "B) Chapters/05_discussion.tex" 1753259014 9139 2112e784260082daa524a2e700c5bb93 ""
+  "B) Chapters/05_discussion.tex" 1753262201 12950 89547106edab9cdea13b8ddb43a24703 ""
   "B) Chapters/06_conclusions.tex" 1751809497 76 39717493cd77b940e608ab013a040e67 ""
   "C) Back Matter/acronyms.tex" 1745418766 92 0cd2ecb16ecabfe02b4698cee115558f ""
   "C) Back Matter/appendix.tex" 1753172034 2986 b0fc9ef321e80bd9af3d907c8f883b23 ""
@@ -245,6 +245,7 @@
   "figures/YSOs_early_stage_density_Orion_A.png" 1753087188 595033 4127423a52ccab1f6ddd4a3008d97042 ""
   "figures/YSOs_early_stage_density_Orion_B.png" 1753088022 1045966 ba35f8280733a65c74d8e7c675a31cca ""
   "figures/YSOs_orion.png" 1750837365 171842 cdaa37ede5b1e6127df66d62b2a15d58 ""
+  "figures/beattie_fractal_dimension.png" 1753260068 99848 8bc7682444faf0979a55ecd498558735 ""
   "figures/boundaries.png" 1751093019 190542 7ed9ee378c9b6ced6fcdc4e9516ace74 ""
   "figures/column_density_map.png" 1750833305 369642 37c535a4e2d30b4d605228555d6cc402 ""
   "figures/dendogram_A.png" 1751872987 64846 029cc41f78929c582a82b62c92f2fd0d ""
@@ -271,16 +272,16 @@
   "figures/perimeter_area_uncertainties.png" 1751359355 99983 7c3a4175fa17d1fac0980824c9479fe2 ""
   "figures/relative_throughputs_PACS_SPIRE.png" 1750316498 67733 b05bc362ed51a8d19a1f558da33f33ef ""
   "main.acr" 0 -1 0 ""
-  "main.aux" 1753259051 51453 bf2ae8d0bf8c19afa684b13575a1fbbd "pdflatex"
-  "main.bbl" 1753258382 7978 4aab649cb7b92cfb43c9bfde1abbe908 "bibtex main"
+  "main.aux" 1753262249 52169 3afef45b5e27bf12e864bf3e6b28818e "pdflatex"
+  "main.bbl" 1753262228 8306 83584e503f828b1d0f47ad024ce18210 "bibtex main"
   "main.gls" 0 -1 0 ""
-  "main.lof" 1753259051 8903 34c7e5ff6624d78ae45761b75b211fb8 "pdflatex"
-  "main.lot" 1753259051 335 22c2496d046bdd19901cf4410c8c6887 "pdflatex"
-  "main.out" 1753259027 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.lof" 1753262249 9163 ebcf1958fd11d3dd00a17b7ad7b4e538 "pdflatex"
+  "main.lot" 1753262249 335 22c2496d046bdd19901cf4410c8c6887 "pdflatex"
+  "main.out" 1753262232 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "main.tex" 1750275571 2414 f1912892351df9ec9df2e1e3fd45fe64 ""
-  "main.toc" 1753259051 5992 36a1347b16923324616c6c24c2f8f1f6 "pdflatex"
+  "main.toc" 1753262249 5992 440b342abc45e288c51ef85fbaf8def6 "pdflatex"
   "packages_macros.tex" 1745418765 1479 42b754355d39555500bf896db24d7ba8 ""
-  "pdfa.xmpi" 1753259024 5042 27b4dafd6e85546cdbbf61ebf0ca7bec "pdflatex"
+  "pdfa.xmpi" 1753262230 5042 dbd66020a73bf36f4bb5dcae7cf024cc "pdflatex"
   (generated)
   "main.acn"
   "main.aux"
