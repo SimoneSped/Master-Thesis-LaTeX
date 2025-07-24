@@ -76,7 +76,7 @@ This comparison demonstrates that the results from our method are supported by i
     \centering
     \includegraphics[width=0.75\textwidth]{figures/beattie_fractal_dimension.png}
     \caption{Fractal dimension derived from the mass–size relation as a function of Mach number \cite{beattie2019relation}.  
-    Note that the x-axis is inverted relative to our representations above.}
+    Note that the x-axis is inverted relative to the representation used in our plots above.}
     \label{fig:beattie_fractal_dimension}
 \end{figure}
 
@@ -85,8 +85,6 @@ Straight edges introduced by limited angular resolution at low column densities,
 For these reasons, the usable column‑density range is narrower than the full range provided by the maps.
 
 % Integrate topological insights (Euler characteristic).
-% To-Do:
-% Remake Images (after making sure that the definition is correct)
 Furthermore, the Euler characteristic highlights clear differences between Orion~A and Orion~B.  
 Orion~A exhibits a profile that closely resembles the behavior expected from Gaussian Random Field simulations, with a well-defined peak at approximately \(1.64 \times 10^{22}\,\mathrm{cm}^{-2}\).  
 This threshold is significant, echoing the transition seen in the global fractal dimension analysis, and marks the emergence of dense cores within the cloud.
@@ -95,26 +93,36 @@ In contrast, Orion~B shows no such pronounced peak, instead displaying a more gr
 If Orion~B is indeed more strongly influenced by turbulence, this behavior is consistent with a more scale-free, less clustered structure, where the appearance of dense cores is more gradual and widely distributed.  
 The topological analysis therefore reinforces the notion that turbulence governs the structural evolution of Orion~B, while Orion~A undergoes distinct transitions closely tied to star-formation thresholds.
 
-% expand these, explain visually some more also connected to the stuff above
-Visual examples of the changes in the Euler characteristic for Orion~A and Orion~B are provided in Figures~\ref{fig:Euler_Orion_A} and~\ref{fig:Euler_Orion_B}.
+% explain visually some more also connected to the stuff above
+Visual examples of the changes in the Euler characteristic for Orion~A and Orion~B are provided in Figures~\ref{fig:Euler_Orion_A} and~\ref{fig:Euler_Orion_B}.  
+These figures illustrate how the degree of connectivity and fragmentation evolves as a function of column density.  
+
+In Orion~A, the sharp peak in the Euler characteristic corresponds to a rapid transition from a regime dominated by isolated structures to one in which these structures merge into a more interconnected network.  
+The example cutouts in Figure~\ref{fig:Euler_Orion_A} highlight this process: at low column densities, the cloud consists of many disconnected regions, whereas at higher thresholds these regions coalesce into larger, more complex entities.
+
+In contrast, Figure~\ref{fig:Euler_Orion_B} for Orion~B shows a more gradual evolution.  
+Here, the Euler characteristic decreases smoothly, indicating that fragmentation and merging occur over a broader range of column densities.  
+The visual examples confirm that Orion~B maintains a predominantly filamentary and interconnected morphology across scales, consistent with its interpretation as a more turbulent, scale‑free environment.
+
+Together, these visualizations reinforce the quantitative findings and provide intuitive insight into how topology and morphology change across different physical regimes in the two clouds.
 
 \begin{figure}[t]
     \centering
-    \includegraphics[width=0.65\textwidth]{figures/euler_Orion_A.png}
-    \caption{Euler characteristic as a function of column density (left) and four examples of structures (right) marked by colored boxes on the graph (Orion A).}
+    \includegraphics[width=0.7\textwidth]{figures/euler_Orion_A.png}
+    \caption{Euler characteristic as a function of column density (left). The right panels show the same zoomed-in area of the cloud at the thresholds indicated by the colored boxes on the graph (Orion A).}
     \label{fig:Euler_Orion_A}
 \end{figure}
 
 \begin{figure}[t]
     \centering
-    \includegraphics[width=0.65\textwidth]{figures/euler_Orion_B.png}
-    \caption{Euler characteristic as a function of column density (left) and four examples of structures (right) marked by colored boxes on the graph (Orion B).}
+    \includegraphics[width=0.7\textwidth]{figures/euler_Orion_B.png}
+    \caption{Euler characteristic as a function of column density (left). The right panels show the same zoomed-in area of the cloud at the thresholds indicated by the colored boxes on the graph (Orion B).}
     \label{fig:Euler_Orion_B}
 \end{figure}
 
 % Bring in the MSD plane and individual-structure analysis.
 The next step in our analysis was to examine individual structures in the context of the local fractal dimension.  
-Using the hierarchical segmentation provided by the dendrogram, we tracked the properties and positions of individual components at each column‑density threshold.
+Using the hierarchical segmentation provided by the dendrogram, we tracked the properties and positions of individual components at each column-density threshold.
 
 As an initial step, we analyzed how the local fractal dimension of these structures varies with column density.  
 We found that the ensemble of structures broadly follows the trend observed for the entire cloud, but with a shallower dependence and greater scatter (Figures~\ref{fig:local_A_single_structures} and~\ref{fig:local_B_single_structures}).  
@@ -125,10 +133,18 @@ This apparent tension motivates a closer look at how structure fragmentation and
 
 Connecting the fractal dimension with mass and size properties further confirmed this puzzling picture: the smaller and lighther (core-like) the structures, the more they tend towards higher local fractal dimension (Figures \ref{fig:MSD_orion_A}, \ref{fig:MSD_orion_B}, \ref{fig:MSD_orion_A_B}).
 
-Visually this can also be confirmed:
+Visually this can also be confirmed by looking at structures and their fractal dimension here:
 
 % Connect to star formation.
 % which of the two is forming more stars?
+
+Finally, we decided to explore a possible connection between local structural complexity and star formation activity. To do this, we used the YSO catalogue from \cite{megeath2012catalogue}, extracting a sample of young stellar objects (YSOs) from which we computed a YSO density map. This density map was then correlated with our previously derived local fractal dimension maps (Figures~\ref{fig:local_A_map} and~\ref{fig:local_B_map}). We first analyzed only early-stage YSOs and then repeated the analysis for the full YSO sample for completeness and comparison.
+
+The correlation results, expressed in terms of both Pearson and Spearman coefficients, revealed distinct trends for the Orion~A and Orion~B clouds. In Orion~A, we found a stronger correlation when using the early-stage YSO sample (Pearson: 0.434, Spearman: 0.429) compared to the full sample (Pearson: 0.286, Spearman: 0.393). In contrast, Orion~B showed the opposite behavior, with a weaker correlation for the early-stage sample (Pearson: 0.288, Spearman: 0.244) and a stronger correlation for the full sample (Pearson: 0.399, Spearman: 0.340).
+
+These results hint at possible environmental differences between the two regions. In Orion~A, the stronger correlation for early-stage YSOs suggests that the emergence of complex, fragmented structures is closely tied to the onset of star formation. Conversely, the weaker or reversed trend in Orion~B may reflect a more turbulent, less clustered environment where star formation proceeds in a more distributed manner, less dependent on localized structural complexity.
+
+It is important to note, however, that the method is currently limited by the relatively small number of YSOs in the early-stage catalogue and the restricted spatial coverage of the YSO density maps. These limitations make it difficult to draw firm conclusions. Nevertheless, if future studies with larger and more complete datasets confirm these patterns, they would provide valuable evidence for fundamental differences in the star formation environments of Orion~A and Orion~B, and demonstrate the potential of fractal and topological analyses to shed light on the physical conditions governing star formation in molecular clouds.
 
 % End with a synthesis.
 
@@ -136,5 +152,3 @@ Visually this can also be confirmed:
 % Less so in Orion B, this gives a coherent picture of how the Minkowski functionals can describe the physics of the cloud.
 
 comparison with the M**alpha method
-
-Star Formation: method a bit limited by the number and extent of the objects.

@@ -110,6 +110,7 @@ Conversely, it is also possible to calculate the local fractal dimension separat
 
 Analyzing the local fractal dimension as a function of threshold thus provides a powerful tool to investigate the scale dependence and complexity of molecular clouds, complementing the global measurements and helping to disentangle the contributions from different physical processes.
 
+% to-do: a picture here would not be bad
 \subsection{Dendrograms}
 
 In order to explore the segmentation of structures with changing column density or mass, dendrograms are a useful tool. A dendrogram is a diagram that represents the hierarchical organization of structures within the data \cite{everitt2010cambridge}. Specifically, it shows how large-scale regions can be decomposed into smaller substructures as the threshold for the column density (or mass) increases.
@@ -118,6 +119,7 @@ By progressively applying higher thresholds, one can trace how individual dense 
 
 In this work, dendrograms were constructed using hierarchical clustering methods applied to the mass maps of Orion A and B. This approach allows identification and characterization of the main branches (large coherent structures) as well as the terminal leaves (smallest resolved substructures). For each identified region, properties such as total mass, size (computed via principal component analysis), and fractal dimension were derived to quantify their physical characteristics and complexity.
 
+% to-do: maybe add Alvaro's plot (or maybe in the discussion)
 \subsection{Mass-Size-Fractal Dimension (MSD) plane}
 
 Since it is possible to calculate the local fractal dimension for single structure, we can connect this property to more physical aspects of the substructures, namely mass and size. This then allows us to include new information on mass-size diagrams, creating a Mass-Size-Fractal Dimension (MSD).
@@ -126,7 +128,7 @@ The dendrogram-like segmentation is an important aspect of this process, as it e
 
 \subsection{Euler characteristic}
 
-Euler characteristic, often denoted as $\chi$ or $M_2(S_{\nu})$, and in two dimensions it is given by:
+Euler characteristic, often denoted as $\chi$ (or $M_2(S_{\nu})$ in the context of the Minkowski functionals), and in two dimensions it is given by:
 \begin{equation}
     \chi = \text{Number of connected regions} - \text{Number of holes}
 \end{equation}
