@@ -74,7 +74,7 @@ This comparison demonstrates that the results from our method are supported by i
 
 \begin{figure}[t]
     \centering
-    \includegraphics[width=0.75\textwidth]{figures/beattie_fractal_dimension.png}
+    \includegraphics[width=0.8\textwidth]{figures/beattie_fractal_dimension.png}
     \caption{Fractal dimension derived from the mass–size relation as a function of Mach number \cite{beattie2019relation}.  
     Note that the x-axis is inverted relative to the representation used in our plots above.}
     \label{fig:beattie_fractal_dimension}
@@ -108,14 +108,14 @@ Together, these visualizations reinforce the quantitative findings and provide i
 
 \begin{figure}[t]
     \centering
-    \includegraphics[width=0.7\textwidth]{figures/euler_Orion_A.png}
+    \includegraphics[width=0.8\textwidth]{figures/euler_Orion_A.png}
     \caption{Euler characteristic as a function of column density (left). The right panels show the same zoomed-in area of the cloud at the thresholds indicated by the colored boxes on the graph (Orion A).}
     \label{fig:Euler_Orion_A}
 \end{figure}
 
 \begin{figure}[t]
     \centering
-    \includegraphics[width=0.7\textwidth]{figures/euler_Orion_B.png}
+    \includegraphics[width=0.8\textwidth]{figures/euler_Orion_B.png}
     \caption{Euler characteristic as a function of column density (left). The right panels show the same zoomed-in area of the cloud at the thresholds indicated by the colored boxes on the graph (Orion B).}
     \label{fig:Euler_Orion_B}
 \end{figure}
@@ -135,20 +135,40 @@ Connecting the fractal dimension with mass and size properties further confirmed
 
 Visually this can also be confirmed by looking at structures and their fractal dimension here:
 
+% comparison with other methods
+In light of these findings, it is instructive to compare our approach with more historically used methods for estimating fractal dimensions in molecular clouds.  
+Classical analyses, such as those presented in \cite{elmegreen1996fractal}, often relied on a scale-counting relation of the form
+\[
+N(\lambda > L) \propto L^{-D},
+\]
+where \(N\) is the number of self‑similar structures larger than a given scale \(L\), and \(D\) is the inferred fractal dimension.  
+While this method provides a useful first‑order characterization of cloud hierarchy, it is inherently limited to counting structures across scales and does not directly incorporate information about their shapes, perimeters, or connectivity.
+
+By contrast, the perimeter–area approach used in this work captures not only the size distribution of structures but also the complexity of their boundaries and how that complexity evolves with column density.  
+When combined with topological diagnostics such as the Euler characteristic and hierarchical segmentation via dendrograms, this method offers a more nuanced view of how morphology and topology change across different physical regimes.  
+Rather than yielding a single, scale‑averaged fractal dimension, our approach reveals distinct regimes within the same cloud (e.g., Orion~A) and connects those regimes to physically meaningful transitions such as the emergence of dense cores and the onset of star formation.
+
+In summary, while historical methods such as the \( N(\lambda > L) \) scaling have been invaluable in establishing the fractal nature of molecular clouds, the combined perimeter–area and topological analysis employed here provides a more detailed, physically interpretable framework that links structural complexity directly to the underlying star‑forming processes.
+
 % Connect to star formation.
 % which of the two is forming more stars?
-
 Finally, we decided to explore a possible connection between local structural complexity and star formation activity. To do this, we used the YSO catalogue from \cite{megeath2012catalogue}, extracting a sample of young stellar objects (YSOs) from which we computed a YSO density map. This density map was then correlated with our previously derived local fractal dimension maps (Figures~\ref{fig:local_A_map} and~\ref{fig:local_B_map}). We first analyzed only early-stage YSOs and then repeated the analysis for the full YSO sample for completeness and comparison.
 
 The correlation results, expressed in terms of both Pearson and Spearman coefficients, revealed distinct trends for the Orion~A and Orion~B clouds. In Orion~A, we found a stronger correlation when using the early-stage YSO sample (Pearson: 0.434, Spearman: 0.429) compared to the full sample (Pearson: 0.286, Spearman: 0.393). In contrast, Orion~B showed the opposite behavior, with a weaker correlation for the early-stage sample (Pearson: 0.288, Spearman: 0.244) and a stronger correlation for the full sample (Pearson: 0.399, Spearman: 0.340).
 
-These results hint at possible environmental differences between the two regions. In Orion~A, the stronger correlation for early-stage YSOs suggests that the emergence of complex, fragmented structures is closely tied to the onset of star formation. Conversely, the weaker or reversed trend in Orion~B may reflect a more turbulent, less clustered environment where star formation proceeds in a more distributed manner, less dependent on localized structural complexity.
+These results hint at possible environmental differences between the two regions.  
+In Orion~A, the stronger correlation for early-stage YSOs suggests that the emergence of complex, fragmented structures is closely tied to the onset of star formation.  
+Conversely, the weaker or more distributed trend in Orion~B may reflect a more turbulent, less clustered environment where star formation proceeds in a less organized manner, less dependent on localized structural complexity.  
+This interpretation is consistent with long-standing observational evidence: Orion~A hosts a significantly higher density of protostars and young stellar objects, including the Orion Nebula Cluster and the Integral Shaped Filament, and is overall far more active in star formation than Orion~B \cite{megeath2012catalogue}.  
+The contrasting correlations therefore align naturally with the known difference in star-forming activity between the two regions.
 
 It is important to note, however, that the method is currently limited by the relatively small number of YSOs in the early-stage catalogue and the restricted spatial coverage of the YSO density maps. These limitations make it difficult to draw firm conclusions. Nevertheless, if future studies with larger and more complete datasets confirm these patterns, they would provide valuable evidence for fundamental differences in the star formation environments of Orion~A and Orion~B, and demonstrate the potential of fractal and topological analyses to shed light on the physical conditions governing star formation in molecular clouds.
 
 % End with a synthesis.
+Taken together, our analysis provides a cohesive view of the structural and physical differences between Orion~A and Orion~B.  
+The combination of global and local fractal dimension measurements, topological diagnostics through the Euler characteristic, and the hierarchical insights from the MSD analysis reveals that both clouds exhibit scale‑dependent behavior, but in distinct ways.  
+Orion~A shows clear structural transitions—evident in the change of slope in the global perimeter–area relation and the sharp features in the Euler characteristic—marking the emergence of dense cores and a close connection between increasing morphological complexity and active star formation.  
+In contrast, Orion~B maintains a more uniform, filamentary character and exhibits weaker correlations with local complexity, consistent with a more turbulent, scale‑free environment where star formation proceeds in a more distributed manner.  
 
-% Global Fractal Dimension 
-% Less so in Orion B, this gives a coherent picture of how the Minkowski functionals can describe the physics of the cloud.
-
-comparison with the M**alpha method
+These findings reinforce the idea that turbulence and self‑similarity dominate cloud structure on large scales, but that localized physical processes such as core formation can imprint strong deviations from scale‑free behavior.  
+By integrating fractal analysis with topological measures and comparisons to simulations, this study demonstrates how a multi‑faceted approach can link the morphology of molecular clouds directly to their star‑forming activity, offering a richer and more physically grounded picture than classical methods alone.
