@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1753521051.11874 "main.aux" "main.bbl" "main" 1753521078.30319 0
+["bibtex main"] 1753632343.5161 "main.aux" "main.bbl" "main" 1753632842.34983 0
   "./bibliography.bib" 1753260424 11116 a5ea4bbf1edf6a284dc49c8c34bda70c ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/alpha.bst" 1291864736 23907 a5f93555796fb564b924339521f10a7c ""
-  "main.aux" 1753521076 52992 9c536af33f73002e77a7d2b7f137fac5 "pdflatex"
+  "main.aux" 1753632839 53718 db3e297ccec280e31015ede4118bf1dc "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1753521051.6498 "c:/Users/User/Documents/GitHub/Master-Thesis-LaTeX/Thesis/main.tex" "main.pdf" "main" 1753521078.30468 0
+["pdflatex"] 1753632811.73067 "c:/Users/User/Documents/GitHub/Master-Thesis-LaTeX/Thesis/main.tex" "main.pdf" "main" 1753632842.36818 0
   "A) Front Matter/abstracts.tex" 1745418765 541 edcb57c261b3f8002a114309f9b47485 ""
   "A) Front Matter/acknowledgements.tex" 1745418765 92 d76837115754b6d85b4d1801cbf97320 ""
   "A) Front Matter/kurzfassung.tex" 1745418765 110 a678c529e38678d21803b70a2e6e15e0 ""
@@ -17,11 +17,11 @@
   "B) Chapters/02_data.tex" 1751264826 19423 91d86f156689ee5a1287f32b96dabc74 ""
   "B) Chapters/03_methods.tex" 1753271416 20173 bdb149a42472e7de88477b5e12622182 ""
   "B) Chapters/04_results.tex" 1753370964 22510 b404685d84c7fa4f709122e657a420d3 ""
-  "B) Chapters/05_discussion.tex" 1753516089 20011 17a74e63166c2b6b8a12a4c93d505afd ""
+  "B) Chapters/05_discussion.tex" 1753632809 22204 f3564ae9977c25191da09a97a2732f6a ""
   "B) Chapters/06_conclusions.tex" 1751809497 76 39717493cd77b940e608ab013a040e67 ""
   "C) Back Matter/acronyms.tex" 1745418766 92 0cd2ecb16ecabfe02b4698cee115558f ""
   "C) Back Matter/appendix.tex" 1753521020 3912 6f4d61cd1b493bf10394f00663b81e6b ""
-  "C) Back Matter/gallery.tex" 1753519409 145 4915c55819f2b1403a9c4ee1f0a9ba33 ""
+  "C) Back Matter/gallery.tex" 1753631122 720 ae0a303f2334518b97b8e44bb8728780 ""
   "C) Back Matter/glossary.tex" 1745418766 243 c3abd5e02cd1490804648b0ea0b00d44 ""
   "C:/Users/User/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1747295514 290326 ae01fb2cdb384173682cb61a72305b7f ""
   "C:/Users/User/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1745324545 13147770 99497f47635757a51f9d9fc195b7076c ""
@@ -241,6 +241,8 @@
   "figures/MSD_Orion_A_with_lines.png" 1752759165 755248 37bd96778f13969f0d5d49c189555180 ""
   "figures/MSD_Orion_B.png" 1752759637 597152 61bac25e7327dfd6786991db3714b8db ""
   "figures/MSD_Orion_B_with_lines.png" 1752760495 622816 d607c0f9f4fe46d176b4125af193990c ""
+  "figures/Orion_A_gallery_global.png" 1753630823 1195090 51f9307a05890495bd60c445b89985f6 ""
+  "figures/Orion_B_gallery_global.png" 1753630845 1142500 947740433c22d4a4ba41be5b886afc70 ""
   "figures/YSOs_density_Orion_A.png" 1753086985 608141 7c4f72387f76a37675496fb677429d21 ""
   "figures/YSOs_density_Orion_B.png" 1753087887 1006724 bb0f792664eb6cdf53106488e138352b ""
   "figures/YSOs_early_stage_density_Orion_A.png" 1753087188 595033 4127423a52ccab1f6ddd4a3008d97042 ""
@@ -273,16 +275,16 @@
   "figures/perimeter_area_uncertainties.png" 1751359355 99983 7c3a4175fa17d1fac0980824c9479fe2 ""
   "figures/relative_throughputs_PACS_SPIRE.png" 1750316498 67733 b05bc362ed51a8d19a1f558da33f33ef ""
   "main.acr" 0 -1 0 ""
-  "main.aux" 1753521076 52992 9c536af33f73002e77a7d2b7f137fac5 "pdflatex"
-  "main.bbl" 1753521051 8306 83584e503f828b1d0f47ad024ce18210 "bibtex main"
+  "main.aux" 1753632839 53718 db3e297ccec280e31015ede4118bf1dc "pdflatex"
+  "main.bbl" 1753632344 8306 83584e503f828b1d0f47ad024ce18210 "bibtex main"
   "main.gls" 0 -1 0 ""
-  "main.lof" 1753521076 9290 e5a544480a6c6f9d44daad963272b3ba "pdflatex"
-  "main.lot" 1753521076 355 4a0727ee27f8e67e28f4422155bb4f0e "pdflatex"
-  "main.out" 1753521056 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.lof" 1753632839 9616 b7e615c0d96ce82e7110cf669b3aacf1 "pdflatex"
+  "main.lot" 1753632839 355 4a0727ee27f8e67e28f4422155bb4f0e "pdflatex"
+  "main.out" 1753632817 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "main.tex" 1753519455 2449 805dcfb3c2c7cc48324a1678ddf92ccf ""
-  "main.toc" 1753521076 6050 3cc48b70b61f172e188ef707ffb35f0e "pdflatex"
+  "main.toc" 1753632839 6050 71164230386e11e606e461dc60ffd056 "pdflatex"
   "packages_macros.tex" 1745418765 1479 42b754355d39555500bf896db24d7ba8 ""
-  "pdfa.xmpi" 1753521054 5042 5422aa8800ec6b67a2fac37a0741445c "pdflatex"
+  "pdfa.xmpi" 1753632815 5042 973b8b6ea0a4ebd0343994181ab667e2 "pdflatex"
   (generated)
   "main.acn"
   "main.aux"
