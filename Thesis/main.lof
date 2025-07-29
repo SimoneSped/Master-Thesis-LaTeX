@@ -49,4 +49,16 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {B.1}{\ignorespaces Column-density map of Orion~A with contours of three characteristic thresholds.}}{57}{figure.B.1}%
 \contentsline {figure}{\numberline {B.2}{\ignorespaces Column-density map of Orion~B with contours as in Figure~\ref {fig:gallery_global_thresholds_OA}.}}{57}{figure.B.2}%
+\contentsline {figure}{\numberline {B.3}{\ignorespaces Column-density map of Orion~A with a contour overlaid at the threshold corresponding to the peak in the Euler characteristic.}}{58}{figure.B.3}%
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Column-density map of Orion~B with a contour overlaid at the same threshold used for Orion~A in Figure~\ref {fig:gallery_euler_OA}. While this value does not correspond to a peak in Orion~B’s Euler characteristic, it is shown here for visual comparison.}}{58}{figure.B.4}%
+\contentsline {figure}{\numberline {B.5}{\ignorespaces Example of the mask of an individual structure extracted from Orion~A at a given column density threshold. Key physical properties—mass, size, and local fractal dimension—are indicated in the title of the plot.}}{60}{figure.B.5}%
+\contentsline {figure}{\numberline {B.6}{\ignorespaces Example of the mask of an individual structure extracted from Orion~A at a given column density threshold.}}{61}{figure.B.6}%
+\contentsline {figure}{\numberline {B.7}{\ignorespaces Example of the mask of an individual structure extracted from Orion~A at a given column density threshold.}}{62}{figure.B.7}%
+\contentsline {figure}{\numberline {B.8}{\ignorespaces Example of the mask of an individual structure extracted from Orion~A at a given column density threshold.}}{62}{figure.B.8}%
+\contentsline {figure}{\numberline {B.9}{\ignorespaces Example of the mask of an individual structure extracted from Orion~A at a given column density threshold.}}{63}{figure.B.9}%
+\contentsline {figure}{\numberline {B.10}{\ignorespaces Example of the mask of an individual structure extracted from Orion~B at a given column density threshold. Key physical properties—mass, size, and local fractal dimension—are indicated in the title of the plot.}}{64}{figure.B.10}%
+\contentsline {figure}{\numberline {B.11}{\ignorespaces Example of the mask of an individual structure extracted from Orion~B at a given column density threshold.}}{64}{figure.B.11}%
+\contentsline {figure}{\numberline {B.12}{\ignorespaces Example of the mask of an individual structure extracted from Orion~B at a given column density threshold.}}{65}{figure.B.12}%
+\contentsline {figure}{\numberline {B.13}{\ignorespaces Example of the mask of an individual structure extracted from Orion~B at a given column density threshold.}}{65}{figure.B.13}%
+\contentsline {figure}{\numberline {B.14}{\ignorespaces Example of the mask of an individual structure extracted from Orion~B at a given column density threshold.}}{66}{figure.B.14}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

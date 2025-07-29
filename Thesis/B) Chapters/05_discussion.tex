@@ -75,6 +75,20 @@ The local fractal dimension calculated at each column‑density threshold shows 
 This behavior appears to arise not from the increasing complexity of individual structures, but rather from the growing, interconnected network of cores, fibers, and filaments that emerge as the cloud fragments at higher column densities.
 The average local fractal dimension for both Orion~A and Orion~B is approximately 1.7, which remains within the expected range for molecular clouds. This value suggests that, on average, the boundaries of structures in both regions are moderately complex—more intricate than simple geometric shapes, but not fully space-filling. Such averages are consistent with previous studies and support the interpretation that turbulence and hierarchical fragmentation are key drivers of cloud morphology at these scales.
 
+An intriguing benchmark for interpreting the local fractal dimension comes from the classical theory of turbulence developed by Kolmogorov \cite{kolmogorov1962refinement}.  
+In this framework, the energy spectrum of incompressible turbulence follows a power-law scaling of the form \( E(k) \propto k^{-5/3} \), where \( k \) is the wavenumber.  
+This spectral slope corresponds to a projected (2D) fractal dimension of approximately \( D \approx 1.7 \), which is often used as a reference point for the morphology of turbulent structures in astrophysical environments.
+
+In molecular clouds, a local fractal dimension approaching this value is commonly interpreted as evidence for Kolmogorov-like turbulent behavior, particularly in low-compression or subsonic regimes.  
+In our results, we observe that many of the extracted structures cluster around this value, especially in intermediate column density regimes and in regions where extended filamentary features dominate.
+
+At the same time, significant deviations from \( D \approx 1.7 \) are found—towards both higher and lower values.  
+These shifts likely reflect the breakdown of classical turbulence conditions and the emergence of other physical processes.  
+For example, very high local fractal dimensions (approaching 2) may correspond to round, smooth, core-like structures, while lower values indicate irregular, fragmented, or shock-dominated regions.
+
+The overall distribution of \( D \) across the MSD plane thus captures the transition from turbulence-dominated to gravity-dominated regimes.  
+In this sense, the local fractal dimension can be viewed as a sensitive tracer of the internal physics shaping the morphology of the cloud at different scales and densities.
+
 % to-do: do we see this visually?
 % to-do: do the peaks represent something?
 Some visual examples are helpful to illustrate this behavior (see Gallery).  
@@ -114,12 +128,14 @@ Visual examples of the changes in the Euler characteristic for Orion~A and Orion
 These figures illustrate how the degree of connectivity and fragmentation evolves as a function of column density.  
 
 In Orion~A, the sharp peak in the Euler characteristic corresponds to a rapid transition from a regime dominated by isolated structures to one in which these structures merge into a more interconnected network.  
-The example cutouts in Figure~\ref{fig:Euler_Orion_A} highlight this process: at low column densities, the cloud consists of many disconnected regions, whereas at higher thresholds these regions coalesce into larger, more complex entities.
+The example cutouts in Figure~\ref{fig:Euler_Orion_A} highlight this process: at low column densities, the cloud consists of one big connected structure surrounded by many disconnected regions; at mid range that starts to change, whereas at higher thresholds these regions coalesce into larger, more complex entities.
+This marks the transition from a regime of many disconnected structures to one where connectivity increases rapidly.
 
 In contrast, Figure~\ref{fig:Euler_Orion_B} for Orion~B shows a more gradual evolution.  
 Here, the Euler characteristic decreases smoothly, indicating that fragmentation and merging occur over a broader range of column densities.  
 The visual examples confirm that Orion~B maintains a predominantly filamentary and interconnected morphology across scales, consistent with its interpretation as a more turbulent, scale‑free environment.
 
+For visualization, the column density threshold corresponding to the peak in the Euler characteristic for OrionA—along with the same threshold overlaid on OrionB for comparison—is shown in Figures~\ref{fig:gallery_euler_OA} and~\ref{fig:gallery_euler_OB} in the Gallery.
 Together, these visualizations reinforce the quantitative findings and provide intuitive insight into how topology and morphology change across different physical regimes in the two clouds.
 
 \begin{figure}[t]
@@ -149,7 +165,20 @@ This apparent tension motivates a closer look at how structure fragmentation and
 
 Connecting the fractal dimension with mass and size properties further confirmed this puzzling picture: the smaller and lighther (core-like) the structures, the more they tend towards higher local fractal dimension (Figures \ref{fig:MSD_orion_A}, \ref{fig:MSD_orion_B}, \ref{fig:MSD_orion_A_B}).
 
-Visually this can also be confirmed by looking at structures and their fractal dimension here:
+The trends discussed in the MSD plane can also be verified visually using the gallery in Appendix~\ref{appendix:gallery}.
+For OrionA, we begin with large-scale, low-fractal-dimension structures that encompass much of the cloud (see Figure\ref{fig:gallery_MSD_A_1}). These correspond to the upper-right region of the MSD plane, representing high mass and size but relatively low structural complexity.
+
+As we move across the MSD diagram—decreasing in size and mass—the local fractal dimension tends to increase.
+This progression is illustrated in Figures~\ref{fig:gallery_MSD_A_2}, \ref{fig:gallery_MSD_A_3}, and \ref{fig:gallery_MSD_A_4}, which show increasingly fragmented structures with more intricate boundaries.
+
+At the extreme end, small and simple shapes dominate, often showing very high local fractal dimensions (approaching 2).
+An example of such a structure is shown in Figure~\ref{fig:gallery_MSD_A_5}.
+The mass, size, and fractal dimension of each example are shown in the figure labels to allow for direct comparison with the corresponding location on the MSD plane.
+
+A similar pattern is observed in OrionB.
+Figure\ref{fig:gallery_MSD_B_1} corresponds to the top right of the MSD plane—large, coherent structures with lower fractal dimension.
+Figures~\ref{fig:gallery_MSD_B_2}, \ref{fig:gallery_MSD_B_3}, and \ref{fig:gallery_MSD_B_4} illustrate the gradual transition toward smaller, more fragmented features.
+Finally, Figure~\ref{fig:gallery_MSD_B_5} shows a compact, high-density structure with a high local fractal dimension, representative of the lower-left region of the MSD plot.
 
 % comparison with other methods
 In light of these findings, it is instructive to compare our approach with more historically used methods for estimating fractal dimensions in molecular clouds.  
@@ -188,5 +217,3 @@ In contrast, Orion~B maintains a more uniform, filamentary character and exhibit
 
 These findings reinforce the idea that turbulence and self‑similarity dominate cloud structure on large scales, but that localized physical processes such as core formation can imprint strong deviations from scale‑free behavior.  
 By integrating fractal analysis with topological measures and comparisons to simulations, this study demonstrates how a multi‑faceted approach can link the morphology of molecular clouds directly to their star‑forming activity, offering a richer and more physically grounded picture than classical methods alone.
-
-% add Kolmogorov's theory of perturbation...
