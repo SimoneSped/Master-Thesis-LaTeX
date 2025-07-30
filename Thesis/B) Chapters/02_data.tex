@@ -48,7 +48,7 @@ The combination of PACS and SPIRE photometric data allows for the characterizati
 \end{figure}
 
 % To-Do:
-% Give range of N and compare it to the given one in Lombardi 2014
+% Give range of N and compare it to the given one in Lombardi 2014 (DONE)
 % Maybe also the range in mag
 % Mention low res planck data
 
@@ -72,6 +72,13 @@ The constants $\gamma$ and $\delta$ were calibrated separately for Orion A and B
     \item For Orion B, $\gamma = 3460$ mag and $\delta = -0.001$ mag.
 \end{itemize}
 
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=0.75\textwidth]{figures/extinction_map.png}
+    \caption{Extinction map of Orion A and B derived from Herschel data, showing the extinction in K-band ($A_V$) across the clouds. The map is based on the optical depth at 353 GHz, converted to extinction using the relation in Equation \ref{eq:ak_tau_relation}.}
+    \label{fig:extinction_map}
+\end{figure}
+
 The $A_K$ extinction map can be seen in Figure \ref{fig:extinction_map}. 
 To convert from $A_K$ to visual extinction $A_V$, we assumed a standard extinction curve with $R_V = 3.1$, following \cite{bohlin1978survey} and \cite{rieke1985interstellar}, giving:
 
@@ -80,13 +87,6 @@ To convert from $A_K$ to visual extinction $A_V$, we assumed a standard extincti
     \label{eq:av_ak_relation}
 \end{equation}
 
-\begin{figure}
-    \centering
-    \includegraphics[width=0.75\textwidth]{figures/extinction_map.png}
-    \caption{Extinction map of Orion A and B derived from Herschel data, showing the visual extinction ($A_V$) across the clouds. The map is based on the optical depth at 353 GHz, converted to extinction using the relation in Equation \ref{eq:av_ak_relation}. (WIP)}
-    \label{fig:extinction_map}
-\end{figure}
-
 Finally, assuming all hydrogen is in molecular form (i.e., fully in H$_2$) and a standard gas-to-dust ratio, the column density of molecular hydrogen was derived using:
 
 \begin{equation}
@@ -94,16 +94,16 @@ Finally, assuming all hydrogen is in molecular form (i.e., fully in H$_2$) and a
     \label{eq:n_h2_av_relation}
 \end{equation}
 
-The derived column density maps of Orion A and B can be seen in Figure \ref{fig:n_h2_final_map}. They range respectively ... for Orion A and ... for Orion B, conferming the specification in the literature \cite{lombardi2014herschel}. 
-
 \begin{figure}[t]
     \centering
     \includegraphics[width=0.75\textwidth]{figures/column_density_map.png}
-    \caption{Column density maps of Orion A and B derived from Herschel data, showing the total column density of molecular hydrogen ($N(\mathrm{H}_2)$) across the clouds. The maps are based on the optical depth at 353 GHz, converted to extinction and then to column density. (WIP)}
+    \caption{Column density maps of the Orion Complex derived from Herschel data, showing the total column density of molecular hydrogen $N(\mathrm{H}_2)$ across the cloud. The maps are based on the optical depth at 353 GHz.}
     \label{fig:n_h2_final_map}
 \end{figure}
 
-This method provides a robust, emission-based estimate of the total column density across Orion A and B, with the advantage of tracing both high and low column density regions uniformly. 
+The derived column density maps of the Orion Complex can be seen in Figure \ref{fig:n_h2_final_map}. The $H_2$ column density ranges from around 10$^{21}$ cm$^{-2}$ to a few $10^{23}$ cm$^{-2}$ (REVIEW), conferming the specification in the literature \cite{lombardi2014herschel}. 
+
+This method provides a robust, emission-based estimate of the total column density across Orion A and B, with the advantage of tracing both high and low column density regions uniformly.
 However, it is important to note that the derivation relies on assumptions about dust properties, uniform opacity, and gas-to-dust ratio, which introduce systematic uncertainties into the absolute calibration of $N(\mathrm{H}_2)$.
 
 % To-Do:
@@ -155,7 +155,7 @@ The resulting mass map provides the total H$_2$ mass contained in each pixel of 
 \begin{figure}[t]
     \centering
     \includegraphics[width=0.75\textwidth]{figures/mass_distribution.png}
-    \caption{Mass map of the Orion A and B molecular clouds derived from the H$_2$ column density maps. The map shows the total mass in solar masses contained in each pixel, providing a detailed view of the mass distribution across the clouds. (WIP)}
+    \caption{Mass map of the Orion A and B molecular clouds derived from the H$_2$ column density maps. The map shows the total mass in solar masses contained in each pixel.}
     \label{fig:mass_map}
 \end{figure}
 
@@ -171,7 +171,7 @@ The total mass of Orion A and B combined is therefore approximately $1.56 \times
 
 \subsection{Data Pre-processing}
 
-To ensure consistency and reliability in the derived column density and mass maps, several pre-processing steps were applied to both the original \textit{Herschel} data and the derived extinction products from \cite{lombardi2014orion}. These steps aimed to isolate high-resolution structure, remove contaminating background emission, and maintain uniform calibration across the dataset.
+To ensure consistency and reliability in the derived column density and mass maps, several pre-processing steps were applied to both the original \textit{Herschel} data and the derived extinction products from \cite{lombardi2014herschel}. These steps aimed to isolate high-resolution structure, remove contaminating background emission, and maintain uniform calibration across the dataset.
 
 The original \textit{Herschel} photometric maps used in the derivation of extinction and column density maps were processed using the Herschel Interactive Processing Environment (HIPE; \cite{mizumoto2010astronomical}), version 10.0.2843, along with the most up-to-date calibration files available at the time. Standard pipeline procedures were followed, including detector deglitching, baseline removal, and map-making.
 
@@ -218,6 +218,6 @@ A spatial overview of the YSO population is shown in Figure \ref{fig:YSO_map}, w
 \begin{figure}[t]
     \centering
     \includegraphics[width=0.75\textwidth]{figures/YSOs_orion.png}
-    \caption{Map of YSOs in the Orion A and B clouds, overlaid on the column density map. YSOs are color-coded by evolutionary class, with protostars (P) and disk sources (D) identified based on their mid-infrared spectral energy distributions. This distribution reveals the spatial correlation between dense gas and young stars. (WIP)}
+    \caption{Map of YSOs in the Orion A and B clouds, overlaid on the column density map. YSOs are color-coded by evolutionary class, with protostars (P, red stars) and disk sources (D, blue circles) identified based on their mid-infrared spectral energy distributions.}
     \label{fig:YSO_map}
 \end{figure}

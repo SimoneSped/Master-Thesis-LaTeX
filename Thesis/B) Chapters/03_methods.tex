@@ -5,11 +5,13 @@
 % define global properties and local properties better and clearer!
 \section{Introduction}
 
-It is thought that the structure of the interstellar medium (ISM) plays a crucial role in the formation of stars and galaxies. The ISM is a complex and dynamic environment, characterized by a wide range of physical conditions, including temperature, density, and magnetic fields. Understanding the structure of the ISM is essential for understanding how stars and galaxies form and evolve.
-Obsevations of the ISM reveal a rich tapestry of structures, ranging from small molecular clouds to large-scale filaments and bubbles. These structures are often characterized by their irregular shapes and complex geometries, which can make them difficult to analyze and interpret.
-In this chapter, we will discuss the methods used to analyze the structure of the ISM, with a focus on the Minkowski functionals and the fractal dimension. These methods provide a powerful framework for quantifying the shape and structure of objects in a space, allowing us to derive various properties of the structures, such as their size, shape, and connectivity.
+The interstellar medium (ISM) is a complex and dynamic environment, shaped by a broad spectrum of physical processes involving turbulence, gravity, magnetic fields, and stellar feedback. These processes give rise to structures across a wide range of scales—from compact molecular cores to extended filaments and bubbles—producing highly irregular and non-linear geometries.
 
-The fractal dimension is a measure of the complexity of the border of a shape, which can calculated using the Minkowski functionals.
+Observationally, the ISM presents a rich variety of morphologies, particularly in molecular clouds, where the interplay between turbulence and self-gravity leads to intricate patterns. Traditional statistical tools often fall short in fully capturing the spatial complexity of these structures. To address this, the use of topological and morphological descriptors has become increasingly relevant.
+
+In this chapter, we introduce the framework of topological methods used to characterize the structure of the ISM, focusing on the Minkowski functionals and the concept of the fractal dimension. These tools provide a quantitative way to analyze the geometry and topology of cloud structures, offering insight into properties such as size, shape, fragmentation, and connectivity.
+
+In particular, the fractal dimension—derived here through a perimeter–area relation—serves as a proxy for the complexity of a structure’s boundary. It allows us to assess how self-similar or fragmented a region is, providing a direct link between morphology and the physical processes that govern cloud evolution and star formation.
 
 \section{Minkowski Functionals}
 
@@ -29,11 +31,11 @@ The boundary of the excursion set is defined as the level set, which is the set 
     \partial S_{\nu} = \{ \mathbf{x} \in D : f(\mathbf{x}) = \nu \}
 \end{equation}
 
-An example of these can be seen in Figure \ref{fig:level_set_example}.
+An example of these can be seen in Figure \ref{fig:level_set_example}, adapted from \cite{hahnLectures}.
 
 \begin{figure}[t]
     \centering
-    \includegraphics[width=0.6\textwidth]{figures/boundaries.png}
+    \includegraphics[width=0.7\textwidth]{figures/boundaries.png}
     \caption{Example of an excursion set and its boundary for a field for a smoothed three-dimensional Gaussian field.}
     \label{fig:level_set_example}
 \end{figure}
@@ -61,7 +63,7 @@ On this idea, the perimeter-area (P-A) relation is defined as:
 
 \begin{equation}
     \label{eq:perimeter_area}
-    P = A^{\frac{D}{2}}
+    P \propto A^{\frac{D}{2}}
 \end{equation}
 
 By measuring the perimeter $P$ and area $A$ of a structure at different thresholds and fitting the logarithm of the perimeter to the logarithm of the area, we can derive the fractal dimension $D$ of the overall structure.
@@ -192,7 +194,7 @@ The dataset also includes a pixel-wise $\tau_{850}$ error map, as shown in Figur
 
 \begin{figure}[t]
     \centering
-    \includegraphics[width=0.6\textwidth]{figures/error_map.png}
+    \includegraphics[width=0.75\textwidth]{figures/error_map.png}
     \caption{Pixel-wise error map of the $\tau_{850}$ data \cite{lombardi2014herschel}}
     \label{fig:error_map}
 \end{figure}
