@@ -413,8 +413,8 @@ INPUT .\main.toc
 INPUT .\main.toc
 INPUT main.toc
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecti1095.tfm
-OUTPUT main.toc
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecsl1095.tfm
+OUTPUT main.toc
 INPUT .\main.lot
 INPUT .\main.lot
 INPUT main.lot
@@ -429,20 +429,28 @@ INPUT .\B) Chapters\00_introduction.tex
 INPUT .\B) Chapters\00_introduction.tex
 INPUT B) Chapters\00_introduction.tex
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1095.tfm
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1095.tfm
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\cm-super\cm-super-ts1.enc
 INPUT .\B) Chapters\01_background.tex
 INPUT .\B) Chapters\01_background.tex
 INPUT .\B) Chapters\01_background.tex
 INPUT .\B) Chapters\01_background.tex
 INPUT B) Chapters\01_background.tex
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\cm-super\cm-super-ts1.enc
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecsx1440.tfm
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecsx1200.tfm
+INPUT .\figures\comparison_dust.png
+INPUT .\figures\comparison_dust.png
+INPUT .\figures\comparison_dust.png
+INPUT .\figures\comparison_dust.png
+INPUT .\figures\comparison_dust.png
+INPUT .\figures\comparison_dust.png
+INPUT .\figures\comparison_dust.png
 INPUT .\B) Chapters\02_data.tex
 INPUT .\B) Chapters\02_data.tex
 INPUT .\B) Chapters\02_data.tex
 INPUT .\B) Chapters\02_data.tex
 INPUT B) Chapters\02_data.tex
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecsx1440.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecso1440.tfm
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecsx1200.tfm
 INPUT .\figures\dust_emission_blackbody.png
 INPUT .\figures\dust_emission_blackbody.png
 INPUT .\figures\dust_emission_blackbody.png
@@ -478,7 +486,6 @@ INPUT .\figures\column_density_map.png
 INPUT .\figures\column_density_map.png
 INPUT .\figures\column_density_map.png
 INPUT .\figures\column_density_map.png
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1095.tfm
 INPUT .\figures\mass_distribution.png
 INPUT .\figures\mass_distribution.png
 INPUT .\figures\mass_distribution.png

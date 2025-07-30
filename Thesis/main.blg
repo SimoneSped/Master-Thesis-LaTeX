@@ -8,45 +8,45 @@ Database file #1: bibliography.bib
 Warning--I didn't find a database entry for "lombardi2014orion"
 Warning--empty institution in hildebrand1983determination
 Warning--empty publisher in 1994fns..book..515Y
-You've used 31 entries,
+You've used 32 entries,
             2543 wiz_defined-function locations,
-            760 strings with 11091 characters,
-and the built_in function-call counts, 14183 in all, are:
-= -- 1334
-> -- 931
+            765 strings with 11434 characters,
+and the built_in function-call counts, 14828 in all, are:
+= -- 1388
+> -- 996
 < -- 15
-+ -- 352
-- -- 338
-* -- 1194
-:= -- 2469
-add.period$ -- 95
-call.type$ -- 31
-change.case$ -- 253
-chr.to.int$ -- 31
-cite$ -- 33
-duplicate$ -- 463
-empty$ -- 850
-format.name$ -- 371
-if$ -- 2740
++ -- 378
+- -- 363
+* -- 1257
+:= -- 2589
+add.period$ -- 98
+call.type$ -- 32
+change.case$ -- 267
+chr.to.int$ -- 32
+cite$ -- 34
+duplicate$ -- 477
+empty$ -- 875
+format.name$ -- 396
+if$ -- 2857
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 32
-newline$ -- 159
-num.names$ -- 95
-pop$ -- 195
+missing$ -- 33
+newline$ -- 164
+num.names$ -- 98
+pop$ -- 206
 preamble$ -- 1
-purify$ -- 285
+purify$ -- 300
 quote$ -- 0
-skip$ -- 378
+skip$ -- 390
 stack$ -- 0
-substring$ -- 660
-swap$ -- 47
+substring$ -- 677
+swap$ -- 48
 text.length$ -- 15
 text.prefix$ -- 11
 top$ -- 0
-type$ -- 240
+type$ -- 248
 warning$ -- 2
-while$ -- 122
-width$ -- 34
-write$ -- 406
+while$ -- 126
+width$ -- 35
+write$ -- 419
 (There were 3 warnings)
