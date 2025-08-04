@@ -2,8 +2,7 @@
 \contentsline {chapter}{\nonumberline Acknowledgements}{i}{chapter*.1}%
 \contentsline {chapter}{\nonumberline Abstract}{iii}{chapter*.2}%
 \contentsline {chapter}{\nonumberline Kurzfassung}{v}{chapter*.3}%
-\contentsline {chapter}{\nonumberline List of Tables}{xi}{chapter*.5}%
-\contentsline {chapter}{\nonumberline List of Figures}{xiii}{chapter*.6}%
+\contentsline {chapter}{\nonumberline List of Figures}{xi}{chapter*.5}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Background}{3}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Dust Modeling}{3}{section.2.1}%
@@ -18,7 +17,7 @@
 \contentsline {subsection}{\numberline {3.1.1}Introduction}{7}{subsection.3.1.1}%
 \contentsline {subsection}{\numberline {3.1.2}Dust emission maps}{7}{subsection.3.1.2}%
 \contentsline {subsection}{\numberline {3.1.3}Derivation of column density maps}{9}{subsection.3.1.3}%
-\contentsline {subsubsection}{\nonumberline Derivation of Mass Maps}{11}{subsubsection*.8}%
+\contentsline {subsubsection}{\nonumberline Derivation of Mass Maps}{11}{subsubsection*.7}%
 \contentsline {subsection}{\numberline {3.1.4}Data Pre-processing}{13}{subsection.3.1.4}%
 \contentsline {section}{\numberline {3.2}Young Stellar Objects (YSOs)}{14}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Introduction}{14}{subsection.3.2.1}%
@@ -53,28 +52,27 @@
 \contentsline {section}{\numberline {5.3}Connection to Star Formation}{32}{section.5.3}%
 \contentsline {section}{\numberline {5.4}Simulations and Uncertainties}{33}{section.5.4}%
 \contentsline {subsection}{\numberline {5.4.1}Simulations on Global Properties}{33}{subsection.5.4.1}%
-\contentsline {subsubsection}{\nonumberline On the Global Fractal Dimension}{33}{subsubsection*.10}%
+\contentsline {subsubsection}{\nonumberline On the Global Fractal Dimension}{33}{subsubsection*.9}%
 \contentsline {subsection}{\numberline {5.4.2}Simulations on Local Properties}{34}{subsection.5.4.2}%
-\contentsline {subsubsection}{\nonumberline On the Euler Characteristic}{34}{subsubsection*.12}%
-\contentsline {subsubsection}{\nonumberline On the Local Fractal Dimension}{34}{subsubsection*.14}%
-\contentsline {subsection}{\numberline {5.4.3}Error Estimates}{37}{subsection.5.4.3}%
-\contentsline {subsection}{\numberline {5.4.4}Comparison with Alternative Methods}{38}{subsection.5.4.4}%
+\contentsline {subsubsection}{\nonumberline On the Euler Characteristic}{34}{subsubsection*.11}%
+\contentsline {subsubsection}{\nonumberline On the Local Fractal Dimension}{34}{subsubsection*.13}%
+\contentsline {subsection}{\numberline {5.4.3}Error Estimates}{36}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.4}Comparison with Alternative Methods}{36}{subsection.5.4.4}%
 \contentsline {chapter}{\numberline {6}Discussion}{41}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Conclusion}{49}{chapter.7}%
-\contentsline {chapter}{\nonumberline Bibliography}{51}{chapter*.15}%
-\contentsline {chapter}{\numberline {A}Appendix}{55}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Fractal Dimension}{55}{section.A.1}%
-\contentsline {section}{\numberline {A.2}YSO Density Maps}{56}{section.A.2}%
-\contentsline {subsection}{\numberline {A.2.1}Class I/flat-spectrum sources}{56}{subsection.A.2.1}%
-\contentsline {subsection}{\numberline {A.2.2}Full Sample}{57}{subsection.A.2.2}%
-\contentsline {section}{\numberline {A.3}Simulations}{57}{section.A.3}%
-\contentsline {subsection}{\numberline {A.3.1}Global Fractal Dimension}{58}{subsection.A.3.1}%
-\contentsline {subsection}{\numberline {A.3.2}Local Fractal Dimension}{58}{subsection.A.3.2}%
-\contentsline {subsection}{\numberline {A.3.3}Euler Characteristic}{58}{subsection.A.3.3}%
-\contentsline {subsection}{\numberline {A.3.4}Uncertainties}{58}{subsection.A.3.4}%
-\contentsline {chapter}{\numberline {B}Gallery of Visual Examples}{59}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Global Fractal Dimension}{59}{section.B.1}%
-\contentsline {section}{\numberline {B.2}Euler Characteristic}{60}{section.B.2}%
-\contentsline {section}{\numberline {B.3}Local Fractal Dimension}{61}{section.B.3}%
-\contentsline {section}{\numberline {B.4}MSD}{62}{section.B.4}%
+\contentsline {chapter}{\numberline {7}Conclusion}{51}{chapter.7}%
+\contentsline {chapter}{\nonumberline Bibliography}{53}{chapter*.14}%
+\contentsline {chapter}{\numberline {A}Appendix}{57}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Fractal Dimension}{57}{section.A.1}%
+\contentsline {section}{\numberline {A.2}YSO Density Maps}{58}{section.A.2}%
+\contentsline {subsection}{\numberline {A.2.1}Class I/flat-spectrum sources}{58}{subsection.A.2.1}%
+\contentsline {subsection}{\numberline {A.2.2}Full Sample}{59}{subsection.A.2.2}%
+\contentsline {section}{\numberline {A.3}Simulations}{59}{section.A.3}%
+\contentsline {subsection}{\numberline {A.3.1}Global Fractal Dimension}{60}{subsection.A.3.1}%
+\contentsline {subsection}{\numberline {A.3.2}Local Fractal Dimension}{60}{subsection.A.3.2}%
+\contentsline {subsection}{\numberline {A.3.3}Euler Characteristic}{61}{subsection.A.3.3}%
+\contentsline {subsection}{\numberline {A.3.4}Uncertainties}{61}{subsection.A.3.4}%
+\contentsline {chapter}{\numberline {B}Gallery of Visual Examples}{63}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Fractal Structure of Orion}{63}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Euler Characteristic}{64}{section.B.2}%
+\contentsline {section}{\numberline {B.3}MSD}{65}{section.B.3}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

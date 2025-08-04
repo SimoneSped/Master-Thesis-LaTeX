@@ -403,7 +403,6 @@ INPUT .\A) Front Matter\abstracts.tex
 INPUT .\A) Front Matter\abstracts.tex
 INPUT .\A) Front Matter\abstracts.tex
 INPUT A) Front Matter\abstracts.tex
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0800.tfm
 INPUT .\A) Front Matter\kurzfassung.tex
 INPUT .\A) Front Matter\kurzfassung.tex
 INPUT .\A) Front Matter\kurzfassung.tex
@@ -415,10 +414,6 @@ INPUT main.toc
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecti1095.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecsl1095.tfm
 OUTPUT main.toc
-INPUT .\main.lot
-INPUT .\main.lot
-INPUT main.lot
-OUTPUT main.lot
 INPUT .\main.lof
 INPUT .\main.lof
 INPUT main.lof
@@ -465,6 +460,7 @@ INPUT .\figures\relative_throughputs_PACS_SPIRE.png
 INPUT .\figures\relative_throughputs_PACS_SPIRE.png
 INPUT .\figures\relative_throughputs_PACS_SPIRE.png
 INPUT .\figures\relative_throughputs_PACS_SPIRE.png
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0800.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0900.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi9.tfm
@@ -728,6 +724,27 @@ INPUT .\figures\YSOs_density_Orion_B.png
 INPUT .\figures\YSOs_density_Orion_B.png
 INPUT .\figures\YSOs_density_Orion_B.png
 INPUT .\figures\YSOs_density_Orion_B.png
+INPUT .\figures\simulations_resolution_global_D.png
+INPUT .\figures\simulations_resolution_global_D.png
+INPUT .\figures\simulations_resolution_global_D.png
+INPUT .\figures\simulations_resolution_global_D.png
+INPUT .\figures\simulations_resolution_global_D.png
+INPUT .\figures\simulations_resolution_global_D.png
+INPUT .\figures\simulations_resolution_global_D.png
+INPUT .\figures\simulations_resolution_local_D.png
+INPUT .\figures\simulations_resolution_local_D.png
+INPUT .\figures\simulations_resolution_local_D.png
+INPUT .\figures\simulations_resolution_local_D.png
+INPUT .\figures\simulations_resolution_local_D.png
+INPUT .\figures\simulations_resolution_local_D.png
+INPUT .\figures\simulations_resolution_local_D.png
+INPUT .\figures\simulations_euler_charact_GRF.png
+INPUT .\figures\simulations_euler_charact_GRF.png
+INPUT .\figures\simulations_euler_charact_GRF.png
+INPUT .\figures\simulations_euler_charact_GRF.png
+INPUT .\figures\simulations_euler_charact_GRF.png
+INPUT .\figures\simulations_euler_charact_GRF.png
+INPUT .\figures\simulations_euler_charact_GRF.png
 INPUT .\figures\perimeter_area_uncertainties.png
 INPUT .\figures\perimeter_area_uncertainties.png
 INPUT .\figures\perimeter_area_uncertainties.png

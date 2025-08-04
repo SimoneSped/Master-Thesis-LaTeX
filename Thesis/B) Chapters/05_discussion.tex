@@ -90,9 +90,8 @@ The overall distribution of \( D \) across the MSD plane thus captures the trans
 In this sense, the local fractal dimension can be viewed as a sensitive tracer of the internal physics shaping the morphology of the cloud at different scales and densities.
 
 % to-do: do we see this visually?
-% to-do: do the peaks represent something?
-Some visual examples are helpful to illustrate this behavior (see Gallery).  
-Prominent peaks in the local fractal dimension can be associated to..
+% to-do: do the peaks represent something? 
+Peaks can be seen in Figures~\ref{fig:local_Orion_A_B} for the local fractal dimension at column densities of a few times \(10^{22}\,\mathrm{cm}^{-2}\), roughly corresponding to the regimes where dense cores and filamentary substructures begin to dominate. Visually, it is challenging to determine whether these peaks reflect genuine increases in structural complexity or are influenced by numerical effects—particularly the reduced pixel statistics at high thresholds. However, this behavior could represent a real physical transition, where the cloud morphology becomes increasingly fragmented and irregular as gravitational collapse intensifies. Further investigation using independent tracers or higher-resolution data would be needed to disentangle these effects confidently.
 
 Because this approach is less commonly used in studies of molecular clouds, direct observational comparisons in the literature are limited.  
 Nevertheless, the trends we identify are consistent with the overall picture painted by the global fractal dimension and align well with our physical understanding of these regions.
@@ -116,7 +115,7 @@ For these reasons, the usable column‑density range is narrower than the full r
 
 % Integrate topological insights (Euler characteristic).
 Furthermore, the Euler characteristic highlights clear differences between Orion~A and Orion~B.  
-Orion~A exhibits a profile that closely resembles the behavior expected from Gaussian Random Field simulations, with a well-defined peak at approximately \(1.64 \times 10^{22}\,\mathrm{cm}^{-2}\).  
+Orion~A exhibits a profile that closely resembles the behavior expected from Gaussian Random Field simulations, with a well-defined peak at approximately \(1.64 \times 10^{22}\,\mathrm{cm}^{-2}\). For comparison, the results for a GRF are included in the Appendix in Figure \ref{fig:sims_euler_char}. 
 This threshold is significant, echoing the transition seen in the global fractal dimension analysis, and marks the emergence of dense cores within the cloud.
 
 In contrast, Orion~B shows no such pronounced peak, instead displaying a more gradual, almost linear decrease.  
@@ -216,5 +215,10 @@ The combination of global and local fractal dimension measurements, topological 
 Orion~A shows clear structural transitions—evident in the change of slope in the global perimeter–area relation and the sharp features in the Euler characteristic—marking the emergence of dense cores and a close connection between increasing morphological complexity and active star formation.  
 In contrast, Orion~B maintains a more uniform, filamentary character and exhibits weaker correlations with local complexity, consistent with a more turbulent, scale‑free environment where star formation proceeds in a more distributed manner.  
 
+The accuracy of the derived morphological properties, including the fractal dimension and Euler characteristic, is inherently limited by the resolution of the observational data. At high column density thresholds, the number of pixels above the cut becomes increasingly sparse, which can lead to artificial fluctuations in the measured quantities—particularly in small or isolated structures. This effect may manifest as spurious peaks or enhanced scatter in the local fractal dimension. Conversely, at low column densities, smoothing and beam convolution can oversimplify the intrinsic cloud structure, potentially underestimating its complexity. While efforts were made to exclude clearly unphysical cases (e.g., regions with too few pixels or straight-edged artifacts), care must be taken in interpreting trends near the resolution limits. 
+Future observations at higher angular resolution could help better resolve small-scale features and test the robustness of the patterns observed here.
+
 These findings reinforce the idea that turbulence and self‑similarity dominate cloud structure on large scales, but that localized physical processes such as core formation can imprint strong deviations from scale‑free behavior.  
 By integrating fractal analysis with topological measures and comparisons to simulations, this study demonstrates how a multi‑faceted approach can link the morphology of molecular clouds directly to their star‑forming activity, offering a richer and more physically grounded picture than classical methods alone.
+
+% add discussion "hairy caterpillar" 

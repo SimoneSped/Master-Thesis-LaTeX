@@ -68,21 +68,43 @@ These maps provide a broader view of the stellar content but include stars that 
 This section of the appendix provides more context to the results of the simulations and calculation of the uncertainties.
 
 \subsection{Global Fractal Dimension}
-% simulations global fractal dimension: D = 1 for simple shapes, gets higher the more complex it becomes 
-% simulations global fractal dimension: GRF (scale free vs with scale) example
+% simulations global fractal dimension: D = 1 for simple shapes, gets higher the more complex it becomes (non necessaria, testo)
+% simulations global fractal dimension: GRF (scale free vs with scale) example (non necessaria, testo)
+
 % simulations global fractal dimension: resolution effects
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figures/simulations_resolution_global_D.png}
+    \caption{Results for the global fractal dimension as a function of the degree of smoothing of the input data.}
+    \label{fig:sims_res_global}
+\end{figure}
 
 \subsection{Local Fractal Dimension}
 % simulations local fractal dimension: resolution effects
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figures/simulations_resolution_local_D.png}
+    \caption{Results for the global fractal dimension as a function of the column density thresholds for a number of smoothing kernels of the input data.}
+    \label{fig:sims_res_local}
+\end{figure}
+
+\newpage
 
 \subsection{Euler Characteristic}
 % simulations Euler Char. (GRF)
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{figures/simulations_euler_charact_GRF.png}
+    \caption{Resolution of the Euler Characteristic for a Gaussian Random Field with exponent of the power spectrum $a = -2$.}
+    \label{fig:sims_euler_char}
+\end{figure}
 
 \subsection{Uncertainties}
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.75\textwidth]{figures/perimeter_area_uncertainties.png}
+    \includegraphics[width=0.7\textwidth]{figures/perimeter_area_uncertainties.png}
     \caption{Example of the uncertainty distributions in the measurements of perimeter and area from simulated structures (arbitrary units).}
     \label{fig:uncertainties}
 \end{figure}
+
