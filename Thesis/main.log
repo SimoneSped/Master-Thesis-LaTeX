@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.22)  4 AUG 2025 08:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.22)  5 AUG 2025 15:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1428,7 +1428,7 @@ Underfull \vbox (badness 3449) has occurred while \output is active []
 ]
 Package tocbasic Info: character protrusion at lof deactivated on input line 40.
  (main.lof
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 4024) has occurred while \output is active []
 
 
 
@@ -1442,7 +1442,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Package tocbasic Warning: number width of figure toc entries should be increased!
 (tocbasic)                Currently used number width = 25.1011pt,
 (tocbasic)                Wanted number separation    = 4.35507pt,
-(tocbasic)                Reserved number width       = 25.04214pt on input line 52.
+(tocbasic)                Reserved number width       = 25.04214pt on input line 53.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1463,8 +1463,8 @@ chapter 1.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.25     \item \textbf
-                      {Chapter 4} outlines the methods used to calculate fra... [1
+l.24     \item \textbf
+                      {Chapter 3} describes the datasets employed, including... [1
 
 
 
@@ -1486,23 +1486,26 @@ chapter 2.
 
 
 ]
-<figures/comparison_dust.png, id=455, 417.05812pt x 141.52875pt>
+<figures/comparison_dust.png, id=470, 417.05812pt x 141.52875pt>
 File: figures/comparison_dust.png Graphic file (type png)
 <use figures/comparison_dust.png>
-Package pdftex.def Info: figures/comparison_dust.png  used on input line 58.
-(pdftex.def)             Requested size: 313.69029pt x 106.45726pt.
+Package pdftex.def Info: figures/comparison_dust.png  used on input line 79.
+(pdftex.def)             Requested size: 334.60425pt x 113.55356pt.
 
 
-[4 <./figures/comparison_dust.png>]
+[4]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[5]) (B) Chapters/02_data.tex
+
+
+[5 <./figures/comparison_dust.png>]) (B) Chapters/02_data.tex
 
 [6]
 chapter 3.
-<figures/dust_emission_blackbody.png, id=482, 447.17062pt x 298.11375pt>
+<figures/dust_emission_blackbody.png, id=513, 447.17062pt x 298.11375pt>
 File: figures/dust_emission_blackbody.png Graphic file (type png)
 <use figures/dust_emission_blackbody.png>
-Package pdftex.def Info: figures/dust_emission_blackbody.png  used on input line 21.
+Package pdftex.def Info: figures/dust_emission_blackbody.png  used on input line 20.
 (pdftex.def)             Requested size: 313.69029pt x 209.12854pt.
 
 
@@ -1512,35 +1515,38 @@ Package pdftex.def Info: figures/dust_emission_blackbody.png  used on input line
 ]
 
 [8 <./figures/dust_emission_blackbody.png>]
-<figures/relative_throughputs_PACS_SPIRE.png, id=504, 343.78438pt x 233.87375pt>
+<figures/relative_throughputs_PACS_SPIRE.png, id=536, 343.78438pt x 233.87375pt>
 File: figures/relative_throughputs_PACS_SPIRE.png Graphic file (type png)
 <use figures/relative_throughputs_PACS_SPIRE.png>
-Package pdftex.def Info: figures/relative_throughputs_PACS_SPIRE.png  used on input line 45.
+Package pdftex.def Info: figures/relative_throughputs_PACS_SPIRE.png  used on input line 44.
 (pdftex.def)             Requested size: 313.69029pt x 213.39996pt.
 
 
 [9 <./figures/relative_throughputs_PACS_SPIRE.png>]
-<figures/extinction_map.png, id=523, 828.57555pt x 711.1368pt>
+<figures/extinction_map.png, id=555, 828.57555pt x 711.1368pt>
 File: figures/extinction_map.png Graphic file (type png)
 <use figures/extinction_map.png>
-Package pdftex.def Info: figures/extinction_map.png  used on input line 77.
-(pdftex.def)             Requested size: 313.69029pt x 269.22563pt.
+Package pdftex.def Info: figures/extinction_map.png  used on input line 71.
+(pdftex.def)             Requested size: 271.86237pt x 233.33034pt.
+<figures/column_density_map.png, id=561, 815.9283pt x 711.1368pt>
+File: figures/column_density_map.png Graphic file (type png)
+<use figures/column_density_map.png>
+Package pdftex.def Info: figures/column_density_map.png  used on input line 93.
+(pdftex.def)             Requested size: 271.86237pt x 236.94374pt.
 
 
 [10 <./figures/extinction_map.png>]
-<figures/column_density_map.png, id=538, 815.9283pt x 711.1368pt>
-File: figures/column_density_map.png Graphic file (type png)
-<use figures/column_density_map.png>
-Package pdftex.def Info: figures/column_density_map.png  used on input line 99.
-(pdftex.def)             Requested size: 313.69029pt x 273.40329pt.
-
 
 [11 <./figures/column_density_map.png>]
-<figures/mass_distribution.png, id=550, 833.2731pt x 711.1368pt>
+<figures/mass_distribution.png, id=582, 833.2731pt x 711.1368pt>
 File: figures/mass_distribution.png Graphic file (type png)
 <use figures/mass_distribution.png>
-Package pdftex.def Info: figures/mass_distribution.png  used on input line 157.
-(pdftex.def)             Requested size: 313.69029pt x 267.71735pt.
+Package pdftex.def Info: figures/mass_distribution.png  used on input line 144.
+(pdftex.def)             Requested size: 271.86237pt x 232.01735pt.
+
+
+LaTeX Warning: Citation `okumura2009fermi' on page 12 undefined on input line 158.
+
 
 
 [12]
@@ -1548,106 +1554,114 @@ Package pdftex.def Info: figures/mass_distribution.png  used on input line 157.
 [13 <./figures/mass_distribution.png>]
 
 [14]
-<figures/YSOs_orion.png, id=583, 855.6768pt x 638.50545pt>
+<figures/YSOs_orion.png, id=616, 855.6768pt x 638.50545pt>
 File: figures/YSOs_orion.png Graphic file (type png)
 <use figures/YSOs_orion.png>
-Package pdftex.def Info: figures/YSOs_orion.png  used on input line 220.
+Package pdftex.def Info: figures/YSOs_orion.png  used on input line 202.
 (pdftex.def)             Requested size: 355.5182pt x 265.28659pt.
 ) (B) Chapters/03_methods.tex
 
-[15]
+[15 <./figures/YSOs_orion.png>]
 
-[16 <./figures/YSOs_orion.png>]
-chapter 4.
-
-
-[17
+[16
 
 
 ]
-<figures/boundaries.png, id=603, 300.12125pt x 301.62688pt>
+chapter 4.
+<figures/boundaries.png, id=630, 300.12125pt x 301.62688pt>
 File: figures/boundaries.png Graphic file (type png)
 <use figures/boundaries.png>
-Package pdftex.def Info: figures/boundaries.png  used on input line 38.
-(pdftex.def)             Requested size: 292.77632pt x 294.2668pt.
+Package pdftex.def Info: figures/boundaries.png  used on input line 36.
+(pdftex.def)             Requested size: 271.86237pt x 273.24742pt.
 
+
+[17]
 
 [18 <./figures/boundaries.png>]
-<figures/lovejoy.png, id=613, 204.26312pt x 301.62688pt>
+<figures/lovejoy.png, id=648, 204.26312pt x 301.62688pt>
 File: figures/lovejoy.png Graphic file (type png)
 <use figures/lovejoy.png>
-Package pdftex.def Info: figures/lovejoy.png  used on input line 79.
-(pdftex.def)             Requested size: 188.21289pt x 277.94191pt.
+Package pdftex.def Info: figures/lovejoy.png  used on input line 81.
+(pdftex.def)             Requested size: 167.29893pt x 247.05487pt.
 
 
 [19]
 
 [20 <./figures/lovejoy.png>]
-<figures/example_calculations.png, id=631, 422.0568pt x 422.0568pt>
+<figures/example_calculations.png, id=666, 422.0568pt x 422.0568pt>
 File: figures/example_calculations.png Graphic file (type png)
 <use figures/example_calculations.png>
 Package pdftex.def Info: figures/example_calculations.png  used on input line 106.
-(pdftex.def)             Requested size: 209.12686pt x 209.12805pt.
+(pdftex.def)             Requested size: 188.21289pt x 188.21074pt.
 
 
 [21 <./figures/example_calculations.png>]
+<figures/dendrogram.png, id=677, 214.30063pt x 108.405pt>
+File: figures/dendrogram.png Graphic file (type png)
+<use figures/dendrogram.png>
+Package pdftex.def Info: figures/dendrogram.png  used on input line 125.
+(pdftex.def)             Requested size: 188.21289pt x 95.20976pt.
 
-[22]
+
+[22 <./figures/dendrogram.png>]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
+Underfull \vbox (badness 1033) has occurred while \output is active []
+
+
 
 [23]
 
 [24]
-<figures/error_map.png, id=665, 678.03313pt x 425.08812pt>
+<figures/error_map.png, id=707, 678.03313pt x 425.08812pt>
 File: figures/error_map.png Graphic file (type png)
 <use figures/error_map.png>
-Package pdftex.def Info: figures/error_map.png  used on input line 197.
+Package pdftex.def Info: figures/error_map.png  used on input line 204.
 (pdftex.def)             Requested size: 313.69029pt x 196.66504pt.
 ) (B) Chapters/04_results.tex
 
 [25 <./figures/error_map.png>]
 
-[26
-
-
-]
+[26]
 chapter 5.
-<figures/orion_A_global.png, id=678, 573.46245pt x 574.18515pt>
+<figures/orion_A_global.png, id=720, 573.46245pt x 574.18515pt>
 File: figures/orion_A_global.png Graphic file (type png)
 <use figures/orion_A_global.png>
 Package pdftex.def Info: figures/orion_A_global.png  used on input line 18.
 (pdftex.def)             Requested size: 209.12686pt x 209.38747pt.
-<figures/orion_A_global_double_fit.png, id=680, 638.50545pt x 638.50545pt>
+<figures/orion_A_global_double_fit.png, id=722, 638.50545pt x 638.50545pt>
 File: figures/orion_A_global_double_fit.png Graphic file (type png)
 <use figures/orion_A_global_double_fit.png>
 Package pdftex.def Info: figures/orion_A_global_double_fit.png  used on input line 35.
 (pdftex.def)             Requested size: 209.12686pt x 209.11937pt.
-<figures/orion_B_global.png, id=682, 573.46245pt x 574.18515pt>
+
+
+[27
+
+
+]
+<figures/orion_B_global.png, id=729, 573.46245pt x 574.18515pt>
 File: figures/orion_B_global.png Graphic file (type png)
 <use figures/orion_B_global.png>
 Package pdftex.def Info: figures/orion_B_global.png  used on input line 48.
 (pdftex.def)             Requested size: 209.12686pt x 209.38747pt.
-
-
-[27]
-<figures/euler_Orion_A_no_figs.png, id=690, 638.8668pt x 638.8668pt>
+<figures/euler_Orion_A_no_figs.png, id=732, 638.8668pt x 638.8668pt>
 File: figures/euler_Orion_A_no_figs.png Graphic file (type png)
 <use figures/euler_Orion_A_no_figs.png>
 Package pdftex.def Info: figures/euler_Orion_A_no_figs.png  used on input line 65.
-(pdftex.def)             Requested size: 209.12686pt x 209.12074pt.
-<figures/euler_Orion_B_no_figs.png, id=691, 638.8668pt x 638.8668pt>
+(pdftex.def)             Requested size: 188.21289pt x 188.21062pt.
+<figures/euler_Orion_B_no_figs.png, id=733, 638.8668pt x 638.8668pt>
 File: figures/euler_Orion_B_no_figs.png Graphic file (type png)
 <use figures/euler_Orion_B_no_figs.png>
 Package pdftex.def Info: figures/euler_Orion_B_no_figs.png  used on input line 72.
-(pdftex.def)             Requested size: 209.12686pt x 209.12074pt.
+(pdftex.def)             Requested size: 188.21289pt x 188.21062pt.
 
 
 [28 <./figures/orion_A_global.png>]
-<figures/local_orion_A_B.png, id=698, 638.8668pt x 634.16925pt>
+<figures/local_orion_A_B.png, id=741, 638.8668pt x 634.16925pt>
 File: figures/local_orion_A_B.png Graphic file (type png)
 <use figures/local_orion_A_B.png>
 Package pdftex.def Info: figures/local_orion_A_B.png  used on input line 87.
@@ -1655,54 +1669,60 @@ Package pdftex.def Info: figures/local_orion_A_B.png  used on input line 87.
 
 
 [29 <./figures/orion_A_global_double_fit.png>]
-<figures/dendogram_A.png, id=706, 711.1368pt x 494.3268pt>
+<figures/dendogram_A.png, id=749, 711.1368pt x 494.3268pt>
 File: figures/dendogram_A.png Graphic file (type png)
 <use figures/dendogram_A.png>
 Package pdftex.def Info: figures/dendogram_A.png  used on input line 114.
 (pdftex.def)             Requested size: 209.12686pt x 145.36502pt.
-<figures/dendogram_B.png, id=707, 711.1368pt x 494.3268pt>
+<figures/dendogram_B.png, id=750, 711.1368pt x 494.3268pt>
 File: figures/dendogram_B.png Graphic file (type png)
 <use figures/dendogram_B.png>
 Package pdftex.def Info: figures/dendogram_B.png  used on input line 121.
 (pdftex.def)             Requested size: 209.12686pt x 145.36502pt.
-<figures/local_Orion_A_single_structures.png, id=711, 999.13275pt x 562.2606pt>
+<figures/local_Orion_A_single_structures.png, id=754, 999.13275pt x 562.2606pt>
 File: figures/local_Orion_A_single_structures.png Graphic file (type png)
 <use figures/local_Orion_A_single_structures.png>
 Package pdftex.def Info: figures/local_Orion_A_single_structures.png  used on input line 131.
 (pdftex.def)             Requested size: 313.69029pt x 176.52962pt.
-<figures/local_Orion_B_single_structures.png, id=712, 999.13275pt x 562.2606pt>
+<figures/local_Orion_B_single_structures.png, id=755, 999.13275pt x 562.2606pt>
 File: figures/local_Orion_B_single_structures.png Graphic file (type png)
 <use figures/local_Orion_B_single_structures.png>
 Package pdftex.def Info: figures/local_Orion_B_single_structures.png  used on input line 139.
 (pdftex.def)             Requested size: 313.69029pt x 176.52962pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 [30 <./figures/orion_B_global.png>]
-<figures/MSD_Orion_A.png, id=721, 678.97665pt x 418.4433pt>
+<figures/MSD_Orion_A.png, id=765, 678.97665pt x 418.4433pt>
 File: figures/MSD_Orion_A.png Graphic file (type png)
 <use figures/MSD_Orion_A.png>
-Package pdftex.def Info: figures/MSD_Orion_A.png  used on input line 162.
+Package pdftex.def Info: figures/MSD_Orion_A.png  used on input line 155.
 (pdftex.def)             Requested size: 250.95477pt x 154.65558pt.
-<figures/MSD_Orion_B.png, id=722, 678.97665pt x 418.4433pt>
+<figures/MSD_Orion_B.png, id=766, 678.97665pt x 418.4433pt>
 File: figures/MSD_Orion_B.png Graphic file (type png)
 <use figures/MSD_Orion_B.png>
-Package pdftex.def Info: figures/MSD_Orion_B.png  used on input line 169.
+Package pdftex.def Info: figures/MSD_Orion_B.png  used on input line 162.
 (pdftex.def)             Requested size: 250.95477pt x 154.65558pt.
-<figures/MSD_Orion_A_B.png, id=723, 678.97665pt x 418.4433pt>
+<figures/MSD_Orion_A_B.png, id=767, 678.97665pt x 418.4433pt>
 File: figures/MSD_Orion_A_B.png Graphic file (type png)
 <use figures/MSD_Orion_A_B.png>
-Package pdftex.def Info: figures/MSD_Orion_A_B.png  used on input line 176.
+Package pdftex.def Info: figures/MSD_Orion_A_B.png  used on input line 169.
 (pdftex.def)             Requested size: 250.95477pt x 154.65558pt.
-<figures/local_fractal_dimension_map_Orion_A.png, id=726, 1164.63104pt x 583.58025pt>
+<figures/local_fractal_dimension_map_Orion_A.png, id=770, 1164.63104pt x 583.58025pt>
 File: figures/local_fractal_dimension_map_Orion_A.png Graphic file (type png)
 <use figures/local_fractal_dimension_map_Orion_A.png>
-Package pdftex.def Info: figures/local_fractal_dimension_map_Orion_A.png  used on input line 188.
+Package pdftex.def Info: figures/local_fractal_dimension_map_Orion_A.png  used on input line 181.
 (pdftex.def)             Requested size: 313.69029pt x 157.18587pt.
-<figures/local_fractal_dimension_map_Orion_B.png, id=727, 810.50806pt x 633.0852pt>
+<figures/local_fractal_dimension_map_Orion_B.png, id=771, 810.50806pt x 633.0852pt>
 File: figures/local_fractal_dimension_map_Orion_B.png Graphic file (type png)
 <use figures/local_fractal_dimension_map_Orion_B.png>
-Package pdftex.def Info: figures/local_fractal_dimension_map_Orion_B.png  used on input line 197.
+Package pdftex.def Info: figures/local_fractal_dimension_map_Orion_B.png  used on input line 190.
 (pdftex.def)             Requested size: 250.95477pt x 196.01288pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 
 [31 <./figures/euler_Orion_A_no_figs.png>]
@@ -1735,34 +1755,34 @@ chapter 6.
 [42]
 
 [43]
-<figures/beattie_fractal_dimension.png, id=830, 676.02562pt x 250.43562pt>
+<figures/beattie_fractal_dimension.png, id=875, 676.02562pt x 250.43562pt>
 File: figures/beattie_fractal_dimension.png Graphic file (type png)
 <use figures/beattie_fractal_dimension.png>
-Package pdftex.def Info: figures/beattie_fractal_dimension.png  used on input line 106.
+Package pdftex.def Info: figures/beattie_fractal_dimension.png  used on input line 105.
 (pdftex.def)             Requested size: 355.5182pt x 131.70612pt.
 
 
 [44 <./figures/beattie_fractal_dimension.png>]
-<figures/euler_Orion_A.png, id=845, 962.27505pt x 436.87215pt>
+<figures/euler_Orion_A.png, id=890, 962.27505pt x 436.87215pt>
 File: figures/euler_Orion_A.png Graphic file (type png)
 <use figures/euler_Orion_A.png>
-Package pdftex.def Info: figures/euler_Orion_A.png  used on input line 142.
+Package pdftex.def Info: figures/euler_Orion_A.png  used on input line 141.
 (pdftex.def)             Requested size: 355.5182pt x 161.40685pt.
-<figures/euler_Orion_B.png, id=846, 972.39285pt x 436.87215pt>
+<figures/euler_Orion_B.png, id=891, 972.39285pt x 436.87215pt>
 File: figures/euler_Orion_B.png Graphic file (type png)
 <use figures/euler_Orion_B.png>
-Package pdftex.def Info: figures/euler_Orion_B.png  used on input line 149.
+Package pdftex.def Info: figures/euler_Orion_B.png  used on input line 148.
 (pdftex.def)             Requested size: 355.5182pt x 159.72697pt.
 
 
 [45]
-Underfull \vbox (badness 1783) has occurred while \output is active []
-
-
 
 [46 <./figures/euler_Orion_A.png>]
 
 [47 <./figures/euler_Orion_B.png>]
+Underfull \vbox (badness 1264) has occurred while \output is active []
+
+
 
 [48]) (B) Chapters/06_conclusions.tex
 
@@ -1773,34 +1793,34 @@ Underfull \vbox (badness 1783) has occurred while \output is active []
 
 ]
 chapter 7.
-) (main.bbl
-
-[51]
-
-[52
 
 
-]
+[51]) (main.bbl
+
+[52]
 chapter without number
 
 
-[53]
+[53
 
-[54])
+
+]
+
+[54]
+
+[55])
 No file main.acr.
 No file main.gls.
 
 
-[55]
-
 [56] (C) Back Matter/appendix.tex
 chapter A.
-<figures/MSD_Orion_A_with_lines.png, id=920, 682.59015pt x 490.7133pt>
+<figures/MSD_Orion_A_with_lines.png, id=969, 682.59015pt x 490.7133pt>
 File: figures/MSD_Orion_A_with_lines.png Graphic file (type png)
 <use figures/MSD_Orion_A_with_lines.png>
 Package pdftex.def Info: figures/MSD_Orion_A_with_lines.png  used on input line 12.
 (pdftex.def)             Requested size: 209.12686pt x 150.33748pt.
-<figures/MSD_Orion_B_with_lines.png, id=921, 678.97665pt x 418.4433pt>
+<figures/MSD_Orion_B_with_lines.png, id=970, 678.97665pt x 418.4433pt>
 File: figures/MSD_Orion_B_with_lines.png Graphic file (type png)
 <use figures/MSD_Orion_B_with_lines.png>
 Package pdftex.def Info: figures/MSD_Orion_B_with_lines.png  used on input line 19.
@@ -1817,12 +1837,12 @@ Overfull \hbox (0.21747pt too wide) in paragraph at lines 30--32
 \T1/cmr/m/n/10.95 (-20) The fol-low-ing maps show the sur-face dens-ity of early[]stage YSOs (Class I and flat[]spectrum)
  []
 
-<figures/YSOs_early_stage_density_Orion_A.png, id=929, 774.0117pt x 232.34805pt>
+<figures/YSOs_early_stage_density_Orion_A.png, id=978, 774.0117pt x 232.34805pt>
 File: figures/YSOs_early_stage_density_Orion_A.png Graphic file (type png)
 <use figures/YSOs_early_stage_density_Orion_A.png>
 Package pdftex.def Info: figures/YSOs_early_stage_density_Orion_A.png  used on input line 35.
 (pdftex.def)             Requested size: 313.69029pt x 94.16425pt.
-<figures/YSOs_early_stage_density_Orion_B.png, id=930, 799.66756pt x 711.1368pt>
+<figures/YSOs_early_stage_density_Orion_B.png, id=979, 799.66756pt x 711.1368pt>
 File: figures/YSOs_early_stage_density_Orion_B.png Graphic file (type png)
 <use figures/YSOs_early_stage_density_Orion_B.png>
 Package pdftex.def Info: figures/YSOs_early_stage_density_Orion_B.png  used on input line 42.
@@ -1830,17 +1850,17 @@ Package pdftex.def Info: figures/YSOs_early_stage_density_Orion_B.png  used on i
 
 
 [58 <./figures/YSOs_early_stage_density_Orion_A.png> <./figures/YSOs_early_stage_density_Orion_B.png>]
-<figures/YSOs_density_Orion_A.png, id=937, 774.0117pt x 262.70145pt>
+<figures/YSOs_density_Orion_A.png, id=986, 774.0117pt x 262.70145pt>
 File: figures/YSOs_density_Orion_A.png Graphic file (type png)
 <use figures/YSOs_density_Orion_A.png>
 Package pdftex.def Info: figures/YSOs_density_Orion_A.png  used on input line 54.
 (pdftex.def)             Requested size: 313.69029pt x 106.46565pt.
-<figures/YSOs_density_Orion_B.png, id=938, 803.6424pt x 711.1368pt>
+<figures/YSOs_density_Orion_B.png, id=987, 803.6424pt x 711.1368pt>
 File: figures/YSOs_density_Orion_B.png Graphic file (type png)
 <use figures/YSOs_density_Orion_B.png>
 Package pdftex.def Info: figures/YSOs_density_Orion_B.png  used on input line 61.
 (pdftex.def)             Requested size: 209.12686pt x 185.05397pt.
-<figures/simulations_resolution_global_D.png, id=939, 566.5968pt x 349.7868pt>
+<figures/simulations_resolution_global_D.png, id=988, 566.5968pt x 349.7868pt>
 File: figures/simulations_resolution_global_D.png Graphic file (type png)
 <use figures/simulations_resolution_global_D.png>
 Package pdftex.def Info: figures/simulations_resolution_global_D.png  used on input line 77.
@@ -1848,7 +1868,7 @@ Package pdftex.def Info: figures/simulations_resolution_global_D.png  used on in
 
 
 [59 <./figures/YSOs_density_Orion_A.png> <./figures/YSOs_density_Orion_B.png>]
-<figures/simulations_resolution_local_D.png, id=946, 710.77545pt x 422.0568pt>
+<figures/simulations_resolution_local_D.png, id=995, 710.77545pt x 422.0568pt>
 File: figures/simulations_resolution_local_D.png Graphic file (type png)
 <use figures/simulations_resolution_local_D.png>
 Package pdftex.def Info: figures/simulations_resolution_local_D.png  used on input line 86.
@@ -1856,12 +1876,12 @@ Package pdftex.def Info: figures/simulations_resolution_local_D.png  used on inp
 
 
 [60 <./figures/simulations_resolution_global_D.png> <./figures/simulations_resolution_local_D.png>]
-<figures/simulations_euler_charact_GRF.png, id=953, 566.23544pt x 347.6187pt>
+<figures/simulations_euler_charact_GRF.png, id=1002, 566.23544pt x 347.6187pt>
 File: figures/simulations_euler_charact_GRF.png Graphic file (type png)
 <use figures/simulations_euler_charact_GRF.png>
 Package pdftex.def Info: figures/simulations_euler_charact_GRF.png  used on input line 97.
 (pdftex.def)             Requested size: 250.95477pt x 154.06657pt.
-<figures/perimeter_area_uncertainties.png, id=954, 859.2903pt x 570.933pt>
+<figures/perimeter_area_uncertainties.png, id=1003, 859.2903pt x 570.933pt>
 File: figures/perimeter_area_uncertainties.png Graphic file (type png)
 <use figures/perimeter_area_uncertainties.png>
 Package pdftex.def Info: figures/perimeter_area_uncertainties.png  used on input line 106.
@@ -1875,17 +1895,17 @@ Package pdftex.def Info: figures/perimeter_area_uncertainties.png  used on input
 
 ]
 chapter B.
-<figures/Orion_A_gallery_global.png, id=965, 967.33395pt x 398.9304pt>
+<figures/Orion_A_gallery_global.png, id=1014, 967.33395pt x 398.9304pt>
 File: figures/Orion_A_gallery_global.png Graphic file (type png)
 <use figures/Orion_A_gallery_global.png>
 Package pdftex.def Info: figures/Orion_A_gallery_global.png  used on input line 8.
 (pdftex.def)             Requested size: 347.15135pt x 143.16438pt.
-<figures/Orion_B_gallery_global.png, id=966, 769.6755pt x 647.5392pt>
+<figures/Orion_B_gallery_global.png, id=1015, 769.6755pt x 647.5392pt>
 File: figures/Orion_B_gallery_global.png Graphic file (type png)
 <use figures/Orion_B_gallery_global.png>
 Package pdftex.def Info: figures/Orion_B_gallery_global.png  used on input line 15.
 (pdftex.def)             Requested size: 267.68211pt x 225.20941pt.
-<figures/Euler_Orion_A_gallery.png, id=969, 967.33395pt x 398.9304pt>
+<figures/Euler_Orion_A_gallery.png, id=1018, 967.33395pt x 398.9304pt>
 File: figures/Euler_Orion_A_gallery.png Graphic file (type png)
 <use figures/Euler_Orion_A_gallery.png>
 Package pdftex.def Info: figures/Euler_Orion_A_gallery.png  used on input line 24.
@@ -1893,7 +1913,7 @@ Package pdftex.def Info: figures/Euler_Orion_A_gallery.png  used on input line 2
 
 
 [63 <./figures/Orion_A_gallery_global.png> <./figures/Orion_B_gallery_global.png>]
-<figures/Euler_Orion_B_gallery.png, id=977, 769.6755pt x 647.5392pt>
+<figures/Euler_Orion_B_gallery.png, id=1026, 769.6755pt x 647.5392pt>
 File: figures/Euler_Orion_B_gallery.png Graphic file (type png)
 <use figures/Euler_Orion_B_gallery.png>
 Package pdftex.def Info: figures/Euler_Orion_B_gallery.png  used on input line 31.
@@ -1901,12 +1921,12 @@ Package pdftex.def Info: figures/Euler_Orion_B_gallery.png  used on input line 3
 
 
 [64 <./figures/Euler_Orion_A_gallery.png> <./figures/Euler_Orion_B_gallery.png>]
-<figures/MSD_Gallery_Orion_A_1.png, id=986, 1188.44pt x 527.47063pt>
+<figures/MSD_Gallery_Orion_A_1.png, id=1035, 1188.44pt x 527.47063pt>
 File: figures/MSD_Gallery_Orion_A_1.png Graphic file (type png)
 <use figures/MSD_Gallery_Orion_A_1.png>
 Package pdftex.def Info: figures/MSD_Gallery_Orion_A_1.png  used on input line 48.
 (pdftex.def)             Requested size: 351.33159pt x 155.93246pt.
-<figures/MSD_Gallery_Orion_A_2.png, id=987, 886.31125pt x 1188.44pt>
+<figures/MSD_Gallery_Orion_A_2.png, id=1036, 886.31125pt x 1188.44pt>
 File: figures/MSD_Gallery_Orion_A_2.png Graphic file (type png)
 <use figures/MSD_Gallery_Orion_A_2.png>
 Package pdftex.def Info: figures/MSD_Gallery_Orion_A_2.png  used on input line 55.
@@ -1915,7 +1935,7 @@ Package pdftex.def Info: figures/MSD_Gallery_Orion_A_2.png  used on input line 5
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/MSD_Gallery_Orion_A_3.png, id=988, 1188.44pt x 1095.09125pt>
+<figures/MSD_Gallery_Orion_A_3.png, id=1037, 1188.44pt x 1095.09125pt>
 File: figures/MSD_Gallery_Orion_A_3.png Graphic file (type png)
 <use figures/MSD_Gallery_Orion_A_3.png>
 Package pdftex.def Info: figures/MSD_Gallery_Orion_A_3.png  used on input line 62.
@@ -1923,7 +1943,7 @@ Package pdftex.def Info: figures/MSD_Gallery_Orion_A_3.png  used on input line 6
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/MSD_Gallery_Orion_A_4.png, id=989, 1184.92688pt x 1188.44pt>
+<figures/MSD_Gallery_Orion_A_4.png, id=1038, 1184.92688pt x 1188.44pt>
 File: figures/MSD_Gallery_Orion_A_4.png Graphic file (type png)
 <use figures/MSD_Gallery_Orion_A_4.png>
 Package pdftex.def Info: figures/MSD_Gallery_Orion_A_4.png  used on input line 69.
@@ -1931,7 +1951,7 @@ Package pdftex.def Info: figures/MSD_Gallery_Orion_A_4.png  used on input line 6
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/MSD_Gallery_Orion_A_5.png, id=990, 1184.92688pt x 1188.44pt>
+<figures/MSD_Gallery_Orion_A_5.png, id=1039, 1184.92688pt x 1188.44pt>
 File: figures/MSD_Gallery_Orion_A_5.png Graphic file (type png)
 <use figures/MSD_Gallery_Orion_A_5.png>
 Package pdftex.def Info: figures/MSD_Gallery_Orion_A_5.png  used on input line 76.
@@ -1944,7 +1964,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [65
 
  <./figures/MSD_Gallery_Orion_A_1.png>]
-<figures/MSD_Gallery_Orion_B_1.png, id=996, 1188.44pt x 1127.71312pt>
+<figures/MSD_Gallery_Orion_B_1.png, id=1045, 1188.44pt x 1127.71312pt>
 File: figures/MSD_Gallery_Orion_B_1.png Graphic file (type png)
 <use figures/MSD_Gallery_Orion_B_1.png>
 Package pdftex.def Info: figures/MSD_Gallery_Orion_B_1.png  used on input line 85.
@@ -1953,7 +1973,7 @@ Package pdftex.def Info: figures/MSD_Gallery_Orion_B_1.png  used on input line 8
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/MSD_Gallery_Orion_B_2.png, id=997, 1188.44pt x 1006.76125pt>
+<figures/MSD_Gallery_Orion_B_2.png, id=1046, 1188.44pt x 1006.76125pt>
 File: figures/MSD_Gallery_Orion_B_2.png Graphic file (type png)
 <use figures/MSD_Gallery_Orion_B_2.png>
 Package pdftex.def Info: figures/MSD_Gallery_Orion_B_2.png  used on input line 92.
@@ -1961,7 +1981,7 @@ Package pdftex.def Info: figures/MSD_Gallery_Orion_B_2.png  used on input line 9
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/MSD_Gallery_Orion_B_3.png, id=998, 1188.44pt x 976.64874pt>
+<figures/MSD_Gallery_Orion_B_3.png, id=1047, 1188.44pt x 976.64874pt>
 File: figures/MSD_Gallery_Orion_B_3.png Graphic file (type png)
 <use figures/MSD_Gallery_Orion_B_3.png>
 Package pdftex.def Info: figures/MSD_Gallery_Orion_B_3.png  used on input line 99.
@@ -1969,7 +1989,7 @@ Package pdftex.def Info: figures/MSD_Gallery_Orion_B_3.png  used on input line 9
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/MSD_Gallery_Orion_B_4.png, id=999, 1164.35pt x 1188.44pt>
+<figures/MSD_Gallery_Orion_B_4.png, id=1048, 1164.35pt x 1188.44pt>
 File: figures/MSD_Gallery_Orion_B_4.png Graphic file (type png)
 <use figures/MSD_Gallery_Orion_B_4.png>
 Package pdftex.def Info: figures/MSD_Gallery_Orion_B_4.png  used on input line 106.
@@ -1977,7 +1997,7 @@ Package pdftex.def Info: figures/MSD_Gallery_Orion_B_4.png  used on input line 1
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/MSD_Gallery_Orion_B_5.png, id=1000, 1119.18124pt x 1188.44pt>
+<figures/MSD_Gallery_Orion_B_5.png, id=1049, 1119.18124pt x 1188.44pt>
 File: figures/MSD_Gallery_Orion_B_5.png Graphic file (type png)
 <use figures/MSD_Gallery_Orion_B_5.png>
 Package pdftex.def Info: figures/MSD_Gallery_Orion_B_5.png  used on input line 113.
@@ -2010,21 +2030,25 @@ FiXme Summary: Number of notes: 0,
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-03-26>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 31701 strings out of 469958
- 595569 string characters out of 5470297
- 1206792 words of memory out of 5000000
- 57530 multiletter control sequences out of 15000+600000
- 674422 words of font info for 200 fonts, out of 8000000 for 9000
+ 31761 strings out of 469958
+ 596529 string characters out of 5470297
+ 1207322 words of memory out of 5000000
+ 57551 multiletter control sequences out of 15000+600000
+ 675732 words of font info for 211 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  122i,9n,121p,10958b,2343s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0600.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0800.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0900.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsl1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfso1440.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1200.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1440.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx2074.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfti1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sftt1095.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on main.pdf (87 pages, 22123852 bytes).
+Output written on main.pdf (87 pages, 22165108 bytes).
 PDF statistics:
- 1419 PDF objects out of 1440 (max. 8388607)
- 266 named destinations out of 1000 (max. 500000)
- 49499 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1471 PDF objects out of 1728 (max. 8388607)
+ 285 named destinations out of 1000 (max. 500000)
+ 53600 words of extra memory for PDF output out of 61914 (max. 10000000)
 

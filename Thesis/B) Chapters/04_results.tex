@@ -5,7 +5,7 @@
 
 \subsection{Global Fractal Dimension}
 
-To quantify the cloud morphology, we computed perimeter-area measurements over a restricted range of column densities, \(N_\mathrm{min} \leq N \leq N_\mathrm{max}\), with \(N_\mathrm{min}\) around \(2 \times 10^{21}\,\mathrm{cm}^{-2}\) and \(N_\mathrm{max}\) around \(8 \times 10^{22}\,\mathrm{cm}^{-2}\). This range was chosen to avoid biases caused by the limited angular resolution, which produces artificially smooth contours at low column densities, and by the sparse, irregular features that dominate at the highest column densities. At the same time, this range includes important physical thresholds, such as typical star forming scales and HI to $H_2$ transition regime.
+To quantify the cloud morphology through the global fractal dimension, we computed perimeter-area measurements over a restricted range of column densities, \(N_\mathrm{min} \leq N \leq N_\mathrm{max}\), with \(N_\mathrm{min}\) around \(2 \times 10^{21}\,\mathrm{cm}^{-2}\) and \(N_\mathrm{max}\) around \(8 \times 10^{22}\,\mathrm{cm}^{-2}\). This range was chosen to avoid biases caused by the limited angular resolution, which produces artificially smooth contours at low column densities, and by the sparse, irregular features that dominate at the highest column densities. At the same time, this range includes important physical thresholds, such as typical star forming scales and HI to $H_2$ transition regime.
 
 Figure \ref{fig:orion_A_global} shows the perimeter-area relation for Orion A, together with the best-fit linear regression in log-log space used to derive the global fractal dimension. The residuals of the fit are displayed in the lower panel. From this single-fit model we obtain:
 \[
@@ -25,7 +25,7 @@ However, the Orion A data show systematic deviations from a single power law acr
 D_{\mathrm{OA,\,1}} = 1.65 \pm 0.01 \quad \text{(high column density)},
 \]
 \[
-D_{\mathrm{OA,\,2}} = 0.97 \pm 0.02 \quad \text{(low column density)}.
+D_{\mathrm{OA,\,2}} = 0.97 \pm 0.3 \quad \text{(low column density)}.
 \]
 The corresponding mean absolute residuals are 0.0222 (correlation coefficient = 0.9986) for the high-density regime and 0.0679 (correlation coefficient = 0.9748) for the low-density regime, representing a clear improvement compared to the single-fit model.  
 Figure \ref{fig:orion_A_global_double_fit} shows the two fitted segments and their residuals. The distinct change in slope suggests a structural transition or the coexistence of different regimes of spatial complexity in Orion A.
@@ -56,31 +56,31 @@ The uncertainties in perimeter and area measurements were estimated at 1.6\%, ba
 
 \subsection{Euler Characteristic}
 
-We evaluated the Euler characteristic, \(\chi\), for both Orion A and Orion B as a function of the column–density threshold. This topological descriptor quantifies the connectivity and fragmentation of structures within the clouds: larger positive values of \(\chi\) indicate a predominance of isolated regions, while more negative values reflect a higher degree of connectivity.
+We evaluated the Euler characteristic, \(\chi\), for both Orion A and Orion B as a function of the column–density threshold. This topological descriptor quantifies the connectivity and fragmentation of structures within the clouds: negative values of \(\chi\) indicate a predominance of isolated regions, while more positive values reflect a higher degree of connectivity.
 
 Figures~\ref{fig:Euler_Orion_A_no_figs} and~\ref{fig:Euler_Orion_B_no_figs} present the results for Orion A and Orion B, respectively. In both cases of Orion A and B, \(\chi\) was computed over the same range of column densities \(N_\mathrm{min} \leq N \leq N_\mathrm{max}\) used in the gloabl perimeter–area analysis above, ensuring consistency and comparability.
 
 \begin{figure}[t]
     \centering
-    \includegraphics[width=0.5\textwidth]{figures/euler_Orion_A_no_figs.png}
+    \includegraphics[width=0.45\textwidth]{figures/euler_Orion_A_no_figs.png}
     \caption{Euler characteristic of Orion A as a function of column–density threshold. Positive values correspond to a predominance of isolated structures, while negative values indicate higher connectivity.}
     \label{fig:Euler_Orion_A_no_figs}
 \end{figure}
 
 \begin{figure}[t]
     \centering
-    \includegraphics[width=0.5\textwidth]{figures/euler_Orion_B_no_figs.png}
+    \includegraphics[width=0.45\textwidth]{figures/euler_Orion_B_no_figs.png}
     \caption{Euler characteristic of Orion~B as a function of column–density threshold.}
     \label{fig:Euler_Orion_B_no_figs}
 \end{figure}
 
-Orion A exhibits a profile that closely resembles the Gaussian‑like behavior expected from Gaussian Random Field simulations, with a pronounced peak at approximately $1.64 \times 10^{22} \,\mathrm{cm}^{-2}$. In contrast, Orion B shows a more linear trend. In both regions, strong numerical fluctuations appear at lower column-density thresholds, leading to noticeable variations in the calculated Euler characteristic.
+Orion A exhibits a profile that closely resembles the Gaussian‑like behavior expected from Gaussian Random Field simulations (Figure \ref{fig:sims_euler_char}), with a pronounced peak at approximately $1.64 \times 10^{22} \,\mathrm{cm}^{-2}$. In contrast, Orion B shows a more linear trend. In both regions, strong numerical fluctuations appear at lower column-density thresholds, leading to noticeable variations in the calculated Euler characteristic.
 
 \subsection{Local Fractal Dimension}
 
-Figure~\ref{fig:local_Orion_A_B} shows the variation of the local fractal dimension as a function of column-density threshold for Orion A and Orion B. The column density range  \(N_\mathrm{min} \leq N \leq N_\mathrm{max}\) is the same as in the previous sections. In both regions we find a clear overall trend: the local fractal dimension changes systematically as the threshold increases. Superimposed on this trend, several pronounced peaks and deviations are visible. These features likely trace transitions in the morphology of the structures, for instance the emergence of compact cores or the fragmentation of filaments into smaller substructures.
+Figure~\ref{fig:local_Orion_A_B} shows the variation of the local fractal dimension $D(\nu)$ as a function of column-density threshold for Orion A and Orion B. The column density range  \(N_\mathrm{min} \leq N \leq N_\mathrm{max}\) is the same as in the previous sections. In both regions we find a clear overall trend: the local fractal dimension changes systematically as the threshold increases. Superimposed on this trend, several pronounced peaks and deviations are visible. These features likely trace transitions in the morphology of the structures, for instance the emergence of compact cores or the fragmentation of filaments into smaller substructures.
 
-A more detailed interpretation of these peaks and their implications for cloud evolution and turbulence will be addressed in the following sections.
+A more detailed interpretation of these peaks and their implications for cloud evolution and turbulence will be addressed in the following section.
 
 \begin{figure}[t]
     \centering
@@ -142,20 +142,13 @@ This behaviour has been recorded in other instances, e.g. when the regions got s
     \label{fig:local_B_single_structures}
 \end{figure}
 
-The average values and their standard deviations of the local fractal dimension through the individual structure analysis are:
-\[
-\bar{D}_{\mathrm{OA,\,Local}} = 0.00 \pm 0.00,
-\]
-\[
-\bar{D}_{\mathrm{OB,\,Local}} = 0.00 \pm 0.00.
-\]
-
 \subsection{MSD Plane}
 
 To investigate how the fractal properties relate to the physical characteristics of the cloud, we computed the mass, size, and local fractal dimension for each connected structure identified at every column-density threshold in the dendrogram hierarchy.  
 These quantities were then plotted against each other, with the local fractal dimension encoded as color.  
+
 The resulting Mass-Size-Fractal Dimension (MSD) planes are shown in Figure \ref{fig:MSD_orion_A} for Orion~A, Figure~\ref{fig:MSD_orion_B} for Orion~B, and Figure~\ref{fig:MSD_orion_A_B} for the combined dataset.  
-For reference, the expected scaling relations for idealized filamentary structures (\(A = 10\)) and spherical structures (\(A = 3\)) are overplotted.
+For reference, the expected scaling relations for idealized filamentary structures (\(A = 10\)) and spherical structures (\(A = 3\)) are overplotted, as done in \cite{Hacar_2025}.
 
 \begin{figure}[t]
     \centering
@@ -203,11 +196,11 @@ An interactive 3D version of the MSD plane is available online at:
 \href{https://simonesped.github.io/MSD_Viz/}{\texttt{MSD 3D Visualizer}}.
 
 Finally, the hierarchical relationships extracted from the dendrogram allow us to track how individual structures break down into substructures.  
-This information is visualized in Figures~\ref{fig:MSD_orion_A_lines} and~\ref{fig:MSD_orion_B_lines}, where lines connect each structure to its parent and child structures in the MSD plane.
+This information is visualized in Figures~\ref{fig:MSD_orion_A_lines} and~\ref{fig:MSD_orion_B_lines} in the Appendix, where lines connect each structure to its parent and child structures in the MSD plane.
 
 \section{Connection to Star Formation}
 
-Regions of higher gas density are expected to be more susceptible to star formation.  
+Regions of higher gas density are more conducive to star formation.
 To explore this connection, we compared the spatial distribution of the local fractal dimension with the surface density of young stellar objects (YSOs).  
 The YSO density maps were obtained by smoothing the distribution of identified YSOs across each region; details of the map construction are provided in the Appendix (Figures \ref{fig:YSOs_density_Map_A}, \ref{fig:YSOs_density_Map_B} for the full sample, Figures \ref{fig:YSOs_density_Map_A_early_stages} and \ref{fig:YSOs_density_Map_B_early_stages}).  
 The spatial coverage is naturally limited by the footprint of the available YSO catalog.
@@ -273,10 +266,10 @@ In these cases it was sometimes necessary to account for the intercept in the or
 The results were consistent with expectations: lines yielded a dimension of \(D = 2\), simple boxes and circles gave \(D = 1\), and more intricate shapes produced values in between.
 
 We then extended the tests to more complex structures, in particular Gaussian Random Fields (GRFs), to explore how the method behaves in realistic, irregular patterns.  
-These experiments revealed a clear dichotomy often described as the “sausage vs. hairy caterpillar” behavior:
+These experiments revealed a dichotomy that can be described as “sausage vs. hairy caterpillar”:
 \begin{itemize}
-    \item \textbf{Smooth, compact structures ("sausages")} tend toward \(D \approx 2\) in the PA method. Their borders are long and coherent with minimal roughness, resulting in a perimeter that scales almost linearly with area.
-    \item \textbf{Irregular, space-filling structures ("hairy caterpillars")} tend toward \(D \approx 1\). Their boundaries are highly convoluted and expand more slowly with area, leading to a sublinear perimeter–area relationship.
+    \item \textbf{Smooth, compact structures ("sausages")} tend toward \(D(\nu) \approx 2\) in the local PA framework. Their borders are long and coherent with minimal roughness, resulting in a perimeter that scales almost linearly with area.
+    \item \textbf{Irregular, space-filling structures ("hairy caterpillars")} tend toward \(D(\nu) \approx 1\). Their boundaries are highly convoluted and expand more slowly with area, leading to a sublinear perimeter–area relationship.
 \end{itemize}
 
 A gallery of visual examples illustrating this behavior is provided in the Appendix, and the trends are evident in the observational results (see, for example, Figure~\ref{fig:MSD_orion_A_B}).  

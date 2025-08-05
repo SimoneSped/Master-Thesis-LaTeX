@@ -1,15 +1,35 @@
 \chapter{Conclusion}
 
-Summary Intensions
+This thesis set out to revisit and extend the study of structural complexity in molecular clouds through the lens of fractal geometry and topological analysis, originally popularized in the context of the interstellar medium by works such as \cite{elmegreen1996fractal}. The aim was to move beyond purely visual or qualitative impressions and provide a quantitative framework that could be applied to real observational data of star-forming regions.
 
-Summary Methods
+The column density maps used in this work were derived from dust emission measurements from the \textit{Herschel} satellite, as described by \cite{lombardi2014herschel}, offering high dynamic range and spatial resolution across the Orion complex. This data enabled the application of Minkowski functionals and perimeter–area analysis to characterize the global and local fractal structure of Orion~A and Orion~B.
 
-Summary Results and Discussion
+A variety of techniques were employed to explore the geometry and topology of the molecular clouds, including:
+\begin{itemize}
+    \item Global fractal dimension estimation from perimeter–area scaling, as introduced by \cite{cannon1984fractal};
+    \item Local fractal dimension analysis as a function of column density threshold;
+    \item Euler characteristic computations to trace topological transitions in structure;
+    \item Mass–size diagrams inspired by recent work such as \cite{Hacar_2025}, offering a new way to connect local structural properties with complexity and fragmentation;
+    \item A comparison with star formation properties through YSO spatial density and classification.
+\end{itemize}
 
-outlook! (very important) 
+The global fractal analysis revealed a striking dichotomy between Orion~A and Orion~B: while Orion~B exhibited a relatively constant fractal dimension across scales, Orion~A showed a clear break in its scaling behavior at \( N \sim 1.2 \times 10^{22} \,\mathrm{cm}^{-2} \). This threshold aligns with the onset of dense core formation and early-stage YSOs, indicating a shift in the dominant physical processes—likely from turbulence-dominated to gravity-driven fragmentation.
 
-Improvements
--> better/other estimates for uncertainties
--> less limited methods for the connection to star formation through YSO density
--> extend the method to more structures
--> extend testing to more cases?
+The local analysis added further nuance to this picture: as column density increases, the local fractal dimension tends toward 2, reflecting the increased visual and morphological complexity introduced by filamentary networks and core clustering. However, the complexity measured in the mass–size diagrams showed that on the smallest scales, structures tend to simplify again, suggesting self-regulated fragmentation and localized collapse.
+
+The Euler characteristic analysis complemented this by showing a distinct peak in Orion~A, consistent with a rapid topological transition, whereas Orion~B displayed a more gradual evolution, in line with its more turbulent and hierarchical structure.
+
+While the current study provides a comprehensive multi-faceted view of Orion~A and Orion~B, several directions for improvement and future exploration remain:
+
+\begin{itemize}
+    \item \textbf{Improved uncertainty quantification:} The propagation of errors in perimeter–area and fractal dimension estimates could benefit from higher-order error modeling, especially for small or pixel-limited structures.
+    
+    \item \textbf{Refined star formation connection:} The analysis of the link between fractal structure and star formation relied on spatial correlations with YSO densities. Future work could involve more rigorous statistical modeling, such as clustering metrics or spatial cross-correlation functions, possibly extended to velocity space.
+
+    \item \textbf{Wider application of methods:} The techniques developed here could be applied to other GMCs in different galactic environments. This would test the generality of the observed trends and potentially uncover environmental dependencies.
+
+    \item \textbf{Simulation comparison:} A natural extension would be to directly compare these observational metrics with synthetic observations of numerical simulations of turbulent, magnetized clouds with varying initial conditions, bridging the gap between theory and data.
+\end{itemize}
+
+Overall, this thesis demonstrates the power of topological and fractal tools to provide insight into the structural and physical processes governing molecular clouds. By combining geometry, topology, and star formation tracers, it offers a coherent and extensible framework that can be further developed in both observational and theoretical contexts.
+

@@ -5,47 +5,48 @@ Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: alpha.bst
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 Database file #1: bibliography.bib
+Warning--I didn't find a database entry for "okumura2009fermi"
 Warning--empty institution in hildebrand1983determination
 Warning--empty publisher in 1994fns..book..515Y
-You've used 33 entries,
+You've used 42 entries,
             2543 wiz_defined-function locations,
-            770 strings with 11521 characters,
-and the built_in function-call counts, 15093 in all, are:
-= -- 1413
-> -- 1004
-< -- 16
-+ -- 380
-- -- 365
-* -- 1268
-:= -- 2630
-add.period$ -- 101
-call.type$ -- 33
-change.case$ -- 272
-chr.to.int$ -- 33
-cite$ -- 35
-duplicate$ -- 488
-empty$ -- 900
-format.name$ -- 400
-if$ -- 2913
+            824 strings with 13244 characters,
+and the built_in function-call counts, 19040 in all, are:
+= -- 1794
+> -- 1257
+< -- 17
++ -- 470
+- -- 454
+* -- 1590
+:= -- 3315
+add.period$ -- 128
+call.type$ -- 42
+change.case$ -- 341
+chr.to.int$ -- 42
+cite$ -- 44
+duplicate$ -- 615
+empty$ -- 1144
+format.name$ -- 497
+if$ -- 3679
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 33
-newline$ -- 169
-num.names$ -- 101
-pop$ -- 216
+missing$ -- 43
+newline$ -- 214
+num.names$ -- 128
+pop$ -- 268
 preamble$ -- 1
-purify$ -- 306
+purify$ -- 385
 quote$ -- 0
-skip$ -- 401
+skip$ -- 511
 stack$ -- 0
-substring$ -- 684
-swap$ -- 49
-text.length$ -- 16
-text.prefix$ -- 12
+substring$ -- 890
+swap$ -- 58
+text.length$ -- 17
+text.prefix$ -- 13
 top$ -- 0
-type$ -- 256
+type$ -- 324
 warning$ -- 2
-while$ -- 128
-width$ -- 36
-write$ -- 431
-(There were 2 warnings)
+while$ -- 165
+width$ -- 45
+write$ -- 546
+(There were 3 warnings)

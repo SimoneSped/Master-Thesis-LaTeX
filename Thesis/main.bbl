@@ -33,6 +33,11 @@ Bruce~T Draine.
 \newblock {\em Annual Review of Astronomy and Astrophysics}, 41(1):241--289,
   2003.
 
+\bibitem[Dra06]{draine2006submillimeter}
+Bruce~T Draine.
+\newblock On the submillimeter opacity of protoplanetary disks.
+\newblock {\em The Astrophysical Journal}, 636(2):1114, 2006.
+
 \bibitem[EF96]{elmegreen1996fractal}
 Bruce~G Elmegreen and Edith Falgarone.
 \newblock A fractal origin for the mass spectrum of interstellar clouds.
@@ -60,6 +65,13 @@ E.~{Falgarone}, T.~G. {Phillips}, and C.~K. {Walker}.
   Structure}.
 \newblock {\em The Astrophysical Journal}, 378:186, September 1991.
 
+\bibitem[FR10]{froebrich2010structure}
+Dirk Froebrich and Jonathan Rowles.
+\newblock The structure of molecular clouds--ii. column density and mass
+  distributions.
+\newblock {\em Monthly Notices of the Royal Astronomical Society},
+  406(2):1350--1357, 2010.
+
 \bibitem[GAA{\etalchar{+}}10]{griffin2010herschel}
 Matthew~Joseph Griffin, A~Abergel, As~Abreu, Peter~AR Ade, P~Andr{\'e}, J-L
   Augueres, T~Babbedge, Y~Bae, T~Baillie, J-P Baluteau, et~al.
@@ -77,6 +89,13 @@ Roger~H Hildebrand.
   submillimetre thermal emission.
 \newblock Technical report, 1983.
 
+\bibitem[HKS{\etalchar{+}}25]{Hacar_2025}
+A.~Hacar, R.~Konietzka, D.~Seifried, S.~E. Clark, A.~Socci, F.~Bonanomi,
+  A.~Burkert, E.~Schisano, J.~Kainulainen, and R.~Smith.
+\newblock Emergence of high-mass stars in complex fiber networks (emerge): V.
+  from filaments to spheroids: the origin of the hub-filament systems.
+\newblock {\em Astronomy \& Astrophysics}, 694:A69, February 2025.
+
 \bibitem[Imr06]{imre2006artificial}
 Attila~R Imre.
 \newblock Artificial fractal dimension obtained by using perimeter--area
@@ -88,6 +107,12 @@ Andrey~Nikolaevich Kolmogorov.
 \newblock A refinement of previous hypotheses concerning the local structure of
   turbulence in a viscous incompressible fluid at high reynolds number.
 \newblock {\em Journal of Fluid Mechanics}, 13(1):82--85, 1962.
+
+\bibitem[LA01]{lombardi2001nicer}
+Marco Lombardi and Jo{\~a}o Alves.
+\newblock Mapping the interstellar dust with near-infrared observations: An
+  optimized multi-band technique.
+\newblock {\em Astronomy \& Astrophysics}, 377:1023--1034, 2001.
 
 \bibitem[Lad87]{lada1987star}
 Charles~J Lada.
@@ -117,6 +142,12 @@ S~Lovejoy.
 \newblock Area-perimeter relation for rain and cloud areas.
 \newblock {\em Science}, 216(4542):185--187, 1982.
 
+\bibitem[MBW93]{mecke1993robust}
+Klaus~R Mecke, Thomas Buchert, and Herbert Wagner.
+\newblock Robust morphological measures for large-scale structure in the
+  universe.
+\newblock {\em arXiv preprint astro-ph/9312028}, 1993.
+
 \bibitem[MGM{\etalchar{+}}12]{megeath2012catalogue}
 ST~Megeath, R~Gutermuth, J~Muzerolle, E~Kryukova, K~Flaherty, JL~Hora,
   LE~Allen, L~Hartmann, PC~Myers, JL~Pipher, et~al.
@@ -130,6 +161,11 @@ Yoshihiko Mizumoto, Koh—Ichiro Morita, and Masatoshi Ohishi.
 \newblock Astronomical data analysis software and systems xix.
 \newblock {\em Astronomical Data Analysis Software and Systems XIX}, 434, 2010.
 
+\bibitem[MO07]{mckee2007theory}
+Christopher~F McKee and Eve~C Ostriker.
+\newblock Theory of star formation.
+\newblock {\em Annu. Rev. Astron. Astrophys.}, 45(1):565--687, 2007.
+
 \bibitem[NLS{\etalchar{+}}12]{nielbock2012earliest}
 Markus Nielbock, Ralf Launhardt, Juergen Steinacker, AM~Stutz, Zoltan Balog,
   Henrik Beuther, J~Bouwman, Th~Henning, P~Hily-Blant, Jouni Kainulainen,
@@ -137,6 +173,20 @@ Markus Nielbock, Ralf Launhardt, Juergen Steinacker, AM~Stutz, Zoltan Balog,
 \newblock The earliest phases of star formation (epos) observed with herschel:
   the dust temperature and density distributions of b68.
 \newblock {\em Astronomy \& Astrophysics}, 547:A11, 2012.
+
+\bibitem[OH94]{ossenkopf1994dust}
+Volker Ossenkopf and Th~Henning.
+\newblock Dust opacities for protostellar cores.
+\newblock {\em Astronomy and Astrophysics (ISSN 0004-6361), vol. 291, no. 3, p.
+  943-959}, 291:943--959, 1994.
+
+\bibitem[OPG{\etalchar{+}}17]{orkisz2017turbulence}
+Jan~H Orkisz, J{\'e}r{\^o}me Pety, Maryvonne Gerin, Emeric Bron, Viviana~V
+  Guzm{\'a}n, S{\'e}bastien Bardeau, Javier~R Goicoechea, Pierre Gratier,
+  Franck Le~Petit, Fran{\c{c}}ois Levrier, et~al.
+\newblock Turbulence and star formation efficiency in molecular clouds:
+  solenoidal versus compressive motions in orion b.
+\newblock {\em Astronomy \& Astrophysics}, 599:A99, 2017.
 
 \bibitem[Pea95]{pearson1895vii}
 Karl Pearson.
@@ -165,6 +215,11 @@ Albrecht Poglitsch, Christoffel Waelkens, Norbert Geis, Helmut Feuchtgruber,
 \newblock The photodetector array camera and spectrometer (pacs) on the
   herschel space observatory.
 \newblock {\em Astronomy \& astrophysics}, 518:L2, 2010.
+
+\bibitem[RL79]{rybicki1979radiative}
+George~B. Rybicki and Alan~P. Lightman.
+\newblock {\em Radiative Processes in Astrophysics}.
+\newblock Wiley, 1979.
 
 \bibitem[RL85]{rieke1985interstellar}
 GH~Rieke and MJ~Lebofsky.

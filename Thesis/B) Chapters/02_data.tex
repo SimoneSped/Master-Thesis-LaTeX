@@ -1,7 +1,6 @@
 \chapter{Data}
 \label{chap:data}
 
-% review once background is done (reference equations, usw)
 \section{\textit{Herschel} column-density maps}
 \subsection{Introduction}
 The main source of data in this work stems from ESA's \textit{Herschel} Space Observatory \cite{pilbratt2010herschel}, which was launched in 2009 with the goal of observing in the far-infrared and submillimetre wavelengths. 
@@ -13,7 +12,7 @@ The main source of data in this work stems from ESA's \textit{Herschel} Space Ob
 The clouds covered by the HGBS span a wide range of physical and environmental conditions, from very active, cluster-forming complexes such as the Orion A and B giant molecular clouds (GMCs) to quiescent regions with no star formation activity at all.
 
 \subsection{Dust emission maps}
-In the interstellar medium, dust typically has temperatures T$_{\mathrm{dust}}$ around $20$ K and emits thermal radiation that can be approximated by a modified blackbody, peaking at far-infrared (FIR) and submillimetre (mm) wavelengths. 
+In the ISM, dust typically has temperatures T$_{\mathrm{dust}}$ around $20$ K and emits thermal radiation that can be approximated by a modified blackbody, peaking at FIR and sub-mm wavelengths. 
 This thermal dust emission represents the dominant source of FIR and mm-continuum radiation in galaxies, as it can be recognized in Figure \ref{fig:dust_emission_blackbody}. 
 
 \begin{figure}
@@ -23,13 +22,13 @@ This thermal dust emission represents the dominant source of FIR and mm-continuu
     \label{fig:dust_emission_blackbody}
 \end{figure}
 
-Dust grains absorb ultraviolet (UV) and near-infrared (NIR) photons from stars, reprocessing this stellar radiation and re-emitting it at longer wavelengths. 
+Dust grains absorb UV and NIR photons from stars, reprocessing this stellar radiation and re-emitting it at longer wavelengths. 
 Because dust is highly efficient at radiating energy, it reaches and maintains relatively low equilibrium temperatures \cite{hildebrand1983determination}. 
 Observations of dust emission hence provide a powerful tool to estimate the column density of dust and gas along the line of sight.
 
 Using mm continuum dust emission to measure column density offers several advantages over traditional extinction-based methods: it can probe much higher column densities where extinction becomes saturated or unreliable, it often provides better angular resolution, and it remains effective even in regions heavily obscured by dust where extinction mapping fails \cite{draine2003interstellar}. Moreover, continuum observations allow simultaneous determination of both dust temperature (T$_{\mathrm{dust}}$) and gas column density (N(H$_2$)), which is essential for characterizing dense molecular clouds. In extragalactic studies, where individual stars cannot be resolved, dust emission often represents the only viable method for estimating gas masses.
 
-However, these methods also involve significant assumptions and uncertainties. Different approaches to estimate column density are conceptually equivalent but may yield different results due to methodological degeneracies. One key source of uncertainty arises from the poorly constrained dust opacity, $\kappa$, which depends on the composition, size distribution, and physical properties of dust grains. Variations in $\kappa$ directly affect the derived column densities, introducing systematic uncertainties into the analysis.
+However, these methods also involve significant assumptions and uncertainties. Different approaches to estimate column density are conceptually equivalent but may yield different results due to methodological degeneracies. One key source of uncertainty arises from the poorly constrained dust opacity, $\kappa$, which depends on the composition, size distribution, and physical properties of dust grains \cite{ossenkopf1994dust}. Variations in $\kappa$ directly affect the derived column densities, introducing systematic uncertainties into the analysis.
 
 The data used in this work are \textit{Herschel} column-density maps of the Orion A and B giant molecular clouds. These maps were created by combining data from PACS and SPIRE instruments, which observed at different wavelengths to capture the dust emission across the clouds.
 
@@ -37,7 +36,7 @@ Specifically, PACS provided imaging photometry in the 60-210 $\mu m$ wavelength 
 
 SPIRE extended the coverage to longer wavelengths, better tracing colder dust. Its photometer operated in three broad bands centered at 250 $\mu m$, 350 $\mu m$, and 500 $\mu m$, well-suited for mapping large-scale dust emission from the cold interstellar medium \cite{griffin2010herschel}. 
 
-The combination of PACS and SPIRE photometric data allows for the characterization of the dust spectral energy distribution (SED) across a broad range of temperatures. The relative throughputs of the two instruments can be seen in Figure \ref{fig:pacs_spire_throughputs}, on top of black body radiation for typical temperatures of dust. This broad wavelength coverage enables accurate fitting of modified blackbody models to derive dust temperatures, column densities, and emissivity properties.
+The combination of PACS and SPIRE photometric data allows for the characterization of the dust SED across a broad range of temperatures. The relative throughputs of the two instruments can be seen in Figure \ref{fig:pacs_spire_throughputs}, on top of black body radiation for typical temperatures of dust. This broad wavelength coverage enables accurate fitting of modified blackbody models to derive dust temperatures, column densities, and emissivity properties.
 
 % Mabye more on the above once you describe better the process below
 \begin{figure}
@@ -46,11 +45,6 @@ The combination of PACS and SPIRE photometric data allows for the characterizati
     \caption{Throughputs in relative units of the PACS and SPIRE bands and three modified blackbodies for typical dust temperatures (12 K, 18 K, 24 K) and with $\beta$ = 1.8 \cite{lombardi2014herschel}.}
     \label{fig:pacs_spire_throughputs}
 \end{figure}
-
-% To-Do:
-% Give range of N and compare it to the given one in Lombardi 2014 (DONE)
-% Maybe also the range in mag
-% Mention low res planck data
 
 \subsection{Derivation of column density maps}
 
@@ -74,7 +68,7 @@ The constants $\gamma$ and $\delta$ were calibrated separately for Orion A and B
 
 \begin{figure}[t]
     \centering
-    \includegraphics[width=0.75\textwidth]{figures/extinction_map.png}
+    \includegraphics[width=0.65\textwidth]{figures/extinction_map.png}
     \caption{Extinction map of Orion A and B derived from Herschel data, showing the extinction in K-band ($A_V$) across the clouds. The map is based on the optical depth at 353 GHz, converted to extinction using the relation in Equation \ref{eq:ak_tau_relation}.}
     \label{fig:extinction_map}
 \end{figure}
@@ -96,23 +90,16 @@ Finally, assuming all hydrogen is in molecular form (i.e., fully in H$_2$) and a
 
 \begin{figure}[t]
     \centering
-    \includegraphics[width=0.75\textwidth]{figures/column_density_map.png}
+    \includegraphics[width=0.65\textwidth]{figures/column_density_map.png}
     \caption{Column density maps of the Orion Complex derived from Herschel data, showing the total column density of molecular hydrogen $N(\mathrm{H}_2)$ across the cloud. The maps are based on the optical depth at 353 GHz.}
     \label{fig:n_h2_final_map}
 \end{figure}
 
-The derived column density maps of the Orion Complex can be seen in Figure \ref{fig:n_h2_final_map}. The $H_2$ column density ranges from around 10$^{21}$ cm$^{-2}$ to a few $10^{23}$ cm$^{-2}$ (REVIEW), conferming the specification in the literature \cite{lombardi2014herschel}. 
+The derived column density maps of the Orion Complex can be seen in Figure \ref{fig:n_h2_final_map}. The $\mathrm{H}_2$ column densities range from approximately $10^{21}\,\mathrm{cm}^{-2}$ to a few $10^{23}\,\mathrm{cm}^{-2}$, 
+in agreement with values reported in the literature \cite{lombardi2014herschel}.
 
 This method provides a robust, emission-based estimate of the total column density across Orion A and B, with the advantage of tracing both high and low column density regions uniformly.
 However, it is important to note that the derivation relies on assumptions about dust properties, uniform opacity, and gas-to-dust ratio, which introduce systematic uncertainties into the absolute calibration of $N(\mathrm{H}_2)$.
-
-% To-Do:
-% Add 8.56e33
-% Add definition of Orion A and B clouds (DONE)
-% Change colour blue of Orion B
-% Add "Orion A" and "Orion B" labels
-% Colour bar as big as the map (or rather vice versa)
-% Add some properties of the mass map (range, sum, mean, std, etc.)
 
 \subsubsection{Derivation of Mass Maps}
 
@@ -154,7 +141,7 @@ The resulting mass map provides the total H$_2$ mass contained in each pixel of 
 
 \begin{figure}[t]
     \centering
-    \includegraphics[width=0.75\textwidth]{figures/mass_distribution.png}
+    \includegraphics[width=0.65\textwidth]{figures/mass_distribution.png}
     \caption{Mass map of the Orion A and B molecular clouds derived from the H$_2$ column density maps. The map shows the total mass in solar masses contained in each pixel.}
     \label{fig:mass_map}
 \end{figure}
@@ -168,6 +155,7 @@ The masses are computed by integrating the mass surface density over the spatial
 
 Using these definitions and the mass maps, we estimate the mass of Orion A to be approximately $8.62 \times 10^4 \, M_\odot$, the mass of Orion B to be approximately $7.02 \times 10^4 \, M_\odot$
 The total mass of Orion A and B combined is therefore approximately $1.56 \times 10^5 \, M_\odot$.
+These mass estimates are consistent with previous measurements, such as gamma-ray–based masses for Orion~A and B of approximately \( 8.1 \times 10^4\,M_\odot \) and \( 4.0 \times 10^4\,M_\odot \), respectively~\cite{okumura2009fermi}, and with dust-based studies (e.g.,~\cite{lombardi2014herschel}), all within observational uncertainties.
 
 \subsection{Data Pre-processing}
 
@@ -186,14 +174,8 @@ In summary, the pre-processing workflow ensures that:
     \item Only high-resolution \textit{Herschel} data contribute to the final maps.
     \item Large-scale background emission is removed.
     \item Low signal-to-noise regions and unreliable pixels are masked out.
-    \item Calibration and resolution across maps are homogenized.
 \end{itemize}
 
-These steps are essential for producing reliable maps of dust-derived column density and mass structure in the Orion molecular clouds.
-
-% To-Do:
-% some other properties of the YSO catalogue
-% remake picture 
 \section{Young Stellar Objects (YSOs)}
 
 \subsection{Introduction}
@@ -205,7 +187,7 @@ The catalogue is based on observations from the \textit{Spitzer Space Telescope}
 Additionally, the catalogue incorporates near-infrared data from the 2MASS survey \cite{skrutskie2006two}, which helps to identify less embedded sources and complements the mid-infrared sensitivity.
 
 \subsection{The catalogue}
-The catalogue \footnote{\href{http://cdsarc.cds.unistra.fr}{YSO catalogue in the CDS Archive}} includes a total of 3479 dusty YSOs, classified primarily based on their spectral energy distributions (SEDs). These classifications distinguish between:
+The catalogue\footnote{\href{http://cdsarc.cds.unistra.fr}{YSO catalogue in the CDS Archive}} includes a total of 3479 dusty YSOs, classified primarily based on their spectral energy distributions (SEDs). These classifications distinguish between:
 \begin{itemize}
     \item Protostars (P): deeply embedded sources with rising or flat SEDs, indicative of ongoing mass accretion (N=488).
     \item Disk sources (D): more evolved pre-main sequence stars that still retain circumstellar disks, but with declining mid-infrared emission (N=2991).

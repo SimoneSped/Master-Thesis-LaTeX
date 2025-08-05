@@ -4,19 +4,20 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Comparison of dust extinction (optical and NIR) and dust emission (FIR) views of Barnard 68. Credits: ESO, \cite {nielbock2012earliest}.}}{4}{figure.2.1}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Comparison of dust extinction (optical and NIR) and dust emission (FIR) views of Barnard 68. Credits: ESO, \cite {nielbock2012earliest}.}}{5}{figure.2.1}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Best fit SED of NGC 891 and observed data in infrared and submillimeter. Also plotted are the main components responsible for each part of the emission spectrum \cite {popescu2011modelling}. Dust emission represents the dominant source of FIR and mm-continuum radiation in galaxies.}}{8}{figure.3.1}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Throughputs in relative units of the PACS and SPIRE bands and three modified blackbodies for typical dust temperatures (12 K, 18 K, 24 K) and with $\beta $ = 1.8 \cite {lombardi2014herschel}.}}{9}{figure.3.2}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Extinction map of Orion A and B derived from Herschel data, showing the extinction in K-band ($A_V$) across the clouds. The map is based on the optical depth at 353 GHz, converted to extinction using the relation in Equation \ref {eq:ak_tau_relation}.}}{10}{figure.3.3}%
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Column density maps of the Orion Complex derived from Herschel data, showing the total column density of molecular hydrogen $N(\mathrm {H}_2)$ across the cloud. The maps are based on the optical depth at 353 GHz.}}{11}{figure.3.4}%
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Mass map of the Orion A and B molecular clouds derived from the H$_2$ column density maps. The map shows the total mass in solar masses contained in each pixel.}}{13}{figure.3.5}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Map of YSOs in the Orion A and B clouds, overlaid on the column density map. YSOs are color-coded by evolutionary class, with protostars (P, red stars) and disk sources (D, blue circles) identified based on their mid-infrared spectral energy distributions.}}{16}{figure.3.6}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Map of YSOs in the Orion A and B clouds, overlaid on the column density map. YSOs are color-coded by evolutionary class, with protostars (P, red stars) and disk sources (D, blue circles) identified based on their mid-infrared spectral energy distributions.}}{15}{figure.3.6}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Example of an excursion set and its boundary for a field for a smoothed three-dimensional Gaussian field.}}{18}{figure.4.1}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Example of the perimeter-area relation for meteorological clouds \cite {lovejoy1982area}. The slope of the linear fit gives the fractal dimension of the structure.}}{20}{figure.4.2}%
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Simplified example of the calculation of perimeters and areas of structures at a given column density threshold. The local fractal dimension can be calculated by summing over all of the structures at that threshold, or for each of the single structures.}}{21}{figure.4.3}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Pixel-wise error map of the $\tau _{850}$ data \cite {lombardi2014herschel}}}{25}{figure.4.4}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Simplified example of a resulting tree/branch/leave structure from the Astrodendro package.}}{22}{figure.4.4}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Pixel-wise error map of the $\tau _{850}$ data \cite {lombardi2014herschel}}}{25}{figure.4.5}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Perimeter-area relation for Orion A. The solid line indicates the best-fit linear regression in log-log space used to estimate the global fractal dimension \(D_{\mathrm {Global}}\). Residuals are shown in the lower panel.}}{28}{figure.5.1}%
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Perimeter-area relation for Orion A with a segmented linear fit. Dashed lines indicate the two fitted regimes, separated at \(N = 1.23 \times 10^{22}\,\mathrm {cm}^{-2}\). Residuals are shown in the lower panel.}}{29}{figure.5.2}%

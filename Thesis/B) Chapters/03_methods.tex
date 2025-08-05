@@ -5,9 +5,7 @@
 % define global properties and local properties better and clearer!
 \section{Introduction}
 
-The interstellar medium (ISM) is a complex and dynamic environment, shaped by a broad spectrum of physical processes involving turbulence, gravity, magnetic fields, and stellar feedback. These processes give rise to structures across a wide range of scales—from compact molecular cores to extended filaments and bubbles—producing highly irregular and non-linear geometries.
-
-Observationally, the ISM presents a rich variety of morphologies, particularly in molecular clouds, where the interplay between turbulence and self-gravity leads to intricate patterns. Traditional statistical tools often fall short in fully capturing the spatial complexity of these structures. To address this, the use of topological and morphological descriptors has become increasingly relevant.
+The ISM is a complex and dynamic environment, shaped by a broad spectrum of physical processes involving turbulence, gravity, magnetic fields, and stellar feedback. Observationally, the ISM presents a rich variety of morphologies, where the interplay between turbulence and self-gravity leads to intricate patterns. Traditional statistical tools can fall short in fully capturing the spatial complexity of these structures. To address this, the use of topological and morphological descriptors has become increasingly relevant.
 
 In this chapter, we introduce the framework of topological methods used to characterize the structure of the ISM, focusing on the Minkowski functionals and the concept of the fractal dimension. These tools provide a quantitative way to analyze the geometry and topology of cloud structures, offering insight into properties such as size, shape, fragmentation, and connectivity.
 
@@ -15,17 +13,17 @@ In particular, the fractal dimension—derived here through a perimeter–area r
 
 \section{Minkowski Functionals}
 
-The Minkowski functionals are a set of topological measures that can be used to quantify the shape and structures of objects in a space. From these functionals, we can derive various properties of the structures, such as their size, shape, and connectivity, but also connect .
+The Minkowski functionals are a set of topological measures that can be used to quantify the shape and structures of objects in a space \cite{mecke1993robust}. From these functionals, we can derive various properties of the structures, such as their size, shape, and connectivity.
 These can be defined for any dimension, but we will focus on the 2D case, which is relevant for the analysis of the column density maps.
 
 First it is convenient to define the concept of threshold, which is important both in understanding the methods but also in the application.
-Excursion and Level Set: We define the excursion set $S_{\nu}$ of a given field on a $d$-dimensional domain $D \subset R^d$ as the set of points where $f$ exceeds a given threshold parameter $\nu$:
+We define the \textit{excursion set} $S_{\nu}$ of a given field on a $d$-dimensional domain $D \subset R^d$ as the set of points where $f$ exceeds a given threshold parameter $\nu$:
 
 \begin{equation}
     S_{\nu} = \{ \mathbf{x} \in D : f(\mathbf{x}) > \nu \}
 \end{equation}
 
-The boundary of the excursion set is defined as the level set, which is the set of points where the field equals the threshold:
+The boundary of the excursion set is defined as the \textit{level set}, which is the set of points where the field equals the threshold:
 
 \begin{equation}
     \partial S_{\nu} = \{ \mathbf{x} \in D : f(\mathbf{x}) = \nu \}
@@ -35,7 +33,7 @@ An example of these can be seen in Figure \ref{fig:level_set_example}, adapted f
 
 \begin{figure}[t]
     \centering
-    \includegraphics[width=0.7\textwidth]{figures/boundaries.png}
+    \includegraphics[width=0.65\textwidth]{figures/boundaries.png}
     \caption{Example of an excursion set and its boundary for a field for a smoothed three-dimensional Gaussian field.}
     \label{fig:level_set_example}
 \end{figure}
@@ -50,7 +48,9 @@ The motion-invariants are defined as the integrals of the Minkowski functionals 
 
 From these, we can define a lot of properties that can be calculated to characterize the structures in Orion A and B. 
 
-The following section is divided into two parts: global properties and local properties. Global properties are those that describe the overall structure of the ISM, while local properties are those that describe how the structure changes as a function of column density.
+The following section is divided into two parts: global and local properties.  
+\textbf{Global properties} refer to statistical measures that characterize the cloud as a whole—capturing the average morphological behavior across all column density scales.  
+In contrast, \textbf{local properties} probe how structural complexity evolves as a function of column density, offering insight into spatial variations and scale-dependent behavior within the cloud.
 
 \section{Global Properties}
 
@@ -66,24 +66,24 @@ On this idea, the perimeter-area (P-A) relation is defined as:
     P \propto A^{\frac{D}{2}}
 \end{equation}
 
-By measuring the perimeter $P$ and area $A$ of a structure at different thresholds and fitting the logarithm of the perimeter to the logarithm of the area, we can derive the fractal dimension $D$ of the overall structure.
+By measuring the perimeter $P$ and area $A$ of a structure at different thresholds and fitting the logarithm of the perimeter to the logarithm of the area, we can derive the fractal dimension $D$ of the overall structure. Hence this characterized in this work as a \textbf{global property} of the cloud, and it's called global fractal dimension.
 
-The relation between perimeter and area provides information about the complexity or degree of contortion of the boundary. For example, a fixed length of smooth, rounded perimeter can enclose a larger area than a highly irregular or convoluted perimeter. This degree of complexity can be characterized by the dimension $D$ of the perimeter. For smooth shapes, such as circles and squares, the scaling follows $P \propto A^{1/2}$, and thus $D=1$, corresponding to the dimension of a line. As the perimeter becomes increasingly contorted and tends to fold back on itself, effectively filling the plane, the scaling approaches $P \propto A$, and $D$ approaches a value of 2.
+The scaling relationship between perimeter and area offers insight into the structural complexity of a shape’s boundary. Intuitively, a smoother and more compact boundary can enclose more area with less perimeter compared to a more irregular or fragmented contour. This variation in complexity is quantified through the global fractal dimension, \( D \), which describes how the perimeter scales with area.
 
-If the cloud exhibits structures with a well-defined length scale, we can consider the perimeter to be composed of large-scale features superimposed with small-scale noise or perturbations. In this case, the large- and small-scale structures would show different perimeter–area relations, and consequently, different values of $D$. Therefore, if the perimeter–area relation is characterized by multiple values of $D$ across scales, this would point to the existence of processes operating at characteristic spatial scales, and it would motivate a meaningful distinction between large- and small-scale structure. Conversely, if the perimeter–area relation is consistently described by a single power-law scaling, this indicates the absence of characteristic length scales in the cloud morphology.
+For simple geometries—like circles or squares—the perimeter \( P \) scales with the square root of the area \( A \), following \( P \propto A^{1/2} \), yielding \( D = 1 \), as expected for a one-dimensional boundary. In contrast, for highly intricate and space-filling contours, the perimeter scales more directly with the area, i.e., \( P \propto A \), corresponding to a fractal dimension approaching \( D = 2 \), the value expected for a boundary that becomes increasingly space-filling \cite{lovejoy1982area}.
 
-Hence, if the linear fit in log–log space is robust, one can argue that the structure lacks a preferred scale and therefore behaves as a fractal. An example of this is illustrated in Figure~\ref{fig:perimeter_area_example}, where data from meteorological clouds were used to derive the fractal dimension of the structures. The slope of the linear fit yields the fractal dimension $D$, providing a quantitative measure of the structural complexity. The lack of a characteristic scale, evidenced by the good fit, suggests that turbulent processes are likely responsible for shaping the observed structures.
+When a structure includes components with distinct spatial scales—for example, large coherent features overlaid with fine-grained substructure—these different regimes may exhibit different perimeter–area scaling behaviors. In such cases, the presence of multiple scaling slopes (or values of \( D \)) in different regimes can reveal the existence of characteristic length scales, hinting at underlying physical processes operating differently at those scales.
+
+On the other hand, if the data show a consistent scaling behavior across the full range of column densities—with the perimeter and area following a single power-law in log–log space—this suggests scale-free structure and supports the interpretation that the cloud morphology is fractal in nature. An example of this is illustrated in Figure~\ref{fig:perimeter_area_example}, where data from meteorological clouds were used to derive the fractal dimension of the structures. The slope of the linear fit yields the fractal dimension $D$, providing a quantitative measure of the structural complexity. The lack of a characteristic scale, evidenced by the good fit, suggests that turbulent processes are likely responsible for shaping the observed structures.
 
 \begin{figure}[t]
     \centering
-    \includegraphics[width=0.45\textwidth]{figures/lovejoy.png}
+    \includegraphics[width=0.4\textwidth]{figures/lovejoy.png}
     \caption{Example of the perimeter-area relation for meteorological clouds \cite{lovejoy1982area}. The slope of the linear fit gives the fractal dimension of the structure.}
     \label{fig:perimeter_area_example}
 \end{figure}
 
-This counts in this work a global property of the cloud.
-
-The perimeter-area relation is a powerful tool for analyzing the complexity of structures in the ISM. It's simple, yet effective, and can be applied to a wide range of structures, from clouds to galaxies. The fractal dimension derived from the perimeter-area relation can provide insights into the physical processes that shape these structures, such as turbulence, gravity, and magnetic fields. It is also powerful to analyze the evolution of structures as a function of column density threshold.
+The perimeter-area relation is a powerful tool for analyzing the complexity of structures in the ISM. It's simple, yet effective, and can be applied to a wide range of structures, from clouds to galaxies. The fractal dimension derived from the perimeter-area relation can provide insights into the physical processes that shape these structures, such as turbulence, gravity, and magnetic fields.
 However, it is important to note that the perimeter-area relation is not always applicable to all structures. Furthermore, numerical effects can also play a role in the calculation of the fractal dimension, as we will see in the simulations section. Artifacts also have an effect on this method \cite{imre2006artificial}. This is to say, that the method has its limitations and simulations play an important role in understanding these effects. 
 
 \section{Local Properties}
@@ -103,28 +103,35 @@ In the first case, the perimeters and areas of all structures present in the map
 
 \begin{figure}[t]
     \centering
-    \includegraphics[width=0.5\textwidth]{figures/example_calculations.png}
+    \includegraphics[width=0.45\textwidth]{figures/example_calculations.png}
     \caption{Simplified example of the calculation of perimeters and areas of structures at a given column density threshold. The local fractal dimension can be calculated by summing over all of the structures at that threshold, or for each of the single structures.}
     \label{fig:local_fractal_dimension_example}
 \end{figure}
 
-Conversely, it is also possible to calculate the local fractal dimension separately for each individual structure as a function of threshold. In this case, the evolution of $D$ with increasing density can be tracked on a per-object basis, providing insights into whether substructures become more or less fragmented and irregular as higher-density material is isolated. This allows the study of whether certain regions of the cloud exhibit self-similar scaling over a wide range of column densities, or whether there are transitions in the structural properties that may reflect different physical regimes, such as turbulence, gravitational collapse, or feedback from star formation.
+Conversely, it is also possible to calculate the local fractal dimension separately for each individual structure as a function of threshold. In this case, the evolution of $D(\nu)$ with increasing density can be tracked on a per-object basis, providing insights into whether substructures become more or less fragmented and irregular as higher-density material is isolated. This allows the study of whether certain regions of the cloud exhibit self-similar scaling over a wide range of column densities, or whether there are transitions in the structural properties that may reflect different physical regimes, such as turbulence, gravitational collapse, or feedback from star formation.
+Because this method analyzes structures as a function of column density, it is considered a \textbf{local property}. Moreover, as this approach is relatively novel, its interpretation must be carefully developed based on the results obtained in this work.
 
-Analyzing the local fractal dimension as a function of threshold thus provides a powerful tool to investigate the scale dependence and complexity of molecular clouds, complementing the global measurements and helping to disentangle the contributions from different physical processes.
+Analyzing the local fractal dimension as a function of threshold thus provides a tool to investigate the scale dependence and complexity of molecular clouds, complementing the global measurements and helping to disentangle the contributions from different physical processes.
 
 % to-do: a picture here would not be bad
 \subsection{Dendrograms}
 
 In order to explore the segmentation of structures with changing column density or mass, dendrograms are a useful tool. A dendrogram is a diagram that represents the hierarchical organization of structures within the data \cite{everitt2010cambridge}. Specifically, it shows how large-scale regions can be decomposed into smaller substructures as the threshold for the column density (or mass) increases.
 
-By progressively applying higher thresholds, one can trace how individual dense clumps emerge from the diffuse background and how these clumps further fragment into even denser cores. In this way, dendrograms provide a visual and quantitative framework to analyze the nested, multiscale nature of molecular cloud structure.
+By progressively applying higher thresholds, one can trace how individual dense clumps emerge from the diffuse background and how these clumps further fragment into even denser cores. In this way, dendrograms provide a visual and quantitative framework to analyze the nested, multiscale nature of molecular cloud structure. An example of a resulting tree for an example shape can be seen in Figure \ref{fig:dendro} (from the Astrodendro Package \footnote{\href{https://dendrograms.readthedocs.io/en/stable/}{Astrodendro}}).
 
-In this work, dendrograms were constructed using hierarchical clustering methods applied to the mass maps of Orion A and B. This approach allows identification and characterization of the main branches (large coherent structures) as well as the terminal leaves (smallest resolved substructures). For each identified region, properties such as total mass, size (computed via principal component analysis), and fractal dimension were derived to quantify their physical characteristics and complexity.
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=0.45\textwidth]{figures/dendrogram.png}
+    \caption{Simplified example of a resulting tree/branch/leave structure from the Astrodendro package.}
+    \label{fig:dendro}
+\end{figure}
 
-% to-do: maybe add Alvaro's plot (or maybe in the discussion)
+In this work, dendrograms were constructed using hierarchical clustering methods applied to the mass maps of Orion A and B. This approach allows identification and characterization of the main branches (large structures) as well as the terminal leaves (smallest resolved substructures). For each identified region, properties such as total mass, size (computed via principal component analysis), and fractal dimension were derived to quantify their physical characteristics and complexity.
+
 \subsection{Mass-Size-Fractal Dimension (MSD) plane}
 
-Since it is possible to calculate the local fractal dimension for single structure, we can connect this property to more physical aspects of the substructures, namely mass and size. This then allows us to include new information on mass-size diagrams, creating a Mass-Size-Fractal Dimension (MSD).
+Since it is possible to calculate the local fractal dimension for single structure, we can connect this property to more physical aspects of the substructures, namely mass and size. This then allows us to include new information on already established mass-size diagrams \cite{Hacar_2025}, creating a Mass-Size-Fractal Dimension (MSD) plane. The mass and size of each structure are computed using its binary mask: the mass is obtained by summing the corresponding pixels in the mass map, while the size is estimated by performing a principal component analysis (PCA) on the mask to determine its spatial extent.
 
 The dendrogram-like segmentation is an important aspect of this process, as it ensures a proper characterization and recognition of the sub-structures. 
 
@@ -138,6 +145,7 @@ For a given excursion set $S_{\nu}$, the Euler characteristic provides a measure
 
 The Euler characteristic is closely related to the genus $G$ of the structure, where in two dimensions $G = 1 - \chi$. The genus is commonly used in cosmology and astrophysics to describe the connectivity of structures, such as the filamentary network in the ISM or the cosmic web. By analyzing the Euler characteristic or genus as a function of the threshold, one can gain insights into the morphological transitions and connectivity of the observed structures.
 
+Since this is also a property that can be expressed as a function of the column density thresholds $\nu$, it also counts towards the \textbf{local properties} of the cloud.
 \section{Connection to Star Formation}
 
 To investigate the link between cloud structure and star formation activity, we employed the catalogue of young stellar objects (YSOs) compiled by \cite{megeath2012catalogue}.  
@@ -150,14 +158,13 @@ We restricted the YSO sample to objects classified as Class I or flat-spectrum s
 
 \section{Simulations}
 
-% more details
-\subsection{Simulations for the Global Properties}
+\subsection{Simulations on the Global Properties}
 
 The simulations addressing the global properties are primarily designed to verify the interpretation of the values obtained for the global fractal dimension $D$, as described in the preceding sections. In particular, they aim to confirm the expectation that the perimeter–area relation should yield unreliable or systematically biased results for structures that possess a well-defined characteristic length scale. 
 
 In this context, Gaussian Random Fields (GRFs) play an important role as a benchmark for comparison. GRFs allow the generation of synthetic structures with controlled statistical properties and scaling behavior, providing a framework to test whether the methodology is sensitive to the presence or absence of intrinsic scales.
 
-\subsection{Simulations for the Local Properties}
+\subsection{Simulations on the Local Properties}
 
 Analogously, simulations are employed to better understand how different values of the local fractal dimension arise in different types of structures. These tests include the analysis of Gaussian Random Fields, purely Gaussian noise, and simple geometric shapes such as lines and circles. 
 
@@ -177,9 +184,9 @@ The method most frequently used for comparison was the box-counting technique, w
 The measurement of perimeter and area is subject to inherent uncertainties. To estimate these uncertainties, the following procedure was carried out:
 
 \begin{itemize}
-    \item The perimeter ($P$) and area ($A$) were measured for a set of circles with known true perimeter and area.
-    \item The magnitude of the measurement error was computed by comparing the measured values to the true values.
-    \item The errors were averaged over a sufficiently large number of samples ($N$) to obtain representative estimates of the typical deviation.
+    \item The perimeter ($P$) and area ($A$) are measured for a set of circles with known true perimeter and area.
+    \item The magnitude of the measurement error are computed by comparing the measured values to the true values.
+    \item The errors are averaged over a sufficiently large number of samples ($N$) to obtain representative estimates of the typical deviation.
 \end{itemize}
 
 \subsection{Beam Size}
